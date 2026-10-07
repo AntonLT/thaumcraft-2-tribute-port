@@ -1,0 +1,18 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 200,
+  "ingredients": [
+    "thaumcraft2tp:arcane_seal_item",
+    "#c:ingots/iron",
+    "minecraft:ender_pearl",
+    "thaumcraft2tp:runic_essence_magic",
+    "thaumcraft2tp:runic_essence_air"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:void_bracelet",
+    "count": 1
+  },
+  "priority": 946,
+  "research": "thaumcraft2tp:void_bracelet"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "V",
+    "C",
+    "F"
+  ],
+  "key": {
+    "C": "minecraft:cauldron",
+    "F": "minecraft:furnace",
+    "V": "#thaumcraft2tp:legacy/itemcrystals"
+  },
+  "result": {
+    "id": "thaumcraft2tp:crucible",
+    "count": 1
+  }
+}

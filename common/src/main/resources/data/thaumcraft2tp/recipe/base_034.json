@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WW ",
+    "LCI",
+    "WW "
+  ],
+  "key": {
+    "W": "thaumcraft2tp:enchanted_wood",
+    "L": "minecraft:leather",
+    "I": "#c:ingots/iron",
+    "C": "thaumcraft2tp:vaporous_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:arcane_bellows",
+    "count": 1
+  }
+}

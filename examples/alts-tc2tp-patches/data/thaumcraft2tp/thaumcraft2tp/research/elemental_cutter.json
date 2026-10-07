@@ -1,0 +1,22 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 5,
+  "type": 2,
+  "name": "Elemental Cutter",
+  "name_key": "research.thaumcraft2tp.elemental_cutter.name",
+  "text": "Combining the speed of the Axe of the Stream, the elemental fury of the Sword of the Zephyr, and the versatility of the Void Cutter, this weapon cuts a swathe through both wood and bone. No enemy or item can escape your grasp while you hold this blade.",
+  "text_key": "research.thaumcraft2tp.elemental_cutter.text",
+  "restricted": false,
+  "prerequisites": [
+    "thaumcraft2tp:void_cutter",
+    "thaumcraft2tp:sword_of_the_zephyr",
+    "thaumcraft2tp:axe_of_the_stream",
+    "research_gating:extract_of_coolest_water",
+    "research_gating:extract_of_lightest_air"
+  ],
+  "discovery": "thaumcraft2tp:discovery_elemental_cutter",
+  "result": {
+    "id": "thaumcraft2tp:elemental_cutter",
+    "count": 1
+  }
+}

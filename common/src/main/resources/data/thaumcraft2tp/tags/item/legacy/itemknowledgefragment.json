@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft2tp:fragment_of_eldritch_knowledge",
+    "thaumcraft2tp:fragment_of_forbidden_knowledge",
+    "thaumcraft2tp:fragment_of_lost_knowledge",
+    "thaumcraft2tp:fragment_of_tainted_knowledge"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "category": "thaumcraft2tp:forbidden",
+  "difficulty": 4,
+  "type": 0,
+  "name": "Brazier of Souls",
+  "name_key": "research.thaumcraft2tp.brazier_of_souls.name",
+  "text": "Ever wanted to read your Thaumonomicon by the light of burning souls? Here is your chance! The tormented glow of the souls also seems to draw vis and taint from surrounding chunks to raise the levels of the chunk the brazier is placed in.",
+  "text_key": "research.thaumcraft2tp.brazier_of_souls.text",
+  "restricted": false,
+  "prerequisites": [
+    "thaumcraft2tp:dark_infuser",
+    "research_gating:extract_of_warmest_fire"
+  ],
+  "discovery": "thaumcraft2tp:discovery_brazier_of_souls",
+  "result": {
+    "id": "thaumcraft2tp:brazier_of_souls",
+    "count": 1
+  }
+}

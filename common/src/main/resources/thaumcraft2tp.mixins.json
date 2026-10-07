@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "package": "dev.thaumcraft.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["CrucibleItemAnimationMixin", "VoidCompassTextureMixin", "CarpetRiderPoseMixin", "CarpetUseMixin", "RenderTypeInvoker", "LegacyTerrainMixin", "SodiumLegacyTerrainMixin", "PortalCameraInvoker", "PortalMinecraftMixin", "PortalMinecraftAccess", "PortalGameRendererMixin", "PortalLevelRendererMixin", "PortalOptionsMixin", "SodiumPortalGameRendererMixin", "SodiumPortalWorldRendererMixin", "IrisPipelineManagerAccess", "IrisPortalPipelineMixin", "IrisPortalHandMixin", "IrisRenderSetupMixin", "ResearchBookMixin", "ArcaneHudMixin"],
+  "mixins": [
+    "MobGoalsAccess",
+    "EndermanTeleportAccess",
+    "CarpetDismountMixin",
+    "ThaumSlimeParticlesMixin",
+    "WorldGenerationStateMixin",
+    "VisualBlockEntityMigrationMixin",
+    "ResearchCraftingMixin",
+    "ResearchPlaceMixin",
+    "CrafterOwnerMixin",
+    "CrafterResearchMixin",
+    "ChestTreasureMixin",
+    "BootsFallMixin",
+    "HeldToolFallMixin",
+    "EnchantmentDamageMixin",
+    "EnchantmentMenuMixin",
+    "SpawnPlacementsInvoker",
+    "TaintMonsterSpawnMixin",
+    "ItemEntityAccess",
+    "ItemEntityBoreMixin",
+    "ExperienceOrbAccess"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

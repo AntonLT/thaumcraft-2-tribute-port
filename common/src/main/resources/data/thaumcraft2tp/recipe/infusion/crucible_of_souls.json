@@ -1,0 +1,18 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "dark",
+  "cost": 50,
+  "ingredients": [
+    "thaumcraft2tp:crucible",
+    "minecraft:bone",
+    "minecraft:rotten_flesh",
+    "minecraft:ghast_tear",
+    "thaumcraft2tp:soul_fragment"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:crucible_of_souls",
+    "count": 1
+  },
+  "priority": 965,
+  "research": "thaumcraft2tp:crucible_of_souls"
+}

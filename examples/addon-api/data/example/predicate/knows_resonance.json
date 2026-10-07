@@ -1,0 +1,4 @@
+{
+  "condition": "thaumcraft2tp:knows_research",
+  "research": "example:resonance"
+}

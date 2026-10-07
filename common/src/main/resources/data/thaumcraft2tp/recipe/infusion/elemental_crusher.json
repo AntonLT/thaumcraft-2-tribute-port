@@ -1,0 +1,18 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 500,
+  "ingredients": [
+    "thaumcraft2tp:void_crusher",
+    "thaumcraft2tp:pickaxe_of_the_core",
+    "thaumcraft2tp:shovel_of_renewal",
+    "thaumcraft2tp:extract_of_deepest_earth",
+    "thaumcraft2tp:extract_of_warmest_fire"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:elemental_crusher",
+    "count": 1
+  },
+  "priority": 934,
+  "research": "thaumcraft2tp:elemental_crusher"
+}

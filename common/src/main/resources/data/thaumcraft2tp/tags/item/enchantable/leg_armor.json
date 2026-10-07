@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:enchantable/leg_armor",
+    "thaumcraft2tp:thaumium_leggings",
+    "thaumcraft2tp:void_metal_leggings"
+  ]
+}

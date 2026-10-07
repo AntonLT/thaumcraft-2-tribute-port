@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "dark",
+  "cost": 50,
+  "ingredients": [
+    "thaumcraft2tp:alumentum",
+    "thaumcraft2tp:tainted_log",
+    "thaumcraft2tp:tainted_crystal"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:totem_of_dusk",
+    "count": 1
+  },
+  "priority": 951,
+  "research": "thaumcraft2tp:totem_of_dusk"
+}

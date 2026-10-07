@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GWG",
+    "PWP",
+    "GWG"
+  ],
+  "key": {
+    "P": "thaumcraft2tp:silverwood_log",
+    "G": "#c:ingots/gold",
+    "W": "thaumcraft2tp:enchanted_silverwood"
+  },
+  "result": {
+    "id": "thaumcraft2tp:vis_purifier",
+    "count": 1
+  }
+}

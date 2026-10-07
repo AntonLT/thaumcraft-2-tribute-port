@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EE",
+    "TE",
+    "W "
+  ],
+  "key": {
+    "T": "#thaumcraft2tp:legacy/itemaxethaumium",
+    "W": "thaumcraft2tp:enchanted_wood",
+    "E": "thaumcraft2tp:aqueous_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:axe_of_the_stream",
+    "count": 1
+  }
+}

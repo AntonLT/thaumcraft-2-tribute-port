@@ -1,0 +1,10 @@
+{
+  "name": "Wand of Fire",
+  "name_key": "research.research_gating.wand_of_fire.name",
+  "text": "While held to its work, this wand roars out a jet of scorching flame that sears any creature in its path. Each use burns away a little of its strength.",
+  "text_key": "research.research_gating.wand_of_fire.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

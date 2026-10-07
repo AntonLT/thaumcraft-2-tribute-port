@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 10,
+  "ingredients": [
+    "#thaumcraft2tp:legacy/itemfocus0",
+    "thaumcraft2tp:vaporous_crystal"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:arcane_focus_air",
+    "count": 1
+  },
+  "priority": 957,
+  "research": "thaumcraft2tp:arcane_focus_air"
+}

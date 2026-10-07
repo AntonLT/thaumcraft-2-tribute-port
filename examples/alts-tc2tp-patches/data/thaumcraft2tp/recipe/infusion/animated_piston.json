@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "research": "research_gating:animated_piston",
+  "cost": 50,
+  "ingredients": [
+    "thaumcraft2tp:vaporous_crystal",
+    "#c:ingots/gold",
+    "minecraft:piston"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:animated_piston",
+    "count": 1
+  },
+  "priority": 982
+}

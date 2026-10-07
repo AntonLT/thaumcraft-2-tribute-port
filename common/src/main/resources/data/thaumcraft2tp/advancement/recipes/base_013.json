@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thaumcraft2tp:vis_crystal"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "thaumcraft2tp:base_013"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crystal",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thaumcraft2tp:base_013"
+    ]
+  }
+}

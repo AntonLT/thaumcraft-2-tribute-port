@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CC ",
+    " T ",
+    " W "
+  ],
+  "key": {
+    "T": "#thaumcraft2tp:legacy/itemhoethaumium",
+    "W": "thaumcraft2tp:enchanted_wood",
+    "C": "thaumcraft2tp:vis_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:hoe_of_the_mystic",
+    "count": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "t197": "thaumcraft2tp:block/atlas_197",
+    "particle": "thaumcraft2tp:block/atlas_197"
+  },
+  "elements": [
+    {
+      "from": [
+        6.5,
+        0,
+        6.5
+      ],
+      "to": [
+        9.5,
+        12,
+        9.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t197"
+        },
+        "up": {
+          "texture": "#t197"
+        },
+        "north": {
+          "texture": "#t197"
+        },
+        "south": {
+          "texture": "#t197"
+        },
+        "east": {
+          "texture": "#t197"
+        },
+        "west": {
+          "texture": "#t197"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          0,
+          8
+        ],
+        "axis": "z",
+        "angle": 0
+      }
+    }
+  ]
+}

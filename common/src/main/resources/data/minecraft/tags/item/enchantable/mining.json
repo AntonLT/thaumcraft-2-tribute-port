@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft2tp:thaumium_shovel",
+    "thaumcraft2tp:thaumium_pickaxe",
+    "thaumcraft2tp:thaumium_axe",
+    "thaumcraft2tp:thaumium_hoe",
+    "thaumcraft2tp:axe_of_the_stream",
+    "thaumcraft2tp:pickaxe_of_the_core",
+    "thaumcraft2tp:void_crusher",
+    "thaumcraft2tp:void_cutter",
+    "thaumcraft2tp:shovel_of_renewal",
+    "thaumcraft2tp:hoe_of_the_mystic",
+    "thaumcraft2tp:elemental_crusher",
+    "thaumcraft2tp:elemental_cutter"
+  ]
+}

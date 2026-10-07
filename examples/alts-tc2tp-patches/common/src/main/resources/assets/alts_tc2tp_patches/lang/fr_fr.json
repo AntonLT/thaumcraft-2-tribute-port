@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Minerai de cinabre des abîmes",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Cinabre brut",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Fragments de connaissance",
+  "tooltip.alts_tc2tp_patches.vis": "Vis : %s",
+  "message.alts_tc2tp_patches.vis_learned": "Valeur de Vis de %s apprise : %s"
+}

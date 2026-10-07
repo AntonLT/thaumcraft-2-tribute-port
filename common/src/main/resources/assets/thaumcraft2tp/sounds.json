@@ -1,0 +1,281 @@
+{
+  "attach": {
+    "sounds": [
+      "thaumcraft2tp:attach"
+    ]
+  },
+  "beamloop": {
+    "sounds": [
+      "thaumcraft2tp:beamloop"
+    ]
+  },
+  "bubbling": {
+    "sounds": [
+      "thaumcraft2tp:bubbling"
+    ]
+  },
+  "creaking1": {
+    "sounds": [
+      "thaumcraft2tp:creaking1"
+    ]
+  },
+  "creaking2": {
+    "sounds": [
+      "thaumcraft2tp:creaking2"
+    ]
+  },
+  "elecloop": {
+    "sounds": [
+      "thaumcraft2tp:elecloop"
+    ]
+  },
+  "fireloop": {
+    "sounds": [
+      "thaumcraft2tp:fireloop"
+    ]
+  },
+  "gore1": {
+    "sounds": [
+      "thaumcraft2tp:gore1"
+    ]
+  },
+  "gore2": {
+    "sounds": [
+      "thaumcraft2tp:gore2"
+    ]
+  },
+  "heal": {
+    "sounds": [
+      "thaumcraft2tp:heal"
+    ]
+  },
+  "infuser": {
+    "sounds": [
+      "thaumcraft2tp:infuser"
+    ]
+  },
+  "infuserdark": {
+    "sounds": [
+      "thaumcraft2tp:infuserdark"
+    ]
+  },
+  "learn": {
+    "sounds": [
+      "thaumcraft2tp:learn"
+    ]
+  },
+  "monolith": {
+    "sounds": [
+      "thaumcraft2tp:monolith"
+    ]
+  },
+  "monolithfound": {
+    "sounds": [
+      "thaumcraft2tp:monolithfound"
+    ]
+  },
+  "page1": {
+    "sounds": [
+      "thaumcraft2tp:page1"
+    ]
+  },
+  "page2": {
+    "sounds": [
+      "thaumcraft2tp:page2"
+    ]
+  },
+  "pclose": {
+    "sounds": [
+      "thaumcraft2tp:pclose"
+    ]
+  },
+  "place": {
+    "sounds": [
+      "thaumcraft2tp:place"
+    ]
+  },
+  "podburst": {
+    "sounds": [
+      "thaumcraft2tp:podburst"
+    ]
+  },
+  "popen": {
+    "sounds": [
+      "thaumcraft2tp:popen"
+    ]
+  },
+  "recover": {
+    "sounds": [
+      "thaumcraft2tp:recover"
+    ]
+  },
+  "roots": {
+    "sounds": [
+      "thaumcraft2tp:roots"
+    ]
+  },
+  "rumble": {
+    "sounds": [
+      "thaumcraft2tp:rumble"
+    ]
+  },
+  "rune_set": {
+    "sounds": [
+      "thaumcraft2tp:rune_set"
+    ]
+  },
+  "scribble": {
+    "sounds": [
+      "thaumcraft2tp:scribble"
+    ]
+  },
+  "shock1": {
+    "sounds": [
+      "thaumcraft2tp:shock1"
+    ]
+  },
+  "shock2": {
+    "sounds": [
+      "thaumcraft2tp:shock2"
+    ]
+  },
+  "singularity": {
+    "sounds": [
+      "thaumcraft2tp:singularity"
+    ]
+  },
+  "stomp1": {
+    "sounds": [
+      "thaumcraft2tp:stomp1"
+    ]
+  },
+  "stomp2": {
+    "sounds": [
+      "thaumcraft2tp:stomp2"
+    ]
+  },
+  "stoneclose": {
+    "sounds": [
+      "thaumcraft2tp:stoneclose"
+    ]
+  },
+  "stoneopen": {
+    "sounds": [
+      "thaumcraft2tp:stoneopen"
+    ]
+  },
+  "suck": {
+    "sounds": [
+      "thaumcraft2tp:suck"
+    ]
+  },
+  "swing1": {
+    "sounds": [
+      "thaumcraft2tp:swing1"
+    ]
+  },
+  "swing2": {
+    "sounds": [
+      "thaumcraft2tp:swing2"
+    ]
+  },
+  "tinkering": {
+    "sounds": [
+      "thaumcraft2tp:tinkering"
+    ]
+  },
+  "tool1": {
+    "sounds": [
+      "thaumcraft2tp:tool1"
+    ]
+  },
+  "tool2": {
+    "sounds": [
+      "thaumcraft2tp:tool2"
+    ]
+  },
+  "upgrade": {
+    "sounds": [
+      "thaumcraft2tp:upgrade"
+    ]
+  },
+  "whisper": {
+    "sounds": [
+      "thaumcraft2tp:whisper"
+    ]
+  },
+  "wind1": {
+    "sounds": [
+      "thaumcraft2tp:wind1"
+    ]
+  },
+  "wind2": {
+    "sounds": [
+      "thaumcraft2tp:wind2"
+    ]
+  },
+  "zap1": {
+    "sounds": [
+      "thaumcraft2tp:zap1"
+    ]
+  },
+  "zap2": {
+    "sounds": [
+      "thaumcraft2tp:zap2"
+    ]
+  },
+  "creaking": {
+    "sounds": [
+      "thaumcraft2tp:creaking1",
+      "thaumcraft2tp:creaking2"
+    ]
+  },
+  "gore": {
+    "sounds": [
+      "thaumcraft2tp:gore1",
+      "thaumcraft2tp:gore2"
+    ]
+  },
+  "page": {
+    "sounds": [
+      "thaumcraft2tp:page1",
+      "thaumcraft2tp:page2"
+    ]
+  },
+  "shock": {
+    "sounds": [
+      "thaumcraft2tp:shock1",
+      "thaumcraft2tp:shock2"
+    ]
+  },
+  "stomp": {
+    "sounds": [
+      "thaumcraft2tp:stomp1",
+      "thaumcraft2tp:stomp2"
+    ]
+  },
+  "swing": {
+    "sounds": [
+      "thaumcraft2tp:swing1",
+      "thaumcraft2tp:swing2"
+    ]
+  },
+  "tool": {
+    "sounds": [
+      "thaumcraft2tp:tool1",
+      "thaumcraft2tp:tool2"
+    ]
+  },
+  "wind": {
+    "sounds": [
+      "thaumcraft2tp:wind1",
+      "thaumcraft2tp:wind2"
+    ]
+  },
+  "zap": {
+    "sounds": [
+      "thaumcraft2tp:zap1",
+      "thaumcraft2tp:zap2"
+    ]
+  }
+}

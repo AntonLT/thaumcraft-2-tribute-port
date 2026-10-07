@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 75,
+  "ingredients": [
+    "minecraft:smooth_stone_slab",
+    "#thaumcraft2tp:legacy/itemportablehole",
+    "thaumcraft2tp:depleted_crystal"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:contained_emptiness",
+    "count": 1
+  },
+  "priority": 958,
+  "research": "thaumcraft2tp:contained_emptiness"
+}

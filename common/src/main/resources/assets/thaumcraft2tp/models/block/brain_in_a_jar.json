@@ -1,0 +1,108 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "t168": "thaumcraft2tp:block/atlas_168",
+    "t167": "thaumcraft2tp:block/atlas_167",
+    "t166": "thaumcraft2tp:block/atlas_166",
+    "particle": "thaumcraft2tp:block/atlas_168"
+  },
+  "elements": [
+    {
+      "from": [
+        4.0,
+        0.0,
+        4.0
+      ],
+      "to": [
+        12.0,
+        2.0,
+        12.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t168"
+        },
+        "up": {
+          "texture": "#t168"
+        },
+        "west": {
+          "texture": "#t167"
+        },
+        "east": {
+          "texture": "#t167"
+        },
+        "north": {
+          "texture": "#t167"
+        },
+        "south": {
+          "texture": "#t167"
+        }
+      }
+    },
+    {
+      "from": [
+        4.0,
+        13.0,
+        4.0
+      ],
+      "to": [
+        12.0,
+        16.0,
+        12.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t168"
+        },
+        "up": {
+          "texture": "#t168"
+        },
+        "west": {
+          "texture": "#t167"
+        },
+        "east": {
+          "texture": "#t167"
+        },
+        "north": {
+          "texture": "#t167"
+        },
+        "south": {
+          "texture": "#t167"
+        }
+      }
+    },
+    {
+      "from": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "to": [
+        14.0,
+        13.0,
+        14.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t166"
+        },
+        "up": {
+          "texture": "#t166"
+        },
+        "west": {
+          "texture": "#t166"
+        },
+        "east": {
+          "texture": "#t166"
+        },
+        "north": {
+          "texture": "#t166"
+        },
+        "south": {
+          "texture": "#t166"
+        }
+      }
+    }
+  ]
+}

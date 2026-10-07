@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WCW",
+    "WPW",
+    "WBW"
+  ],
+  "key": {
+    "B": "thaumcraft2tp:arcane_bellows",
+    "P": "thaumcraft2tp:vis_conduit",
+    "W": "thaumcraft2tp:enchanted_wood",
+    "C": "thaumcraft2tp:aqueous_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:vis_pump",
+    "count": 1
+  }
+}

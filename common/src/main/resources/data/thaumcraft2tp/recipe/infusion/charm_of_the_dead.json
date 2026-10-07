@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "dark",
+  "cost": 150,
+  "ingredients": [
+    "thaumcraft2tp:distorted_skull",
+    "thaumcraft2tp:zombie_brain"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:charm_of_the_dead",
+    "count": 1
+  },
+  "priority": 939,
+  "research": "thaumcraft2tp:charm_of_the_dead"
+}

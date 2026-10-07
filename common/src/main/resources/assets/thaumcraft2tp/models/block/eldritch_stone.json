@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "thaumcraft2tp:block/atlas_104",
+    "top": "thaumcraft2tp:block/atlas_104",
+    "side": "thaumcraft2tp:block/atlas_104"
+  }
+}

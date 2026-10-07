@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "research": "research_gating:enchanted_silverwood",
+  "cost": 25,
+  "ingredients": [
+    "#thaumcraft2tp:infusion_base_crystals",
+    "thaumcraft2tp:silverwood_log"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:enchanted_silverwood",
+    "count": 1
+  },
+  "priority": 998
+}

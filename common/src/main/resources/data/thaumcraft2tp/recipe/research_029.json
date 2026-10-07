@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "ATA",
+    " W "
+  ],
+  "key": {
+    "T": "#thaumcraft2tp:legacy/itemswordthaumium",
+    "W": "thaumcraft2tp:enchanted_wood",
+    "A": "thaumcraft2tp:vaporous_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:sword_of_the_zephyr",
+    "count": 1
+  }
+}

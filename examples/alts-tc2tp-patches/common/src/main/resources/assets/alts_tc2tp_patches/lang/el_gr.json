@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Μετάλλευμα κιννάβαρης Βαθόλιθου",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Ακατέργαστο κιννάβαρι",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Θραύσματα γνώσης",
+  "tooltip.alts_tc2tp_patches.vis": "Βις: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Έμαθες την τιμή βις του %s: %s"
+}

@@ -1,0 +1,22 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 5,
+  "type": 2,
+  "name": "Elemental Crusher",
+  "name_key": "research.thaumcraft2tp.elemental_crusher.name",
+  "text": "Combining the raw elemental power of the Pick of the Core and the Shovel of Renewal with the versatility of the Void Crusher, this tool shatters earth and stone with frightening speed and efficiency.",
+  "text_key": "research.thaumcraft2tp.elemental_crusher.text",
+  "restricted": false,
+  "prerequisites": [
+    "thaumcraft2tp:void_crusher",
+    "thaumcraft2tp:shovel_of_renewal",
+    "thaumcraft2tp:pickaxe_of_the_core",
+    "research_gating:extract_of_deepest_earth",
+    "research_gating:extract_of_warmest_fire"
+  ],
+  "discovery": "thaumcraft2tp:discovery_elemental_crusher",
+  "result": {
+    "id": "thaumcraft2tp:elemental_crusher",
+    "count": 1
+  }
+}

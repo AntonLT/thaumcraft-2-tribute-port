@@ -1,0 +1,10 @@
+{
+  "name": "Extract of Deepest Earth",
+  "name_key": "research.research_gating.extract_of_deepest_earth.name",
+  "text": "Shimmerleaf steeped with an earthen crystal draws out the slow, unyielding heart of Earth, a distillate heavier than its vial ought to allow. Elemental tools are tempered in it.",
+  "text_key": "research.research_gating.extract_of_deepest_earth.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

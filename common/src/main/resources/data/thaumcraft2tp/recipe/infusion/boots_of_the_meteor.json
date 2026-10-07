@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 100,
+  "ingredients": [
+    "thaumcraft2tp:fiery_crystal",
+    "#thaumcraft2tp:legacy/itembootsseven",
+    "minecraft:blaze_powder"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:boots_of_the_meteor",
+    "count": 1
+  },
+  "priority": 963,
+  "research": "thaumcraft2tp:boots_of_the_meteor"
+}

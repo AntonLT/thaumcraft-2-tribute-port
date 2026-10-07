@@ -1,0 +1,19 @@
+{
+  "category": "thaumcraft2tp:forbidden",
+  "difficulty": 4,
+  "type": 3,
+  "name": "Charm of Souls",
+  "name_key": "research.thaumcraft2tp.charm_of_souls.name",
+  "text": "This charm absorbs any experience orbs that foes drop and converts them into Soul Fragments.",
+  "text_key": "research.thaumcraft2tp.charm_of_souls.text",
+  "restricted": false,
+  "prerequisites": [
+    "thaumcraft2tp:dark_infuser",
+    "research_gating:extract_of_foulest_taint"
+  ],
+  "discovery": "thaumcraft2tp:discovery_charm_of_souls",
+  "result": {
+    "id": "thaumcraft2tp:charm_of_souls",
+    "count": 1
+  }
+}

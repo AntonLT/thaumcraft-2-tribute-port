@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3D4",
+    "G5G"
+  ],
+  "key": {
+    "D": "thaumcraft2tp:vis_detector",
+    "G": "#c:ingots/gold",
+    "0": "thaumcraft2tp:runic_essence_air",
+    "1": "thaumcraft2tp:runic_essence_magic",
+    "2": "thaumcraft2tp:runic_essence_water",
+    "3": "thaumcraft2tp:runic_essence_earth",
+    "4": "thaumcraft2tp:runic_essence_fire",
+    "5": "thaumcraft2tp:runic_essence_dark"
+  },
+  "result": {
+    "id": "thaumcraft2tp:crystal_ball",
+    "count": 1
+  }
+}

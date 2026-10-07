@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Cinabro grezzo in ardesia profonda",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Cinabro non raffinato",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Frammenti di conoscenza",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Hai appreso il valore di vis di %s: %s"
+}

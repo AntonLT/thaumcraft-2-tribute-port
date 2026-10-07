@@ -1,0 +1,10 @@
+{
+  "name": "Arcane Bellows",
+  "name_key": "research.research_gating.arcane_bellows.name",
+  "text": "These bellows breathe on their own, exhaling an endless arcane wind. Facing a crucible or Arcane Furnace, they fan its work to a quicker pace; facing a vis tank or pump, they make it draw harder. A redstone signal stills their breath.",
+  "text_key": "research.research_gating.arcane_bellows.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

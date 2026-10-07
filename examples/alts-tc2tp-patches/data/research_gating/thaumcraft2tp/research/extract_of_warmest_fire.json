@@ -1,0 +1,10 @@
+{
+  "name": "Extract of Warmest Fire",
+  "name_key": "research.research_gating.extract_of_warmest_fire.name",
+  "text": "Shimmerleaf steeped with a fiery crystal draws out the fierce heart of Fire, warm to the touch even through the glass. Elemental tools are forged with it, and it kindles the Brazier of Souls.",
+  "text_key": "research.research_gating.extract_of_warmest_fire.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

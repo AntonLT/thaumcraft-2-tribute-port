@@ -1,0 +1,9 @@
+{
+  "ingredient": "minecraft:experience_bottle",
+  "value": 6,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "thaumcraft2tp:collected_wisdom"
+  ],
+  "special_chance": 10
+}

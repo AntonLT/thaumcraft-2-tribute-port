@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "research": "research_gating:enchanted_fabric",
+  "cost": 25,
+  "ingredients": [
+    "#thaumcraft2tp:infusion_base_crystals",
+    "minecraft:string",
+    "#thaumcraft2tp:legacy/cloth"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:enchanted_fabric",
+    "count": 1
+  },
+  "priority": 999
+}

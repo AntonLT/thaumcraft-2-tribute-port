@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": "thaumcraft2tp:fiery_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:fiery_vis_ore",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 2,
+  "type": 2,
+  "name": "Arcane Focus: Fire",
+  "name_key": "research.thaumcraft2tp.arcane_focus_fire.name",
+  "text": "This arcane focus has medium range and spread, but consumes low value items to increase the efficiency of the bore.",
+  "text_key": "research.thaumcraft2tp.arcane_focus_fire.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:arcane_bore"
+  ],
+  "discovery": "thaumcraft2tp:discovery_arcane_focus_fire",
+  "result": {
+    "id": "thaumcraft2tp:arcane_focus_fire",
+    "count": 1
+  }
+}

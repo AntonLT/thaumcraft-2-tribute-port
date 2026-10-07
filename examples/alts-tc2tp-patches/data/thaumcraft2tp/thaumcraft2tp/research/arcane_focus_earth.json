@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 2,
+  "type": 2,
+  "name": "Arcane Focus: Earth",
+  "name_key": "research.thaumcraft2tp.arcane_focus_earth.name",
+  "text": "This arcane focus has medium range and a wide spread.",
+  "text_key": "research.thaumcraft2tp.arcane_focus_earth.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:arcane_bore"
+  ],
+  "discovery": "thaumcraft2tp:discovery_arcane_focus_earth",
+  "result": {
+    "id": "thaumcraft2tp:arcane_focus_earth",
+    "count": 1
+  }
+}

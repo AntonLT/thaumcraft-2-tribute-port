@@ -1,0 +1,185 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "t70": "thaumcraft2tp:block/atlas_70",
+    "t72": "thaumcraft2tp:block/atlas_72",
+    "t71": "thaumcraft2tp:block/atlas_71",
+    "t51": "thaumcraft2tp:block/atlas_51",
+    "particle": "thaumcraft2tp:block/atlas_70"
+  },
+  "elements": [
+    {
+      "from": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t70"
+        },
+        "up": {
+          "texture": "#t70"
+        },
+        "west": {
+          "texture": "#t72"
+        },
+        "east": {
+          "texture": "#t72"
+        },
+        "north": {
+          "texture": "#t72"
+        }
+      }
+    },
+    {
+      "from": [
+        1.6,
+        1.6,
+        1.6
+      ],
+      "to": [
+        14.4,
+        15.84,
+        14.4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t51"
+        },
+        "up": {
+          "texture": "#t51"
+        },
+        "west": {
+          "texture": "#t51"
+        },
+        "east": {
+          "texture": "#t51"
+        },
+        "north": {
+          "texture": "#t51"
+        },
+        "south": {
+          "texture": "#t51"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        13,
+        16
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "south": {
+          "texture": "#t71",
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        16
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "faces": {
+        "south": {
+          "texture": "#t71",
+          "uv": [
+            0,
+            13,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        3,
+        16
+      ],
+      "to": [
+        3,
+        13,
+        16
+      ],
+      "faces": {
+        "south": {
+          "texture": "#t71",
+          "uv": [
+            0,
+            3,
+            3,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        13,
+        3,
+        16
+      ],
+      "to": [
+        16,
+        13,
+        16
+      ],
+      "faces": {
+        "south": {
+          "texture": "#t71",
+          "uv": [
+            13,
+            3,
+            16,
+            13
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        315,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    }
+  }
+}

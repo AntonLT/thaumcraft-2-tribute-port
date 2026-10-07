@@ -1,0 +1,10 @@
+{
+  "name": "Wand of Water",
+  "name_key": "research.research_gating.wand_of_water.name",
+  "text": "While held to its work, this wand pours out a drenching stream that leaves any creature it strikes slow and sodden. Blazes and endermen find its touch especially painful. Each use wears it a little.",
+  "text_key": "research.research_gating.wand_of_water.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

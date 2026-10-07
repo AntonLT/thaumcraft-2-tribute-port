@@ -1,0 +1,9 @@
+{
+  "ingredient": "minecraft:leather",
+  "value": 3,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:arcane_bellows"
+  ],
+  "special_chance": 100
+}

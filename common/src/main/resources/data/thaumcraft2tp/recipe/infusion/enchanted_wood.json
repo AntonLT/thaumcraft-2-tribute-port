@@ -1,0 +1,14 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 15,
+  "ingredients": [
+    "#thaumcraft2tp:infusion_base_crystals",
+    "#thaumcraft2tp:legacy/wood"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:enchanted_wood",
+    "count": 4
+  },
+  "priority": 997
+}

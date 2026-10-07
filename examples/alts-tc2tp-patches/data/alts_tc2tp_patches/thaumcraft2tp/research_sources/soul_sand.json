@@ -1,0 +1,9 @@
+{
+  "ingredient": "minecraft:soul_sand",
+  "value": 3,
+  "category": "thaumcraft2tp:forbidden",
+  "special": [
+    "thaumcraft2tp:traveling_trunk",
+    "thaumcraft2tp:crucible_of_souls"
+  ]
+}

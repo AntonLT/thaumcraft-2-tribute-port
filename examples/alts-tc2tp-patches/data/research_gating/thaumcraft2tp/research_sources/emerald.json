@@ -1,0 +1,9 @@
+{
+  "ingredient": "minecraft:emerald",
+  "value": 4,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:wand_of_equal_trade"
+  ],
+  "special_chance": 100
+}

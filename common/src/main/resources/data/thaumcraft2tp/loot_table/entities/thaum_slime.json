@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:vis_crystal",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:ancient_pottery",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:tarnished_chalice",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:worn_statuette",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:ancient_weapon",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:ancient_seal",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1111111111111111
+        }
+      ]
+    }
+  ]
+}

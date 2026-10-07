@@ -1,0 +1,8 @@
+{
+  "feature": "thaumcraft2tp:arcane_deposits",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

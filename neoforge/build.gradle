@@ -1,0 +1,80 @@
+plugins {
+    id 'multiloader-loader'
+    id 'net.neoforged.moddev'
+}
+
+neoForge {
+    version = neoforge_version
+    // Automatically enable neoforge AccessTransformers if the file exists
+    def at = project(':common').file('src/main/resources/META-INF/accesstransformer.cfg')
+    if (at.exists()) {
+        accessTransformers.from(at.absolutePath)
+    }
+    runs {
+        configureEach {
+            systemProperty('neoforge.enabledGameTestNamespaces', mod_id)
+            ideName = "NeoForge ${it.name.capitalize()} (${project.path})" // Unify the run config names with fabric
+        }
+        client {
+            client()
+            gameDirectory = this.mkdir(this.file('runs/client'))
+        }
+        server {
+            server()
+            this.file('runs/server').createParentDirectories()
+            gameDirectory = this.mkdir(this.file('runs/server'))
+        }
+    }
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+repositories {
+    maven { url = 'https://modmaven.dev' }
+}
+
+dependencies {
+    compileOnly('mezz.jei:jei-26.1.2-common-api:29.37.0.98')
+}
+
+// Implement mcgradleconventions loader attribute
+def loaderAttribute = Attribute.of('io.github.mcgradleconventions.loader', String)
+['apiElements', 'runtimeElements', 'sourcesElements', 'javadocElements'].each { variant ->
+    configurations.named(variant) {
+        attributes {
+            attribute(loaderAttribute, 'neoforge')
+        }
+    }
+}
+sourceSets.configureEach {
+    [it.compileClasspathConfigurationName, it.runtimeClasspathConfigurationName, it.getTaskName(null, 'jarJar')].each { variant ->
+        configurations.named(variant) {
+            attributes {
+                attribute(loaderAttribute, 'neoforge')
+            }
+        }
+    }
+}
+
+// Opt-in integration fixtures never enter normal release builds.
+if (project.hasProperty("clientSmoke")) {
+    sourceSets.main.java.srcDir(project(":common").file("src/clientTest/java"))
+    neoForge.runs.client.systemProperty("thaumcraft.clientSmoke", "true")
+    if(project.hasProperty("guiSmoke"))neoForge.runs.client.systemProperty("thaumcraft.guiSmoke", "true")
+    neoForge.runs.client.programArguments.addAll("--quickPlaySingleplayer", "ThaumcraftQA", "--width", "1280", "--height", "960")
+}
+if (project.hasProperty("smokeTest")) {
+    sourceSets.main.java.srcDir(project(":common").file("src/smokeTest/java"))
+    sourceSets.main.java.srcDir("src/smokeTest/java")
+    neoForge.runs.server.systemProperty("thaumcraft.smokeTest", "true")
+    neoForge.runs.server.programArguments.add("nogui")
+}
+
+if (project.hasProperty("smokeTest")) {
+    tasks.withType(JavaExec).configureEach { standardInput = System.in }
+}
+
+tasks.named("check") { dependsOn ":common:verifyLocalization" }

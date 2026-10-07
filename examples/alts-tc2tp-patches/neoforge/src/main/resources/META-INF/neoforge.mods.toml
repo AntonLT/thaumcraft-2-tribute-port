@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "${neoforge_loader_version_range}"
+license = "GPL-3.0-or-later"
+[[mods]]
+modId = "alts_tc2tp_patches"
+version = "${version}"
+displayName = "Alt's Thaumcraft 2 Tribute Port patches"
+authors = "Alt"
+description = '''Balance values for TC2TP, and crucible-learned vis values shown in item tooltips.'''
+
+[[dependencies.alts_tc2tp_patches]]
+modId = "thaumcraft2tp"
+type = "required"
+versionRange = "[1.0.0-rc.2,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.alts_tc2tp_patches]]
+modId = "curios"
+type = "optional"
+versionRange = "[15,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.alts_tc2tp_patches]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"

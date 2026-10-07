@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WIW",
+    "PCP",
+    "WIW"
+  ],
+  "key": {
+    "P": "thaumcraft2tp:vis_conduit",
+    "I": "#c:ingots/iron",
+    "W": "thaumcraft2tp:enchanted_wood",
+    "C": "thaumcraft2tp:alumentum"
+  },
+  "result": {
+    "id": "thaumcraft2tp:vis_filter",
+    "count": 1
+  }
+}

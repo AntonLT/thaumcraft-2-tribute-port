@@ -1,0 +1,110 @@
+[
+  {
+    "ingredient": "thaumcraft2tp:wand_of_fire",
+    "cost": 0.15
+  },
+  {
+    "ingredient": "thaumcraft2tp:wand_of_lightning",
+    "cost": 1.0
+  },
+  {
+    "ingredient": "thaumcraft2tp:wand_of_reversal",
+    "cost": 1.0
+  },
+  {
+    "ingredient": "thaumcraft2tp:crystalline_bell",
+    "cost": 0.5
+  },
+  {
+    "ingredient": "thaumcraft2tp:portable_hole",
+    "cost": 0.75
+  },
+  {
+    "ingredient": "thaumcraft2tp:arcane_focus",
+    "cost": 0.05
+  },
+  {
+    "ingredient": "thaumcraft2tp:arcane_focus_air",
+    "cost": 0.05
+  },
+  {
+    "ingredient": "thaumcraft2tp:arcane_focus_water",
+    "cost": 0.05
+  },
+  {
+    "ingredient": "thaumcraft2tp:arcane_focus_earth",
+    "cost": 0.05
+  },
+  {
+    "ingredient": "thaumcraft2tp:arcane_focus_fire",
+    "cost": 0.05
+  },
+  {
+    "ingredient": "thaumcraft2tp:charm_of_life",
+    "cost": 1.0
+  },
+  {
+    "ingredient": "thaumcraft2tp:charm_of_vigor",
+    "cost": 0.5
+  },
+  {
+    "ingredient": "thaumcraft2tp:charm_of_the_dead",
+    "cost": 4.0
+  },
+  {
+    "ingredient": "thaumcraft2tp:charm_of_cleansing",
+    "cost": 1.0
+  },
+  {
+    "ingredient": "thaumcraft2tp:axe_of_the_stream",
+    "cost": 0.7
+  },
+  {
+    "ingredient": "thaumcraft2tp:sword_of_the_zephyr",
+    "cost": 0.7
+  },
+  {
+    "ingredient": "thaumcraft2tp:pickaxe_of_the_core",
+    "cost": 0.7
+  },
+  {
+    "ingredient": "thaumcraft2tp:shovel_of_renewal",
+    "cost": 0.6
+  },
+  {
+    "ingredient": "thaumcraft2tp:hoe_of_the_mystic",
+    "cost": 0.5
+  },
+  {
+    "ingredient": "thaumcraft2tp:bow_of_bone",
+    "cost": 0.6
+  },
+  {
+    "ingredient": "thaumcraft2tp:elemental_crusher",
+    "cost": 1.0
+  },
+  {
+    "ingredient": "thaumcraft2tp:elemental_cutter",
+    "cost": 1.0
+  },
+  {
+    "ingredient": "thaumcraft2tp:wand_of_bone",
+    "cost": 1.0
+  },
+  {
+    "ingredient": "thaumcraft2tp:mask_of_cruelty",
+    "cost": 0.75
+  },
+  {
+    "ingredient": "thaumcraft2tp:flying_carpet",
+    "cost": 1.25
+  },
+  {
+    "ingredient": "thaumcraft2tp:wand_of_equal_trade",
+    "cost": 0.2
+  },
+  {
+    "ingredient": "thaumcraft2tp:wand_of_water",
+    "cost": 0.5
+  }
+]

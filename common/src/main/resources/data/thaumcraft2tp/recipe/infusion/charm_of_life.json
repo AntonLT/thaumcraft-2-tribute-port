@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 150,
+  "ingredients": [
+    "minecraft:ender_pearl",
+    "minecraft:green_dye"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:charm_of_life",
+    "count": 1
+  },
+  "priority": 948,
+  "research": "thaumcraft2tp:charm_of_life"
+}

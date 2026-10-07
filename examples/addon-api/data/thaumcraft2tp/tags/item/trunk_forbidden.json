@@ -1,0 +1,6 @@
+{
+  "values": [
+    {"id": "#c:shulker_boxes", "required": false},
+    "minecraft:shulker_box"
+  ]
+}

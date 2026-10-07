@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 250,
+  "ingredients": [
+    "thaumcraft2tp:fiery_crystal",
+    "thaumcraft2tp:shimmerleaf",
+    "minecraft:potion"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:extract_of_warmest_fire",
+    "count": 1
+  },
+  "priority": 986
+}

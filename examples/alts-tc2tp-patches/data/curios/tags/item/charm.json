@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft2tp:charm_of_life",
+    "thaumcraft2tp:charm_of_vigor",
+    "thaumcraft2tp:charm_of_the_dead",
+    "thaumcraft2tp:charm_of_cleansing",
+    "thaumcraft2tp:charm_of_souls"
+  ]
+}

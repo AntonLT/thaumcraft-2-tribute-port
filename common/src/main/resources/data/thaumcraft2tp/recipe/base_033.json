@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "IPI",
+    "WWW"
+  ],
+  "key": {
+    "P": "thaumcraft2tp:vis_conduit",
+    "I": "#c:ingots/iron",
+    "W": "thaumcraft2tp:enchanted_wood",
+    "C": "thaumcraft2tp:vis_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:vis_condenser",
+    "count": 1
+  }
+}

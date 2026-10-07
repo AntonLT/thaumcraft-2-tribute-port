@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "dark",
+  "cost": 75,
+  "ingredients": [
+    "minecraft:smooth_stone_slab",
+    "minecraft:soul_sand",
+    "thaumcraft2tp:tainted_crystal"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:concentrated_evil",
+    "count": 1
+  },
+  "priority": 959,
+  "research": "thaumcraft2tp:concentrated_evil"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CLC"
+  ],
+  "key": {
+    "C": "thaumcraft2tp:vis_conduit",
+    "L": "minecraft:lever"
+  },
+  "result": {
+    "id": "thaumcraft2tp:vis_valve",
+    "count": 1
+  }
+}

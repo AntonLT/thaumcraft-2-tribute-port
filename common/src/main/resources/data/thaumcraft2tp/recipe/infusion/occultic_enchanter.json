@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 200,
+  "ingredients": [
+    "thaumcraft2tp:thaumic_enchanter",
+    "thaumcraft2tp:brain_in_a_jar",
+    "thaumcraft2tp:extract_of_purest_magic"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:occultic_enchanter",
+    "count": 1
+  },
+  "priority": 931,
+  "research": "thaumcraft2tp:occultic_enchanter"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    " T ",
+    " W "
+  ],
+  "key": {
+    "T": "#thaumcraft2tp:legacy/itempickthaumium",
+    "W": "thaumcraft2tp:enchanted_wood",
+    "E": "thaumcraft2tp:fiery_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:pickaxe_of_the_core",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Arcane Seal",
+  "name_key": "research.research_gating.arcane_seal.name",
+  "text": "A blank seal is an unfinished sentence written in the language of the world. Placed on any surface, it waits in silence until runic essences are laid upon it, and every rune added changes its meaning and its effect.",
+  "text_key": "research.research_gating.arcane_seal.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

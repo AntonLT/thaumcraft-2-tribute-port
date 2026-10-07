@@ -1,0 +1,8 @@
+{
+  "ingredient": "minecraft:bookshelf",
+  "value": 30,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "thaumcraft2tp:thaumic_enchanter"
+  ]
+}

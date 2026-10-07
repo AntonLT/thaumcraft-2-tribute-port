@@ -1,0 +1,10 @@
+{
+  "name": "Wand of Equal Trade",
+  "name_key": "research.research_gating.wand_of_equal_trade.name",
+  "text": "Alchemy teaches that nothing is gained without something given. Shift-right-click a block to name your price; touch the wand to another block and it, with every connected block of its kind, is exchanged for your chosen block, drawn from your own inventory.",
+  "text_key": "research.research_gating.wand_of_equal_trade.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

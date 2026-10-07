@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "ICI",
+    " I "
+  ],
+  "key": {
+    "C": "thaumcraft2tp:vis_crystal",
+    "I": "#c:ingots/iron"
+  },
+  "result": {
+    "id": "thaumcraft2tp:arcane_focus",
+    "count": 1
+  }
+}

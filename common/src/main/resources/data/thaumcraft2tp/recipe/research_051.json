@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    "ETE",
+    " W "
+  ],
+  "key": {
+    "T": "#thaumcraft2tp:legacy/itemshovelthaumium",
+    "W": "thaumcraft2tp:enchanted_wood",
+    "E": "thaumcraft2tp:earthen_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:shovel_of_renewal",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Enchanted Fabric",
+  "name_key": "research.research_gating.enchanted_fabric.name",
+  "text": "Steep wool and string in vis and the threads remember something of the aura itself: they grow light and tough, and eager to hold a charm. From this cloth thaumaturges stitch wonders such as the Portable Hole and the Inert Carpet.",
+  "text_key": "research.research_gating.enchanted_fabric.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

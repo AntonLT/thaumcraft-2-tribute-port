@@ -1,0 +1,74 @@
+plugins {
+    id 'multiloader-loader'
+    id 'net.fabricmc.fabric-loom'
+}
+dependencies {
+    minecraft("com.mojang:minecraft:${minecraft_version}")
+    implementation("net.fabricmc:fabric-loader:${fabric_loader_version}")
+    implementation("net.fabricmc.fabric-api:fabric-api:${fabric_version}")
+    compileOnly('mezz.jei:jei-26.1.2-common-api:29.37.0.98')
+}
+
+repositories {
+    maven { url = 'https://modmaven.dev' }
+}
+
+loom {
+    def aw = project(':common').file("src/main/resources/${mod_id}.accesswidener")
+    if (aw.exists()) {
+        accessWidenerPath.set(aw)
+    }
+    runs {
+        client {
+            client()
+            setConfigName('Fabric Client')
+            ideConfigGenerated(true)
+            runDir('runs/client')
+        }
+        server {
+            server()
+            setConfigName('Fabric Server')
+            ideConfigGenerated(true)
+            runDir('runs/server')
+        }
+    }
+}
+
+// Implement mcgradleconventions loader attribute
+def loaderAttribute = Attribute.of('io.github.mcgradleconventions.loader', String)
+['apiElements', 'runtimeElements', 'sourcesElements', 'javadocElements', 'includeInternal', 'modCompileClasspath'].each { variant ->
+    configurations.named(variant) {
+        attributes {
+            attribute(loaderAttribute, 'fabric')
+        }
+    }
+}
+sourceSets.configureEach {
+    [it.compileClasspathConfigurationName, it.runtimeClasspathConfigurationName].each { variant->
+        configurations.named(variant) {
+            attributes {
+                attribute(loaderAttribute, 'fabric')
+            }
+        }
+    }
+}
+
+// Opt-in integration fixtures never enter normal release builds.
+if (project.hasProperty("clientSmoke")) {
+    sourceSets.main.java.srcDir(project(":common").file("src/clientTest/java"))
+    loom.runs.client.vmArg("-Dthaumcraft.clientSmoke=true")
+    if(project.hasProperty("guiSmoke"))loom.runs.client.vmArg("-Dthaumcraft.guiSmoke=true")
+    loom.runs.client.programArgs("--quickPlaySingleplayer", "ThaumcraftQA", "--width", "1280", "--height", "960")
+}
+if (project.hasProperty("smokeTest")) {
+    sourceSets.main.java.srcDir(project(":common").file("src/smokeTest/java"))
+    sourceSets.main.java.srcDir("src/smokeTest/java")
+    loom.runs.server.vmArg("-Dthaumcraft.smokeTest=true")
+    loom.runs.server.programArg("nogui")
+}
+
+if (project.hasProperty("smokeTest")) {
+    tasks.withType(JavaExec).configureEach { standardInput = System.in }
+}
+
+tasks.named("check") { dependsOn ":common:verifyLocalization" }

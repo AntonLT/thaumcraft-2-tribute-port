@@ -1,0 +1,10 @@
+{
+  "name": "Animated Piston",
+  "name_key": "research.research_gating.animated_piston.name",
+  "text": "Feed this piston vis and it stirs as if dreaming, pushing and pulling with no lever or redstone to command it. Thaumaturges set it beating at the heart of their greater engines, among them the Arcane Bore, the Thaumic Restorer and the Thaumic Duplicator.",
+  "text_key": "research.research_gating.animated_piston.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

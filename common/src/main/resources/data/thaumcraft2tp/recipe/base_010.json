@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W"
+  ],
+  "key": {
+    "W": "thaumcraft2tp:greatwood_log"
+  },
+  "result": {
+    "id": "minecraft:jungle_planks",
+    "count": 4
+  }
+}

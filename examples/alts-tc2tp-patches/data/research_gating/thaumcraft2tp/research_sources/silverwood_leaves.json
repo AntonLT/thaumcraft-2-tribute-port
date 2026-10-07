@@ -1,0 +1,9 @@
+{
+  "ingredient": "thaumcraft2tp:silverwood_leaves",
+  "value": 4,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:enchanted_silverwood"
+  ],
+  "special_chance": 100
+}

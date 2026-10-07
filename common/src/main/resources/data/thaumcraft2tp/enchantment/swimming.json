@@ -1,0 +1,34 @@
+{
+  "description": {
+    "translate": "enchantment.thaumcraft2tp.swimming"
+  },
+  "supported_items": "#thaumcraft2tp:enchantable/leg_armor",
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 15
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 15
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "legs"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "thaumcraft2tp:swimming",
+        "attribute": "minecraft:water_movement_efficiency",
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.thaumcraft2tp.potency"
+  },
+  "supported_items": "#thaumcraft2tp:enchantable/wands",
+  "weight": 2,
+  "max_level": 5,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 15
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 15
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {}
+}

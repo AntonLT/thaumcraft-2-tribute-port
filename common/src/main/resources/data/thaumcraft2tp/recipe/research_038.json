@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    "IMI",
+    "SSS"
+  ],
+  "key": {
+    "S": "thaumcraft2tp:eldritch_stone",
+    "D": "thaumcraft2tp:seed_of_darkness",
+    "M": "thaumcraft2tp:eldritch_mechanism",
+    "I": "thaumcraft2tp:void_ingot"
+  },
+  "result": {
+    "id": "thaumcraft2tp:darkness_generator",
+    "count": 1
+  }
+}

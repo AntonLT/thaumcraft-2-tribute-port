@@ -1,0 +1,10 @@
+{
+  "name": "Arcane Tinkering Tool",
+  "name_key": "research.research_gating.arcane_tinkering_tool.name",
+  "text": "Delicate mechanisms need a gentle, knowing hand. This enchanted tool coaxes most devices to turn and face a new way, tips the dregs out of a crucible, and traces the reach of an Arcane Seal in the air.",
+  "text_key": "research.research_gating.arcane_tinkering_tool.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

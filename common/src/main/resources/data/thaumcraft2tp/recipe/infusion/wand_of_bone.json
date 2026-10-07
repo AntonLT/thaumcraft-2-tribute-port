@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "dark",
+  "cost": 75,
+  "ingredients": [
+    "thaumcraft2tp:tainted_crystal",
+    "minecraft:bone"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:wand_of_bone",
+    "count": 1
+  },
+  "priority": 937,
+  "research": "thaumcraft2tp:wand_of_bone"
+}

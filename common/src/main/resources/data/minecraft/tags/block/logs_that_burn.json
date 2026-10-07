@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft2tp:greatwood_log",
+    "thaumcraft2tp:silverwood_log",
+    "thaumcraft2tp:tainted_log"
+  ]
+}

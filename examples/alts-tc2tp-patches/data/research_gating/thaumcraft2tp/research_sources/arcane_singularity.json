@@ -1,0 +1,10 @@
+{
+  "ingredient": "thaumcraft2tp:arcane_singularity",
+  "value": 16,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:portable_hole",
+    "research_gating:arcane_bore"
+  ],
+  "special_chance": 100
+}

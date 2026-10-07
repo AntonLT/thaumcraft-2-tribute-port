@@ -1,0 +1,10 @@
+{
+  "name": "Extract of Lightest Air",
+  "name_key": "research.research_gating.extract_of_lightest_air.name",
+  "text": "Shimmerleaf steeped with a vaporous crystal draws out the restless heart of Air, which strains against the stopper as if longing to fly. It lends lift to the Inert Carpet and edge to elemental tools.",
+  "text_key": "research.research_gating.extract_of_lightest_air.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

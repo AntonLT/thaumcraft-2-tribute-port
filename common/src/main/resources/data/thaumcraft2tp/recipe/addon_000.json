@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": "thaumcraft2tp:void_ingot"
+  },
+  "result": {
+    "id": "thaumcraft2tp:void_metal_helm",
+    "count": 1
+  }
+}

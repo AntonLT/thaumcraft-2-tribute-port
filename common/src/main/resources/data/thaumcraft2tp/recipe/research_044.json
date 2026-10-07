@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "M M",
+    " M "
+  ],
+  "key": {
+    "M": "thaumcraft2tp:eldritch_mechanism"
+  },
+  "result": {
+    "id": "thaumcraft2tp:inert_eldritch_keystone",
+    "count": 1
+  }
+}

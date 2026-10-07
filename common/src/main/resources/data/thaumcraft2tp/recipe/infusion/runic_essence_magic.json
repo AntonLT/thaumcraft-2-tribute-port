@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 15,
+  "ingredients": [
+    "thaumcraft2tp:vis_crystal",
+    "#c:nuggets/gold",
+    "thaumcraft2tp:nitor"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:runic_essence_magic",
+    "count": 2
+  },
+  "priority": 995
+}

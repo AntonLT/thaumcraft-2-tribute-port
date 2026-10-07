@@ -1,0 +1,10 @@
+{
+  "name": "Extract of Foulest Taint",
+  "name_key": "research.research_gating.extract_of_foulest_taint.name",
+  "text": "Shimmerleaf steeped with a tainted crystal draws out something that should have stayed buried: a vile, writhing distillate that stains the glass. Handle it with care. Charms that snare the essence of the dead are bound with it.",
+  "text_key": "research.research_gating.extract_of_foulest_taint.text",
+  "category": "thaumcraft2tp:tainted",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

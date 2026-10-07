@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "research": "research_gating:runic_essence_earth",
+  "cost": 15,
+  "ingredients": [
+    "thaumcraft2tp:earthen_crystal",
+    "#c:nuggets/gold",
+    "thaumcraft2tp:nitor"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:runic_essence_earth",
+    "count": 2
+  },
+  "priority": 989
+}

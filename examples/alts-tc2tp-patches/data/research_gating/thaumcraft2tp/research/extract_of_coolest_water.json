@@ -1,0 +1,10 @@
+{
+  "name": "Extract of Coolest Water",
+  "name_key": "research.research_gating.extract_of_coolest_water.name",
+  "text": "Shimmerleaf steeped with an aqueous crystal draws out the cold, patient heart of Water, which lies trembling in the vial like a held breath. Elemental tools are tempered in it.",
+  "text_key": "research.research_gating.extract_of_coolest_water.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

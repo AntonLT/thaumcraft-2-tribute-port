@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RRR",
+    "RDR",
+    "GRG"
+  ],
+  "key": {
+    "D": "thaumcraft2tp:vis_detector",
+    "G": "#c:ingots/gold",
+    "R": "#research_gating:runic_essences"
+  },
+  "result": {
+    "id": "thaumcraft2tp:crystal_ball",
+    "count": 1
+  }
+}

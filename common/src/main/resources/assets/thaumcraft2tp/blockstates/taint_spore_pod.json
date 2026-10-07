@@ -1,0 +1,130 @@
+{
+  "variants": {
+    "age=0,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_0"
+    },
+    "age=0,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_0"
+    },
+    "age=1,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_1"
+    },
+    "age=1,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_1"
+    },
+    "age=2,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_2"
+    },
+    "age=2,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_2"
+    },
+    "age=3,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_3"
+    },
+    "age=3,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_3"
+    },
+    "age=4,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_4"
+    },
+    "age=4,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_4"
+    },
+    "age=5,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_5"
+    },
+    "age=5,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_5"
+    },
+    "age=6,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_6"
+    },
+    "age=6,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_6"
+    },
+    "age=7,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_7"
+    },
+    "age=7,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_7"
+    },
+    "age=8,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_8"
+    },
+    "age=8,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_8"
+    },
+    "age=9,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_9"
+    },
+    "age=9,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_9"
+    },
+    "age=10,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_10"
+    },
+    "age=10,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_10"
+    },
+    "age=11,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_11"
+    },
+    "age=11,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_11"
+    },
+    "age=12,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_12"
+    },
+    "age=12,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_12"
+    },
+    "age=13,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_13"
+    },
+    "age=13,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_13"
+    },
+    "age=14,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_14"
+    },
+    "age=14,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_14"
+    },
+    "age=15,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_15"
+    },
+    "age=15,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_15"
+    },
+    "age=16,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_16"
+    },
+    "age=16,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_16"
+    },
+    "age=17,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_17"
+    },
+    "age=17,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_17"
+    },
+    "age=18,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_18"
+    },
+    "age=18,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_18"
+    },
+    "age=19,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_19"
+    },
+    "age=19,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_19"
+    },
+    "age=20,bursting=true": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_20"
+    },
+    "age=20,bursting=false": {
+      "model": "thaumcraft2tp:block/taint_spore_pod_20"
+    }
+  }
+}

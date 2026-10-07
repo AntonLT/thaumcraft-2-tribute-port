@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "thaumcraft2tp:taint_spores",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3333333333333333
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "thaumcraft2tp:tainted_organ",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3333333333333333
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "thaumcraft2tp:writhing_taint_tendrils",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.02
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

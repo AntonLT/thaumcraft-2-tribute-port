@@ -1,0 +1,8 @@
+{
+  "feature": "alts_tc2tp_patches:cinnabar_ore",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

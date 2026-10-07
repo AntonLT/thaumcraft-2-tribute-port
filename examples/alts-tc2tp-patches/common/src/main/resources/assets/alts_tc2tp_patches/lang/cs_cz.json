@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Hlubinná Cinnabar ruda",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Vytěžený Cinnabar",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Úlomky vědomostí",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Naučena hodnota Vis pro %s: %s"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thaumcraft2tp:seed_of_darkness",
+    "minecraft:stone",
+    "minecraft:stone",
+    "minecraft:stone",
+    "minecraft:stone"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:eldritch_stone",
+    "count": 4
+  }
+}

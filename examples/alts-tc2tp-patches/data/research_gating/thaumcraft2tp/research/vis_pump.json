@@ -1,0 +1,12 @@
+{
+  "name": "Vis Pump",
+  "name_key": "research.research_gating.vis_pump.name",
+  "text": "This pulsing device siphons vis and taint out of the container it faces and drives them along the conduits connected to it. Arcane Bellows facing it quicken its pull, and a redstone signal stills it.",
+  "text_key": "research.research_gating.vis_pump.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [
+    "research_gating:arcane_bellows"
+  ],
+  "restricted": false
+}

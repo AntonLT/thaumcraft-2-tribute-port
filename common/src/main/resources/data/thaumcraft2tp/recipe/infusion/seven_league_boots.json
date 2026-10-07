@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 75,
+  "ingredients": [
+    "thaumcraft2tp:vaporous_crystal",
+    "#thaumcraft2tp:legacy/itembootsstriding",
+    "minecraft:feather"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:seven_league_boots",
+    "count": 1
+  },
+  "priority": 964,
+  "research": "thaumcraft2tp:seven_league_boots"
+}

@@ -1,0 +1,34 @@
+Thaumcraft 2 Tribute Port - licensing
+
+This repository contains material under different terms.
+
+1. Original Thaumcraft 2 material
+
+   Thaumcraft 2 and its original code, artwork, sounds and text are by Azanor
+   and remain his property (All Rights Reserved). This port reuses that
+   material to bring Thaumcraft 2.1.6d to Minecraft 26.1.2 as a non-commercial
+   tribute. Nothing in this repository grants any licence to the original
+   Thaumcraft material, and the GPL below does not apply to it.
+
+2. Port code and new material
+
+   Everything written for this port that is not original Thaumcraft 2
+   material - including the addon API, the loader integration, the build
+   scripts, the documentation, the examples and Alt's patches - is
+   Copyright (C) Alt and the port's contributors, and is licensed under the
+   GNU General Public License, version 3 or (at your option) any later
+   version. The full text is in COPYING.
+
+   This program is distributed in the hope that it will be useful, but
+   WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+   or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+   more details.
+
+3. MultiLoader Template
+
+   The build is based on the MultiLoader Template by Jaredlll08, released
+   under CC0. Its notice is preserved in LICENSE-MultiLoader.
+
+Minecraft, Fabric and NeoForge are separate projects with their own terms.
+This project is unofficial and is not endorsed by Azanor, Mojang, Microsoft,
+Fabric or NeoForge.

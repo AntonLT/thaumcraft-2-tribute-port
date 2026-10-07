@@ -1,0 +1,14 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 75,
+  "ingredients": [
+    "thaumcraft2tp:vaporous_crystal",
+    "thaumcraft2tp:enchanted_wood"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:wand_of_lightning",
+    "count": 1
+  },
+  "priority": 972
+}

@@ -1,0 +1,15 @@
+{
+  "ingredient": "thaumcraft2tp:nitor",
+  "value": 8,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:arcane_singularity",
+    "research_gating:runic_essence_air",
+    "research_gating:runic_essence_water",
+    "research_gating:runic_essence_earth",
+    "research_gating:runic_essence_fire",
+    "research_gating:runic_essence_magic",
+    "research_gating:runic_essence_dark"
+  ],
+  "special_chance": 100
+}

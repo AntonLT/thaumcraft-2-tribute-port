@@ -1,0 +1,13 @@
+{
+  "name": "Arcane Bore",
+  "name_key": "research.research_gating.arcane_bore.name",
+  "text": "Point this hungry engine at the earth and it gnaws a tunnel in the direction it faces, spitting the spoils out of its back. An arcane focus gives its appetite purpose, and an Arcane Singularity caged within supplies the raw force that drives it on.",
+  "text_key": "research.research_gating.arcane_bore.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [
+    "research_gating:animated_piston",
+    "research_gating:arcane_singularity"
+  ],
+  "restricted": false
+}

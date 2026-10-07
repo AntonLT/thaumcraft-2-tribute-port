@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WIW",
+    "WPW",
+    "WIW"
+  ],
+  "key": {
+    "P": "thaumcraft2tp:animated_piston",
+    "I": "#c:ingots/iron",
+    "W": "thaumcraft2tp:enchanted_wood"
+  },
+  "result": {
+    "id": "thaumcraft2tp:thaumic_restorer",
+    "count": 1
+  }
+}

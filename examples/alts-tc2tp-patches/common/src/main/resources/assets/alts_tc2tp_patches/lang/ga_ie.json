@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Mianach cinnabair sa scláta dhomhain",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Cinnabar amh",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Blúirí eolais",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "D'fhoghlaim tú luach vis %s: %s"
+}

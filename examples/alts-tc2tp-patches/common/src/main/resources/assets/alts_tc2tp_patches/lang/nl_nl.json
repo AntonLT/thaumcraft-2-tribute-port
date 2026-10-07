@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Wrevelsteencinnaberen erts",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Ruwe cinnaber",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Kennisfragmenten",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "De vis-waarde van %s geleerd: %s"
+}

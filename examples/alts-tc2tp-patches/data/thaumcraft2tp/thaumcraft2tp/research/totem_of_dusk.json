@@ -1,0 +1,19 @@
+{
+  "category": "thaumcraft2tp:tainted",
+  "difficulty": 3,
+  "type": 3,
+  "name": "Totem of Dusk",
+  "name_key": "research.thaumcraft2tp.totem_of_dusk.name",
+  "text": "This totem fills the air with sinister vibes and dark, twisted magic. You're not sure what it is doing to the local aura, but you doubt it is good.",
+  "text_key": "research.thaumcraft2tp.totem_of_dusk.text",
+  "restricted": false,
+  "prerequisites": [
+    "thaumcraft2tp:dark_infuser",
+    "research_gating:alumentum"
+  ],
+  "discovery": "thaumcraft2tp:discovery_totem_of_dusk",
+  "result": {
+    "id": "thaumcraft2tp:totem_of_dusk",
+    "count": 1
+  }
+}

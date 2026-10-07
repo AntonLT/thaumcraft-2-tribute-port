@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": "thaumcraft2tp:void_ingot"
+  },
+  "result": {
+    "id": "thaumcraft2tp:void_metal_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Alumentum",
+  "name_key": "research.research_gating.alumentum.name",
+  "text": "Coal keeps only a faint memory of the sun; alumentum hoards all of it. This restless alchemical salt locks fire inside its crystals and gives it up slowly, keeping an Arcane Furnace roaring long after coal would be ash. Alchemists prize it as captive flame for their bolder works.",
+  "text_key": "research.research_gating.alumentum.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

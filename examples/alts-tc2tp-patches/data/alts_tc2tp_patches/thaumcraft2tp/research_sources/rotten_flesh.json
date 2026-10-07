@@ -1,0 +1,9 @@
+{
+  "ingredient": "minecraft:rotten_flesh",
+  "value": 4,
+  "category": "thaumcraft2tp:forbidden",
+  "special": [
+    "thaumcraft2tp:crucible_of_souls",
+    "thaumcraft2tp:charm_of_the_dead"
+  ]
+}

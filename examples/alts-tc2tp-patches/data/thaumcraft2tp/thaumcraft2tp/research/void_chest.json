@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:eldritch",
+  "difficulty": 3,
+  "type": 0,
+  "name": "Void Chest",
+  "name_key": "research.thaumcraft2tp.void_chest.name",
+  "text": "This mysterious container seems to be much bigger on the inside. What is more, it's top seems like it should have something connected to it...",
+  "text_key": "research.thaumcraft2tp.void_chest.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:portable_hole"
+  ],
+  "discovery": "thaumcraft2tp:discovery_void_chest",
+  "result": {
+    "id": "thaumcraft2tp:void_chest",
+    "count": 1
+  }
+}

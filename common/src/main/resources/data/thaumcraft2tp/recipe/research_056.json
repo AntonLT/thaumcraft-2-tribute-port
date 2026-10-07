@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " BC",
+    "W C",
+    " BC"
+  ],
+  "key": {
+    "B": "minecraft:bone",
+    "W": "#thaumcraft2tp:legacy/itemwandbone",
+    "C": "thaumcraft2tp:tainted_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:bow_of_bone",
+    "count": 1
+  }
+}

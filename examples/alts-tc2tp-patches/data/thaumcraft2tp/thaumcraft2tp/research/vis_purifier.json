@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:tainted",
+  "difficulty": 5,
+  "type": 0,
+  "name": "Vis Purifier",
+  "name_key": "research.thaumcraft2tp.vis_purifier.name",
+  "text": "Having learnt something of the nature of Taint, you are now able to build the Purifier. It functions in a similar manner to the Filter, except some of the tainted vis passing through it is simply destroyed instead of being pumped into the air.",
+  "text_key": "research.thaumcraft2tp.vis_purifier.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:enchanted_silverwood"
+  ],
+  "discovery": "thaumcraft2tp:discovery_vis_purifier",
+  "result": {
+    "id": "thaumcraft2tp:vis_purifier",
+    "count": 1
+  }
+}

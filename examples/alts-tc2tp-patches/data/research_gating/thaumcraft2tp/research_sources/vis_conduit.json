@@ -1,0 +1,10 @@
+{
+  "ingredient": "thaumcraft2tp:vis_conduit",
+  "value": 2,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:vis_filter",
+    "research_gating:vis_pump"
+  ],
+  "special_chance": 100
+}

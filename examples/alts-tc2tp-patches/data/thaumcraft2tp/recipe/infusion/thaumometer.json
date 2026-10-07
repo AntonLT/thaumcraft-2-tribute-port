@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "research": "research_gating:thaumometer",
+  "cost": 50,
+  "ingredients": [
+    "thaumcraft2tp:vis_detector",
+    "thaumcraft2tp:taint_detector",
+    "thaumcraft2tp:vaporous_crystal",
+    "thaumcraft2tp:earthen_crystal",
+    "thaumcraft2tp:aqueous_crystal",
+    "thaumcraft2tp:fiery_crystal"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:thaumometer",
+    "count": 1
+  },
+  "priority": 974
+}

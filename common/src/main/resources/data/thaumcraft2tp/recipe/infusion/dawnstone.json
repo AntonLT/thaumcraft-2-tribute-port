@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 10,
+  "ingredients": [
+    "minecraft:blaze_powder",
+    "minecraft:glowstone_dust",
+    "#c:nuggets/gold"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:dawnstone",
+    "count": 1
+  },
+  "priority": 929,
+  "research": "thaumcraft2tp:dawnstone"
+}

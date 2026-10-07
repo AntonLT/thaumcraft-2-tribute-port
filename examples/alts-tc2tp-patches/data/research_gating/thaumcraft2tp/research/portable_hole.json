@@ -1,0 +1,13 @@
+{
+  "name": "Portable Hole",
+  "name_key": "research.research_gating.portable_hole.name",
+  "text": "This bundle of enchanted cloth carries a pocket of the Void folded into its weave. Press it to a wall or floor and it unfolds, swallowing the blocks before you into a temporary passage. When the hole closes the world quietly returns to its place, but every use frays the cloth a little more.",
+  "text_key": "research.research_gating.portable_hole.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [
+    "research_gating:arcane_singularity",
+    "research_gating:enchanted_fabric"
+  ],
+  "restricted": false
+}

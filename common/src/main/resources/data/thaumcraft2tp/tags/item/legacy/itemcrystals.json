@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft2tp:aqueous_crystal",
+    "thaumcraft2tp:depleted_crystal",
+    "thaumcraft2tp:earthen_crystal",
+    "thaumcraft2tp:fiery_crystal",
+    "thaumcraft2tp:tainted_crystal",
+    "thaumcraft2tp:vaporous_crystal",
+    "thaumcraft2tp:vis_crystal"
+  ]
+}

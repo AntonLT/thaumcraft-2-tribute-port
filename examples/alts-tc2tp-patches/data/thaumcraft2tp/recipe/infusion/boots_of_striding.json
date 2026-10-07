@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "research": "research_gating:boots_of_striding",
+  "cost": 50,
+  "ingredients": [
+    "thaumcraft2tp:earthen_crystal",
+    "minecraft:leather_boots",
+    "minecraft:feather"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:boots_of_striding",
+    "count": 1
+  },
+  "priority": 973
+}

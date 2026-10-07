@@ -1,0 +1,20 @@
+{
+  "category": "thaumcraft2tp:forbidden",
+  "difficulty": 4,
+  "type": 2,
+  "name": "Occultic Enchanter",
+  "name_key": "research.thaumcraft2tp.occultic_enchanter.name",
+  "text": "Enchanting with Vis is fine and well, but how can you trust this rare resource to the fickle whims of fate? Far better to intrust it to a sinister, disembodied brain floating in foul liquid. Besides, it whispers such wonderful secrets...",
+  "text_key": "research.thaumcraft2tp.occultic_enchanter.text",
+  "restricted": false,
+  "prerequisites": [
+    "thaumcraft2tp:brain_in_a_jar",
+    "thaumcraft2tp:thaumic_enchanter",
+    "research_gating:extract_of_purest_magic"
+  ],
+  "discovery": "thaumcraft2tp:discovery_occultic_enchanter",
+  "result": {
+    "id": "thaumcraft2tp:occultic_enchanter",
+    "count": 1
+  }
+}

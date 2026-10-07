@@ -1,0 +1,8 @@
+{
+  "feature": "thaumcraft2tp:cinnabar_deposits",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

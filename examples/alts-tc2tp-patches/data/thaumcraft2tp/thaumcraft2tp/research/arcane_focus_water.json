@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 2,
+  "type": 2,
+  "name": "Arcane Focus: Water",
+  "name_key": "research.thaumcraft2tp.arcane_focus_water.name",
+  "text": "This arcane focus has long range and medium spread.",
+  "text_key": "research.thaumcraft2tp.arcane_focus_water.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:arcane_bore"
+  ],
+  "discovery": "thaumcraft2tp:discovery_arcane_focus_water",
+  "result": {
+    "id": "thaumcraft2tp:arcane_focus_water",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 25,
+  "ingredients": [
+    "thaumcraft2tp:crucible",
+    "minecraft:spider_eye",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:crucible_of_eyes",
+    "count": 1
+  },
+  "priority": 967,
+  "research": "thaumcraft2tp:crucible_of_eyes"
+}

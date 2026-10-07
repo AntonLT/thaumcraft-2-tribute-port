@@ -1,0 +1,24 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#thaumcraft2tp:spawns_arcane_mobs",
+  "spawners": [
+    {
+      "type": "thaumcraft2tp:brainy_zombie",
+      "weight": 6,
+      "minCount": 4,
+      "maxCount": 4
+    },
+    {
+      "type": "thaumcraft2tp:thaum_slime",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 4
+    },
+    {
+      "type": "thaumcraft2tp:tainted_tree",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

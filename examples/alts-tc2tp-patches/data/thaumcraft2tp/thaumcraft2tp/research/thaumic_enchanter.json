@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 3,
+  "type": 2,
+  "name": "Thaumic Enchanter",
+  "name_key": "research.thaumcraft2tp.thaumic_enchanter.name",
+  "text": "This arcane device works exactly like a normal enchantment table, except that it requires vis instead of character levels. ",
+  "text_key": "research.thaumcraft2tp.thaumic_enchanter.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:extract_of_purest_magic"
+  ],
+  "discovery": "thaumcraft2tp:discovery_thaumic_enchanter",
+  "result": {
+    "id": "thaumcraft2tp:thaumic_enchanter",
+    "count": 1
+  }
+}

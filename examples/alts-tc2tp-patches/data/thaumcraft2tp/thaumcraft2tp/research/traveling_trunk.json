@@ -1,0 +1,16 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 2,
+  "type": 0,
+  "name": "Traveling Trunk",
+  "name_key": "research.thaumcraft2tp.traveling_trunk.name",
+  "text": "This magical chest follows you around wherever you go. As long as you keep it fed (or keep food in it's inventory) it should remain healthy and strong. It's a bit noisy and clumsy, but at least it's fireproof.",
+  "text_key": "research.thaumcraft2tp.traveling_trunk.text",
+  "restricted": false,
+  "prerequisites": ["thaumcraft2tp:dark_infuser"],
+  "discovery": "thaumcraft2tp:discovery_traveling_trunk",
+  "result": {
+    "id": "thaumcraft2tp:traveling_trunk",
+    "count": 1
+  }
+}

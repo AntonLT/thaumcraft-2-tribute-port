@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "深层朱砂矿石",
+  "item.alts_tc2tp_patches.raw_cinnabar": "粗朱砂",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "知识碎片",
+  "tooltip.alts_tc2tp_patches.vis": "魔力：%s",
+  "message.alts_tc2tp_patches.vis_learned": "已学会 %s 的魔力值：%s"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 50,
+  "ingredients": [
+    "thaumcraft2tp:nitor",
+    "thaumcraft2tp:silverwood_log",
+    "thaumcraft2tp:vis_crystal"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:totem_of_dawn",
+    "count": 1
+  },
+  "priority": 952,
+  "research": "thaumcraft2tp:totem_of_dawn"
+}

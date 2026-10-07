@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 2,
+  "type": 0,
+  "name": "Thaumic Restorer",
+  "name_key": "research.thaumcraft2tp.thaumic_restorer.name",
+  "text": "This device allows you to repair damage to any items placed within, or recharge certain magical items. This device requires vis to function.",
+  "text_key": "research.thaumcraft2tp.thaumic_restorer.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:animated_piston"
+  ],
+  "discovery": "thaumcraft2tp:discovery_thaumic_restorer",
+  "result": {
+    "id": "thaumcraft2tp:thaumic_restorer",
+    "count": 1
+  }
+}

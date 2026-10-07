@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "infused": {
+      "trigger": "thaumcraft2tp:infusion_completed",
+      "conditions": {"recipe": "example:echo_shard"}
+    }
+  }
+}

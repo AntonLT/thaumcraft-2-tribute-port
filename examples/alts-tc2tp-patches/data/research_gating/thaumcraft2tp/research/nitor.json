@@ -1,0 +1,10 @@
+{
+  "name": "Nitor",
+  "name_key": "research.research_gating.nitor.name",
+  "text": "A mote of living light, coaxed out of the aura and stoppered in glass. Set down, it burns on without any fuel and holds the dark at bay. Its unwavering glow is the spark that awakens runic essences and many other arcane components.",
+  "text_key": "research.research_gating.nitor.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

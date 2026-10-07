@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "thaumcraft2tp:thaumonomicon",
+  "ingredients": [
+    "minecraft:book",
+    "#alts_tc2tp_patches:knowledge_fragments"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:thaumonomicon",
+    "count": 1
+  }
+}

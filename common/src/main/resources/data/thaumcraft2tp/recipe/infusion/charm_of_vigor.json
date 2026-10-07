@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 75,
+  "ingredients": [
+    "minecraft:golden_apple",
+    "minecraft:cod"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:charm_of_vigor",
+    "count": 1
+  },
+  "priority": 947,
+  "research": "thaumcraft2tp:charm_of_vigor"
+}

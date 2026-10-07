@@ -1,0 +1,14 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 9,
+  "ingredients": [
+    "#thaumcraft2tp:legacy/coal",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:alumentum",
+    "count": 1
+  },
+  "priority": 981
+}

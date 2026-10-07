@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:shard_of_strange_metal",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:eldritch_mechanism",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:opalescent_eye",
+          "weight": 33
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:disturbing_mirror",
+          "weight": 33
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:glowing_eldritch_device",
+          "weight": 11
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:eldritch_repository",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:inert_eldritch_keystone",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:eldritch_stone",
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:void_compass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:void_crusher",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:void_cutter",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9
+        }
+      ]
+    }
+  ]
+}

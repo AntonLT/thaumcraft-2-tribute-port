@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Minereu de cinabru de ardezie adâncă",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Cinabru brut",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Fragmente de cunoaștere",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Ai învățat valoarea de vis a lui %s: %s"
+}

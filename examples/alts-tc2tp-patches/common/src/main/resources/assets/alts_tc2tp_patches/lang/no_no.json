@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Cinnobermalm i dypskifer",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Rå cinnober",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Kunnskapsfragmenter",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Lærte vis-verdien til %s: %s"
+}

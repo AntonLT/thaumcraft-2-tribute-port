@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 3,
+  "type": 0,
+  "name": "Thaumic Duplicator",
+  "name_key": "research.thaumcraft2tp.thaumic_duplicator.name",
+  "text": "This device allows you to use vis to duplicate items. Only simple items or raw resources can be duplicated.",
+  "text_key": "research.thaumcraft2tp.thaumic_duplicator.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:animated_piston"
+  ],
+  "discovery": "thaumcraft2tp:discovery_thaumic_duplicator",
+  "result": {
+    "id": "thaumcraft2tp:thaumic_duplicator",
+    "count": 1
+  }
+}

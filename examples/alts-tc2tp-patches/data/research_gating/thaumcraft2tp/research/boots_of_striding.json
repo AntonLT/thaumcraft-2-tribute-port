@@ -1,0 +1,10 @@
+{
+  "name": "Boots of Striding",
+  "name_key": "research.research_gating.boots_of_striding.name",
+  "text": "Stitched with a charm of tireless travel, these boots quicken every step and let their wearer stride up a whole block as easily as walking a level road.",
+  "text_key": "research.research_gating.boots_of_striding.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

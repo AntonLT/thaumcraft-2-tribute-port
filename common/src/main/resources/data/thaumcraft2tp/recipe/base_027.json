@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FBI",
+    "GGG",
+    "RRR"
+  ],
+  "key": {
+    "G": "#c:ingots/gold",
+    "R": "minecraft:stone",
+    "F": "minecraft:feather",
+    "B": "minecraft:glass_bottle",
+    "I": "minecraft:ink_sac"
+  },
+  "result": {
+    "id": "thaumcraft2tp:quaesitum",
+    "count": 1
+  }
+}

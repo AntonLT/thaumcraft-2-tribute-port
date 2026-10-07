@@ -1,0 +1,12 @@
+{
+  "name": "Runic Essence: Magic",
+  "name_key": "research.research_gating.runic_essence_magic.name",
+  "text": "The rune of Magic, suspended in an essence that glimmers with raw vis. Set upon an Arcane Seal, it speaks one word of the seal's incantation; join it with other runes and the seal says something new.",
+  "text_key": "research.research_gating.runic_essence_magic.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [
+    "research_gating:nitor"
+  ],
+  "restricted": false
+}

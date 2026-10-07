@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Bridlicová rumelková ruda",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Surový rumelkový kameň",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Úlomky vedomostí",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Naučená hodnota visu pre %s: %s"
+}

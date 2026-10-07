@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 2,
+  "type": 0,
+  "name": "Goggles of Revealing",
+  "name_key": "research.thaumcraft2tp.goggles_of_revealing.name",
+  "text": "This marvellous eyewear duplicates all the functionality of the Thaumometer and also allows you to see things that are usually not visible to the naked eye.",
+  "text_key": "research.thaumcraft2tp.goggles_of_revealing.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:thaumometer"
+  ],
+  "discovery": "thaumcraft2tp:discovery_goggles_of_revealing",
+  "result": {
+    "id": "thaumcraft2tp:goggles_of_revealing",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 25,
+  "ingredients": [
+    "thaumcraft2tp:aqueous_crystal",
+    "minecraft:water_bucket",
+    "minecraft:water_bucket",
+    "minecraft:brick",
+    "minecraft:brick",
+    "minecraft:brick"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:everfull_urn",
+    "count": 1
+  },
+  "priority": 930,
+  "research": "thaumcraft2tp:everfull_urn"
+}

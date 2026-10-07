@@ -1,0 +1,9 @@
+{
+  "ingredient": "minecraft:blaze_powder",
+  "value": 5,
+  "category": "thaumcraft2tp:forbidden",
+  "special": [
+    "research_gating:wand_of_fire"
+  ],
+  "special_chance": 100
+}

@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Škriljava cinoberna ruda",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Sirovi cinober",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Djelići znanja",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Naučio si vrijednost visa za %s: %s"
+}

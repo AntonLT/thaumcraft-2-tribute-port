@@ -1,0 +1,9 @@
+{
+  "name": "Infusion Basics",
+  "text": "Study quartz to understand the construction of a Thaumic Infuser.",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "steps": 3,
+  "prerequisites": [],
+  "restricted": true
+}

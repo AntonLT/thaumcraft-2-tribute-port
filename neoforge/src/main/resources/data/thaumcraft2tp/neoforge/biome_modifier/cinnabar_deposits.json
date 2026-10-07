@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#thaumcraft2tp:has_cinnabar_deposits",
+  "features": "thaumcraft2tp:cinnabar_deposits",
+  "step": "underground_ores"
+}

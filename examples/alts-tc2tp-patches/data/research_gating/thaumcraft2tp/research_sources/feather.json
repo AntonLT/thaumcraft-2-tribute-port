@@ -1,0 +1,9 @@
+{
+  "ingredient": "minecraft:feather",
+  "value": 3,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:boots_of_striding"
+  ],
+  "special_chance": 100
+}

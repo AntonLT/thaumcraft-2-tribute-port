@@ -1,0 +1,9 @@
+{
+  "ingredient": "#c:ingots/gold",
+  "value": 4,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:arcane_seal"
+  ],
+  "special_chance": 100
+}

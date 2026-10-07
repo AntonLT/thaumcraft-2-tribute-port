@@ -1,0 +1,14 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 5,
+  "research": "example:resonance",
+  "ingredients": [
+    "#example:resonant_crystals",
+    "minecraft:glass"
+  ],
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1
+  }
+}

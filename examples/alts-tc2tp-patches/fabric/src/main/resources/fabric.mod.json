@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "alts_tc2tp_patches",
+  "version": "${version}",
+  "name": "Alt's Thaumcraft 2 Tribute Port patches",
+  "description": "Balance values for TC2TP, and crucible-learned vis values shown in item tooltips.",
+  "authors": ["Alt"],
+  "license": "GPL-3.0-or-later",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.alts.tc2tppatches.fabric.AltsPatchesFabric"],
+    "client": ["dev.alts.tc2tppatches.fabric.AltsPatchesFabricClient"]
+  },
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "=${minecraft_version}",
+    "java": ">=${java_version}",
+    "thaumcraft2tp": ">=1.0.0-rc.2"
+  }
+}

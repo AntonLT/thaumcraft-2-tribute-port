@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft2tp:ice",
+    "thaumcraft2tp:venom",
+    "thaumcraft2tp:swimming",
+    "thaumcraft2tp:striding",
+    "thaumcraft2tp:vampiric",
+    "thaumcraft2tp:soulstealer",
+    "thaumcraft2tp:repair",
+    "thaumcraft2tp:relic",
+    "thaumcraft2tp:potency"
+  ]
+}

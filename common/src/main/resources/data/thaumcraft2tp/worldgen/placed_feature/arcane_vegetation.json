@@ -1,0 +1,8 @@
+{
+  "feature": "thaumcraft2tp:arcane_vegetation",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

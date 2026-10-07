@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GWG",
+    "W1W",
+    "GWG"
+  ],
+  "key": {
+    "1": "thaumcraft2tp:stabilized_singularity",
+    "G": "minecraft:glass_pane",
+    "W": "thaumcraft2tp:enchanted_wood"
+  },
+  "result": {
+    "id": "thaumcraft2tp:thaumic_generator",
+    "count": 1
+  }
+}

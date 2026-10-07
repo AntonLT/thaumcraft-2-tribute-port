@@ -1,0 +1,12 @@
+{
+  "name": "Runic Essence: Dark",
+  "name_key": "research.research_gating.runic_essence_dark.name",
+  "text": "The rune of Darkness, wrung from tainted crystal into an essence that seems to swallow the light. Set upon an Arcane Seal, it speaks one word of the seal's incantation, and what it says is rarely kind.",
+  "text_key": "research.research_gating.runic_essence_dark.text",
+  "category": "thaumcraft2tp:tainted",
+  "difficulty": 0,
+  "prerequisites": [
+    "research_gating:nitor"
+  ],
+  "restricted": false
+}

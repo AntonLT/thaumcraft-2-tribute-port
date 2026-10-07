@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " T ",
+    " RT",
+    "W  "
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "T": "thaumcraft2tp:thaumium_ingot",
+    "W": "thaumcraft2tp:enchanted_wood"
+  },
+  "result": {
+    "id": "thaumcraft2tp:arcane_tinkering_tool",
+    "count": 1
+  }
+}

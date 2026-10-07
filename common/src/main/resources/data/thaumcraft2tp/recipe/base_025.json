@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ILI",
+    "IVI",
+    "SSS"
+  ],
+  "key": {
+    "L": "minecraft:smooth_stone_slab",
+    "V": "#thaumcraft2tp:legacy/itemcrystals",
+    "I": "#c:ingots/iron",
+    "S": "minecraft:stone"
+  },
+  "result": {
+    "id": "thaumcraft2tp:thaumic_infuser",
+    "count": 1
+  }
+}

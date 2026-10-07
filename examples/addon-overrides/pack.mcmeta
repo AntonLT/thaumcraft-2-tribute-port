@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Thaumcraft research and recipe override examples",
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": [
+      101,
+      1
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+// Shared by the Fabric and NeoForge builds. Common code compiles into each loader jar; there is no common jar.
+def addonRoot = file('..')
+def addon_version = '1.0.0'
+version = addon_version
+base { archivesName = "alts_tc2tp_patches-${project.name.replace('alts-patches-', '')}-${minecraft_version}" }
+java { toolchain.languageVersion = JavaLanguageVersion.of(java_version) }
+sourceSets.main {
+    java.srcDir(new File(addonRoot, 'common/src/main/java'))
+    resources.srcDir(new File(addonRoot, 'common/src/main/resources'))
+}
+processResources {
+    // The datapack's rules ship in the jar, so the mod replaces installing the pack separately.
+    from(addonRoot) {
+        include 'data/**', 'pack.mcmeta'
+        into 'resourcepacks/patches'
+    }
+    // Client translations must live at the jar root, outside the server datapack.
+    from(addonRoot) {
+        include 'assets/**'
+    }
+    def props = [version: addon_version, minecraft_version: minecraft_version, fabric_loader_version: fabric_loader_version,
+                 neoforge_version: neoforge_version, neoforge_loader_version_range: neoforge_loader_version_range,
+                 minecraft_version_range: minecraft_version_range, java_version: java_version]
+    inputs.properties(props)
+    filesMatching(['fabric.mod.json', 'META-INF/neoforge.mods.toml']) { expand props }
+}
+tasks.named('check') { dependsOn ':common:verifyLocalization' }
+// Opt-in checks; never part of a normal jar.
+if (project.hasProperty('smokeTest')) {
+    sourceSets.main.java.srcDir(new File(addonRoot, 'common/src/smokeTest/java'))
+}
+
+// Licence notices in every jar.
+jar { from(rootProject.files('LICENSE', 'COPYING')) { rename { "${it}_${base.archivesName.get()}" } } }

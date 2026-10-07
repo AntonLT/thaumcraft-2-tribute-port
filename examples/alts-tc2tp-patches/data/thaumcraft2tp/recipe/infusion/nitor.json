@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "research": "research_gating:nitor",
+  "cost": 10,
+  "ingredients": [
+    "minecraft:glowstone_dust",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:nitor",
+    "count": 1
+  },
+  "priority": 980
+}

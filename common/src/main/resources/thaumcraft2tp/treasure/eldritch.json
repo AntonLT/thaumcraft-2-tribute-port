@@ -1,0 +1,13 @@
+{
+  "pool": "thaumcraft2tp:eldritch",
+  "fill_one_in": 6,
+  "entries": [
+    {"repeat": 100, "items": ["thaumcraft2tp:shard_of_strange_metal", "thaumcraft2tp:eldritch_mechanism"]},
+    {"repeat": 33, "items": ["thaumcraft2tp:opalescent_eye", "thaumcraft2tp:disturbing_mirror"]},
+    {"repeat": 11, "items": ["thaumcraft2tp:glowing_eldritch_device"]},
+    {"repeat": 5, "items": ["thaumcraft2tp:eldritch_repository"]},
+    {"repeat": 17, "items": [{"item": "thaumcraft2tp:seed_of_darkness", "count": {"min": 1, "max": 2}}]},
+    {"repeat": 17, "items": [{"item": "thaumcraft2tp:void_ingot", "count": {"min": 1, "max": 2}}]},
+    {"repeat": 25, "items": [{"item": "thaumcraft2tp:eldritch_stone", "count": {"min": 1, "max": 4}}]}
+  ]
+}

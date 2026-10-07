@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 100,
+  "ingredients": [
+    "minecraft:smooth_stone_slab",
+    "thaumcraft2tp:zombie_brain",
+    "thaumcraft2tp:vis_crystal"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:collected_wisdom",
+    "count": 1
+  },
+  "priority": 932,
+  "research": "thaumcraft2tp:collected_wisdom"
+}

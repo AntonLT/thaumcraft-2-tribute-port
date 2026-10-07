@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Tiefenschiefer-Zinnobererz",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Rohzinnober",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Wissensfragmente",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Vis-Wert von %s gelernt: %s"
+}

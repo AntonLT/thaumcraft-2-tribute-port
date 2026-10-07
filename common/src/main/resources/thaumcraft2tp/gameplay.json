@@ -1,0 +1,3739 @@
+{
+  "infusion": [
+    {
+      "result": {
+        "id": "thaumcraft2tp:thaumium_ingot",
+        "count": 1
+      },
+      "cost": 5,
+      "ingredients": [
+        "#thaumcraft2tp:infusion_base_crystals",
+        "#c:ingots/iron"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/thaumium_ingot"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:enchanted_fabric",
+        "count": 1
+      },
+      "cost": 25,
+      "ingredients": [
+        "#thaumcraft2tp:infusion_base_crystals",
+        "minecraft:string",
+        "#thaumcraft2tp:legacy/cloth"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/enchanted_fabric"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:enchanted_silverwood",
+        "count": 1
+      },
+      "cost": 25,
+      "ingredients": [
+        "#thaumcraft2tp:infusion_base_crystals",
+        "thaumcraft2tp:silverwood_log"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/enchanted_silverwood"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:enchanted_wood",
+        "count": 4
+      },
+      "cost": 15,
+      "ingredients": [
+        "#thaumcraft2tp:infusion_base_crystals",
+        "#thaumcraft2tp:legacy/wood"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/enchanted_wood"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:enchanted_wood",
+        "count": 5
+      },
+      "cost": 15,
+      "ingredients": [
+        "#thaumcraft2tp:infusion_base_crystals",
+        "thaumcraft2tp:greatwood_log"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/enchanted_wood_from_greatwood"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:runic_essence_magic",
+        "count": 2
+      },
+      "cost": 15,
+      "ingredients": [
+        "thaumcraft2tp:vis_crystal",
+        "#c:nuggets/gold",
+        "thaumcraft2tp:nitor"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/runic_essence_magic"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:extract_of_purest_magic",
+        "count": 1
+      },
+      "cost": 250,
+      "ingredients": [
+        "thaumcraft2tp:vis_crystal",
+        "thaumcraft2tp:shimmerleaf",
+        "minecraft:potion"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/extract_of_purest_magic"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:runic_essence_air",
+        "count": 2
+      },
+      "cost": 15,
+      "ingredients": [
+        "thaumcraft2tp:vaporous_crystal",
+        "#c:nuggets/gold",
+        "thaumcraft2tp:nitor"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/runic_essence_air"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:extract_of_lightest_air",
+        "count": 1
+      },
+      "cost": 250,
+      "ingredients": [
+        "thaumcraft2tp:vaporous_crystal",
+        "thaumcraft2tp:shimmerleaf",
+        "minecraft:potion"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/extract_of_lightest_air"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:runic_essence_water",
+        "count": 2
+      },
+      "cost": 15,
+      "ingredients": [
+        "thaumcraft2tp:aqueous_crystal",
+        "#c:nuggets/gold",
+        "thaumcraft2tp:nitor"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/runic_essence_water"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:extract_of_coolest_water",
+        "count": 1
+      },
+      "cost": 250,
+      "ingredients": [
+        "thaumcraft2tp:aqueous_crystal",
+        "thaumcraft2tp:shimmerleaf",
+        "minecraft:potion"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/extract_of_coolest_water"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:runic_essence_earth",
+        "count": 2
+      },
+      "cost": 15,
+      "ingredients": [
+        "thaumcraft2tp:earthen_crystal",
+        "#c:nuggets/gold",
+        "thaumcraft2tp:nitor"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/runic_essence_earth"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:extract_of_deepest_earth",
+        "count": 1
+      },
+      "cost": 250,
+      "ingredients": [
+        "thaumcraft2tp:earthen_crystal",
+        "thaumcraft2tp:shimmerleaf",
+        "minecraft:potion"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/extract_of_deepest_earth"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:runic_essence_fire",
+        "count": 2
+      },
+      "cost": 15,
+      "ingredients": [
+        "thaumcraft2tp:fiery_crystal",
+        "#c:nuggets/gold",
+        "thaumcraft2tp:nitor"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/runic_essence_fire"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:extract_of_warmest_fire",
+        "count": 1
+      },
+      "cost": 250,
+      "ingredients": [
+        "thaumcraft2tp:fiery_crystal",
+        "thaumcraft2tp:shimmerleaf",
+        "minecraft:potion"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/extract_of_warmest_fire"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:runic_essence_dark",
+        "count": 2
+      },
+      "cost": 15,
+      "ingredients": [
+        "thaumcraft2tp:tainted_crystal",
+        "#c:nuggets/gold",
+        "thaumcraft2tp:nitor"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/runic_essence_dark"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:extract_of_foulest_taint",
+        "count": 1
+      },
+      "cost": 250,
+      "ingredients": [
+        "thaumcraft2tp:tainted_crystal",
+        "thaumcraft2tp:shimmerleaf",
+        "minecraft:potion"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/extract_of_foulest_taint"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:arcane_seal_item",
+        "count": 1
+      },
+      "cost": 25,
+      "ingredients": [
+        "#c:ingots/gold",
+        "minecraft:redstone"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/arcane_seal_item"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:animated_piston",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:vaporous_crystal",
+        "#c:ingots/gold",
+        "minecraft:piston"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/animated_piston"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:alumentum",
+        "count": 1
+      },
+      "cost": 9,
+      "ingredients": [
+        "#thaumcraft2tp:legacy/coal",
+        "minecraft:redstone"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/alumentum"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:nitor",
+        "count": 1
+      },
+      "cost": 10,
+      "ingredients": [
+        "minecraft:glowstone_dust",
+        "minecraft:redstone"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/nitor"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:arcane_singularity",
+        "count": 1
+      },
+      "cost": 10,
+      "ingredients": [
+        "thaumcraft2tp:alumentum",
+        "thaumcraft2tp:nitor"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/arcane_singularity"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:portable_hole",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:arcane_singularity",
+        "thaumcraft2tp:enchanted_fabric",
+        "minecraft:ender_pearl"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/portable_hole"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:arcane_furnace",
+        "count": 1
+      },
+      "cost": 20,
+      "ingredients": [
+        "thaumcraft2tp:fiery_crystal",
+        "minecraft:furnace",
+        "minecraft:iron_block"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/arcane_furnace"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:vis_detector",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:vis_crystal",
+        "minecraft:compass",
+        "#c:ingots/gold"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/vis_detector"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:taint_detector",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:tainted_crystal",
+        "minecraft:compass",
+        "#c:ingots/gold"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/taint_detector"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:thaumometer",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:vis_detector",
+        "thaumcraft2tp:taint_detector",
+        "thaumcraft2tp:vaporous_crystal",
+        "thaumcraft2tp:earthen_crystal",
+        "thaumcraft2tp:aqueous_crystal",
+        "thaumcraft2tp:fiery_crystal"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/thaumometer"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:boots_of_striding",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:earthen_crystal",
+        "minecraft:leather_boots",
+        "minecraft:feather"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/boots_of_striding"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:wand_of_lightning",
+        "count": 1
+      },
+      "cost": 75,
+      "ingredients": [
+        "thaumcraft2tp:vaporous_crystal",
+        "thaumcraft2tp:enchanted_wood"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/wand_of_lightning"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:wand_of_water",
+        "count": 1
+      },
+      "cost": 75,
+      "ingredients": [
+        "thaumcraft2tp:aqueous_crystal",
+        "thaumcraft2tp:enchanted_wood"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/wand_of_water"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:wand_of_equal_trade",
+        "count": 1
+      },
+      "cost": 75,
+      "ingredients": [
+        "thaumcraft2tp:earthen_crystal",
+        "thaumcraft2tp:enchanted_wood"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/wand_of_equal_trade"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:wand_of_fire",
+        "count": 1
+      },
+      "cost": 75,
+      "ingredients": [
+        "thaumcraft2tp:fiery_crystal",
+        "thaumcraft2tp:enchanted_wood"
+      ],
+      "dark": false,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/wand_of_fire"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:soul_fragment",
+        "count": 1
+      },
+      "cost": 60,
+      "ingredients": [
+        "minecraft:soul_sand",
+        "minecraft:soul_sand",
+        "minecraft:soul_sand",
+        "minecraft:soul_sand",
+        "minecraft:soul_sand"
+      ],
+      "dark": true,
+      "research": -1,
+      "id": "thaumcraft2tp:infusion/soul_fragment"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:crucible_of_eyes",
+        "count": 1
+      },
+      "cost": 25,
+      "ingredients": [
+        "thaumcraft2tp:crucible",
+        "minecraft:spider_eye",
+        "minecraft:redstone"
+      ],
+      "dark": false,
+      "research": 3,
+      "id": "thaumcraft2tp:infusion/crucible_of_eyes"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:thaumium_crucible",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:crucible_of_eyes",
+        "thaumcraft2tp:thaumium_ingot",
+        "thaumcraft2tp:thaumium_ingot"
+      ],
+      "dark": false,
+      "research": 4,
+      "id": "thaumcraft2tp:infusion/thaumium_crucible"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:crucible_of_souls",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:crucible",
+        "minecraft:bone",
+        "minecraft:rotten_flesh",
+        "minecraft:ghast_tear",
+        "thaumcraft2tp:soul_fragment"
+      ],
+      "dark": true,
+      "research": 5,
+      "id": "thaumcraft2tp:infusion/crucible_of_souls"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:seven_league_boots",
+        "count": 1
+      },
+      "cost": 75,
+      "ingredients": [
+        "thaumcraft2tp:vaporous_crystal",
+        "#thaumcraft2tp:legacy/itembootsstriding",
+        "minecraft:feather"
+      ],
+      "dark": false,
+      "research": 6,
+      "id": "thaumcraft2tp:infusion/seven_league_boots"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:boots_of_the_meteor",
+        "count": 1
+      },
+      "cost": 100,
+      "ingredients": [
+        "thaumcraft2tp:fiery_crystal",
+        "#thaumcraft2tp:legacy/itembootsseven",
+        "minecraft:blaze_powder"
+      ],
+      "dark": false,
+      "research": 7,
+      "id": "thaumcraft2tp:infusion/boots_of_the_meteor"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:quicksilver_core",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "minecraft:smooth_stone_slab",
+        "thaumcraft2tp:quicksilver",
+        "thaumcraft2tp:vaporous_crystal"
+      ],
+      "dark": false,
+      "research": 8,
+      "id": "thaumcraft2tp:infusion/quicksilver_core"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:stabilized_singularity",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "minecraft:smooth_stone_slab",
+        "thaumcraft2tp:arcane_singularity",
+        "thaumcraft2tp:earthen_crystal"
+      ],
+      "dark": false,
+      "research": 9,
+      "id": "thaumcraft2tp:infusion/stabilized_singularity"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:harnessed_rage",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "minecraft:smooth_stone_slab",
+        "minecraft:netherrack",
+        "thaumcraft2tp:fiery_crystal"
+      ],
+      "dark": true,
+      "research": 10,
+      "id": "thaumcraft2tp:infusion/harnessed_rage"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:concentrated_evil",
+        "count": 1
+      },
+      "cost": 75,
+      "ingredients": [
+        "minecraft:smooth_stone_slab",
+        "minecraft:soul_sand",
+        "thaumcraft2tp:tainted_crystal"
+      ],
+      "dark": true,
+      "research": 11,
+      "id": "thaumcraft2tp:infusion/concentrated_evil"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:contained_emptiness",
+        "count": 1
+      },
+      "cost": 75,
+      "ingredients": [
+        "minecraft:smooth_stone_slab",
+        "#thaumcraft2tp:legacy/itemportablehole",
+        "thaumcraft2tp:depleted_crystal"
+      ],
+      "dark": false,
+      "research": 12,
+      "id": "thaumcraft2tp:infusion/contained_emptiness"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:arcane_focus_air",
+        "count": 1
+      },
+      "cost": 10,
+      "ingredients": [
+        "#thaumcraft2tp:legacy/itemfocus0",
+        "thaumcraft2tp:vaporous_crystal"
+      ],
+      "dark": false,
+      "research": 13,
+      "id": "thaumcraft2tp:infusion/arcane_focus_air"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:arcane_focus_water",
+        "count": 1
+      },
+      "cost": 10,
+      "ingredients": [
+        "#thaumcraft2tp:legacy/itemfocus0",
+        "thaumcraft2tp:aqueous_crystal"
+      ],
+      "dark": false,
+      "research": 14,
+      "id": "thaumcraft2tp:infusion/arcane_focus_water"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:arcane_focus_earth",
+        "count": 1
+      },
+      "cost": 10,
+      "ingredients": [
+        "#thaumcraft2tp:legacy/itemfocus0",
+        "thaumcraft2tp:earthen_crystal"
+      ],
+      "dark": false,
+      "research": 15,
+      "id": "thaumcraft2tp:infusion/arcane_focus_earth"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:arcane_focus_fire",
+        "count": 1
+      },
+      "cost": 10,
+      "ingredients": [
+        "#thaumcraft2tp:legacy/itemfocus0",
+        "thaumcraft2tp:fiery_crystal"
+      ],
+      "dark": false,
+      "research": 16,
+      "id": "thaumcraft2tp:infusion/arcane_focus_fire"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:brain_in_a_jar",
+        "count": 1
+      },
+      "cost": 24,
+      "ingredients": [
+        "thaumcraft2tp:zombie_brain",
+        "minecraft:glass",
+        "thaumcraft2tp:soul_fragment"
+      ],
+      "dark": true,
+      "research": 17,
+      "id": "thaumcraft2tp:infusion/brain_in_a_jar"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:totem_of_dawn",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:nitor",
+        "thaumcraft2tp:silverwood_log",
+        "thaumcraft2tp:vis_crystal"
+      ],
+      "dark": false,
+      "research": 19,
+      "id": "thaumcraft2tp:infusion/totem_of_dawn"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:totem_of_dusk",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:alumentum",
+        "thaumcraft2tp:tainted_log",
+        "thaumcraft2tp:tainted_crystal"
+      ],
+      "dark": true,
+      "research": 20,
+      "id": "thaumcraft2tp:infusion/totem_of_dusk"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:thaumic_enchanter",
+        "count": 1
+      },
+      "cost": 20,
+      "ingredients": [
+        "minecraft:enchanting_table",
+        "thaumcraft2tp:vis_conduit",
+        "thaumcraft2tp:extract_of_purest_magic"
+      ],
+      "dark": false,
+      "research": 23,
+      "id": "thaumcraft2tp:infusion/thaumic_enchanter"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:crystalline_bell",
+        "count": 1
+      },
+      "cost": 150,
+      "ingredients": [
+        "minecraft:glass",
+        "minecraft:diamond"
+      ],
+      "dark": false,
+      "research": 26,
+      "id": "thaumcraft2tp:infusion/crystalline_bell"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:charm_of_life",
+        "count": 1
+      },
+      "cost": 150,
+      "ingredients": [
+        "minecraft:ender_pearl",
+        "minecraft:green_dye"
+      ],
+      "dark": false,
+      "research": 27,
+      "id": "thaumcraft2tp:infusion/charm_of_life"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:charm_of_vigor",
+        "count": 1
+      },
+      "cost": 75,
+      "ingredients": [
+        "minecraft:golden_apple",
+        "minecraft:cod"
+      ],
+      "dark": false,
+      "research": 28,
+      "id": "thaumcraft2tp:infusion/charm_of_vigor"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:void_bracelet",
+        "count": 1
+      },
+      "cost": 200,
+      "ingredients": [
+        "thaumcraft2tp:arcane_seal_item",
+        "#c:ingots/iron",
+        "minecraft:ender_pearl",
+        "thaumcraft2tp:runic_essence_magic",
+        "thaumcraft2tp:runic_essence_air"
+      ],
+      "dark": false,
+      "research": 31,
+      "id": "thaumcraft2tp:infusion/void_bracelet"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:wand_of_reversal",
+        "count": 1
+      },
+      "cost": 50,
+      "ingredients": [
+        "thaumcraft2tp:arcane_singularity",
+        "thaumcraft2tp:enchanted_wood"
+      ],
+      "dark": false,
+      "research": 32,
+      "id": "thaumcraft2tp:infusion/wand_of_reversal"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:void_ingot",
+        "count": 1
+      },
+      "cost": 25,
+      "ingredients": [
+        "thaumcraft2tp:seed_of_darkness",
+        "thaumcraft2tp:quicksilver",
+        "#c:ingots/iron"
+      ],
+      "dark": true,
+      "research": 34,
+      "id": "thaumcraft2tp:infusion/void_ingot"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:concentrated_taint",
+        "count": 1
+      },
+      "cost": 10,
+      "ingredients": [
+        "minecraft:glass_bottle",
+        "thaumcraft2tp:congealed_taint"
+      ],
+      "dark": true,
+      "research": 39,
+      "id": "thaumcraft2tp:infusion/concentrated_taint"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:potion_of_purity",
+        "count": 1
+      },
+      "cost": 25,
+      "ingredients": [
+        "minecraft:glass_bottle",
+        "thaumcraft2tp:silverwood_leaves"
+      ],
+      "dark": false,
+      "research": 40,
+      "id": "thaumcraft2tp:infusion/potion_of_purity"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:concentrated_vis",
+        "count": 1
+      },
+      "cost": 140,
+      "ingredients": [
+        "minecraft:glass_bottle",
+        "thaumcraft2tp:vis_crystal"
+      ],
+      "dark": false,
+      "research": 41,
+      "id": "thaumcraft2tp:infusion/concentrated_vis"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:eldritch_keystone_tlhutlh",
+        "count": 1
+      },
+      "cost": 5,
+      "ingredients": [
+        "thaumcraft2tp:inert_eldritch_keystone",
+        "thaumcraft2tp:extract_of_purest_magic"
+      ],
+      "dark": false,
+      "research": 45,
+      "id": "thaumcraft2tp:infusion/eldritch_keystone_tlhutlh"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:charm_of_the_dead",
+        "count": 1
+      },
+      "cost": 150,
+      "ingredients": [
+        "thaumcraft2tp:distorted_skull",
+        "thaumcraft2tp:zombie_brain"
+      ],
+      "dark": true,
+      "research": 46,
+      "id": "thaumcraft2tp:infusion/charm_of_the_dead"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:charm_of_cleansing",
+        "count": 1
+      },
+      "cost": 100,
+      "ingredients": [
+        "#c:ingots/iron",
+        "thaumcraft2tp:cinderpearl_pod"
+      ],
+      "dark": false,
+      "research": 47,
+      "id": "thaumcraft2tp:infusion/charm_of_cleansing"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:wand_of_bone",
+        "count": 1
+      },
+      "cost": 75,
+      "ingredients": [
+        "thaumcraft2tp:tainted_crystal",
+        "minecraft:bone"
+      ],
+      "dark": true,
+      "research": 50,
+      "id": "thaumcraft2tp:infusion/wand_of_bone"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:thaumium_reinforced_tank",
+        "count": 1
+      },
+      "cost": 75,
+      "ingredients": [
+        "thaumcraft2tp:vis_storage_tank",
+        "thaumcraft2tp:thaumium_ingot"
+      ],
+      "dark": false,
+      "research": 52,
+      "id": "thaumcraft2tp:infusion/thaumium_reinforced_tank"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:charm_of_souls",
+        "count": 1
+      },
+      "cost": 150,
+      "ingredients": [
+        "thaumcraft2tp:extract_of_foulest_taint",
+        "thaumcraft2tp:soul_fragment"
+      ],
+      "dark": true,
+      "research": 61,
+      "id": "thaumcraft2tp:infusion/charm_of_souls"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:elemental_crusher",
+        "count": 1
+      },
+      "cost": 500,
+      "ingredients": [
+        "thaumcraft2tp:void_crusher",
+        "thaumcraft2tp:pickaxe_of_the_core",
+        "thaumcraft2tp:shovel_of_renewal",
+        "thaumcraft2tp:extract_of_deepest_earth",
+        "thaumcraft2tp:extract_of_warmest_fire"
+      ],
+      "dark": false,
+      "research": 63,
+      "id": "thaumcraft2tp:infusion/elemental_crusher"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:elemental_cutter",
+        "count": 1
+      },
+      "cost": 500,
+      "ingredients": [
+        "thaumcraft2tp:void_cutter",
+        "thaumcraft2tp:sword_of_the_zephyr",
+        "thaumcraft2tp:axe_of_the_stream",
+        "thaumcraft2tp:extract_of_lightest_air",
+        "thaumcraft2tp:extract_of_coolest_water"
+      ],
+      "dark": false,
+      "research": 64,
+      "id": "thaumcraft2tp:infusion/elemental_cutter"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:collected_wisdom",
+        "count": 1
+      },
+      "cost": 100,
+      "ingredients": [
+        "minecraft:smooth_stone_slab",
+        "thaumcraft2tp:zombie_brain",
+        "thaumcraft2tp:vis_crystal"
+      ],
+      "dark": false,
+      "research": 65,
+      "id": "thaumcraft2tp:infusion/collected_wisdom"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:occultic_enchanter",
+        "count": 1
+      },
+      "cost": 200,
+      "ingredients": [
+        "thaumcraft2tp:thaumic_enchanter",
+        "thaumcraft2tp:brain_in_a_jar",
+        "thaumcraft2tp:extract_of_purest_magic"
+      ],
+      "dark": false,
+      "research": 66,
+      "id": "thaumcraft2tp:infusion/occultic_enchanter"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:everfull_urn",
+        "count": 1
+      },
+      "cost": 25,
+      "ingredients": [
+        "thaumcraft2tp:aqueous_crystal",
+        "minecraft:water_bucket",
+        "minecraft:water_bucket",
+        "minecraft:brick",
+        "minecraft:brick",
+        "minecraft:brick"
+      ],
+      "dark": false,
+      "research": 68,
+      "id": "thaumcraft2tp:infusion/everfull_urn"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:dawnstone",
+        "count": 1
+      },
+      "cost": 10,
+      "ingredients": [
+        "minecraft:blaze_powder",
+        "minecraft:glowstone_dust",
+        "#c:nuggets/gold"
+      ],
+      "dark": false,
+      "research": 69,
+      "id": "thaumcraft2tp:infusion/dawnstone"
+    },
+    {
+      "result": {
+        "id": "thaumcraft2tp:flying_carpet",
+        "count": 1
+      },
+      "cost": 300,
+      "ingredients": [
+        "thaumcraft2tp:inert_carpet",
+        "thaumcraft2tp:extract_of_lightest_air"
+      ],
+      "dark": false,
+      "research": 54,
+      "id": "thaumcraft2tp:infusion/flying_carpet"
+    }
+  ],
+  "vis": [
+    {
+      "ingredient": "#thaumcraft2tp:legacy/itemvoidcompass",
+      "value": 250.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:thaumium_ingot",
+      "value": 35.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:nitor",
+      "value": 30.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:silverwood_log",
+      "value": 25.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:tainted_log",
+      "value": 10.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:greatwood_log",
+      "value": 2.5
+    },
+    {
+      "ingredient": "thaumcraft2tp:greatwood_log",
+      "value": 2.5
+    },
+    {
+      "ingredient": "thaumcraft2tp:greatwood_log",
+      "value": 2.5
+    },
+    {
+      "ingredient": "thaumcraft2tp:greatwood_log",
+      "value": 2.5
+    },
+    {
+      "ingredient": "thaumcraft2tp:greatwood_log",
+      "value": 2.5
+    },
+    {
+      "ingredient": "#thaumcraft2tp:legacy/blockcustomore",
+      "value": 16.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:quicksilver",
+      "value": 17.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:zombie_brain",
+      "value": 25.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:cinderpearl_pod",
+      "value": 9.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:seed_of_darkness",
+      "value": 16.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:congealed_taint",
+      "value": 16.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:soul_fragment",
+      "value": 16.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:vis_crystal",
+      "value": 25.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:vaporous_crystal",
+      "value": 25.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:aqueous_crystal",
+      "value": 25.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:earthen_crystal",
+      "value": 25.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:fiery_crystal",
+      "value": 25.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:tainted_crystal",
+      "value": 9.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:tainted_vis_ore",
+      "value": 9.0
+    },
+    {
+      "ingredient": "thaumcraft2tp:depleted_crystal",
+      "value": 4.0
+    },
+    {
+      "ingredient": "#thaumcraft2tp:legacy/itemtheory",
+      "value": 20.0
+    },
+    {
+      "ingredient": "#thaumcraft2tp:legacy/itemdiscovery",
+      "value": 50.0
+    },
+    {
+      "ingredient": "minecraft:stick",
+      "value": 0.25
+    },
+    {
+      "ingredient": "minecraft:clay_ball",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:clay_ball",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:brick",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:flint",
+      "value": 1.0
+    },
+    {
+      "ingredient": "#thaumcraft2tp:legacy/coal",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:snowball",
+      "value": 0.25
+    },
+    {
+      "ingredient": "minecraft:ink_sac",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:green_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:cocoa_beans",
+      "value": 25.0
+    },
+    {
+      "ingredient": "minecraft:lapis_lazuli",
+      "value": 9.0
+    },
+    {
+      "ingredient": "minecraft:iron_ingot",
+      "value": 5.0
+    },
+    {
+      "ingredient": "minecraft:wheat_seeds",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:feather",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:bone",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:melon_slice",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:cooked_beef",
+      "value": 5.0
+    },
+    {
+      "ingredient": "minecraft:beef",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:cooked_chicken",
+      "value": 5.0
+    },
+    {
+      "ingredient": "minecraft:chicken",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:cooked_porkchop",
+      "value": 5.0
+    },
+    {
+      "ingredient": "minecraft:porkchop",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:cooked_cod",
+      "value": 5.0
+    },
+    {
+      "ingredient": "minecraft:cod",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:nether_wart",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:rotten_flesh",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:string",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:leather",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:wheat",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:sugar_cane",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:gunpowder",
+      "value": 10.0
+    },
+    {
+      "ingredient": "minecraft:glowstone_dust",
+      "value": 9.0
+    },
+    {
+      "ingredient": "minecraft:redstone",
+      "value": 6.0
+    },
+    {
+      "ingredient": "minecraft:milk_bucket",
+      "value": 18.0
+    },
+    {
+      "ingredient": "minecraft:water_bucket",
+      "value": 16.0
+    },
+    {
+      "ingredient": "minecraft:lava_bucket",
+      "value": 17.0
+    },
+    {
+      "ingredient": "minecraft:egg",
+      "value": 5.0
+    },
+    {
+      "ingredient": "minecraft:gold_ingot",
+      "value": 27.0
+    },
+    {
+      "ingredient": "minecraft:gold_nugget",
+      "value": 3.0
+    },
+    {
+      "ingredient": "minecraft:slime_ball",
+      "value": 25.0
+    },
+    {
+      "ingredient": "minecraft:apple",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:diamond",
+      "value": 64.0
+    },
+    {
+      "ingredient": "minecraft:ender_pearl",
+      "value": 64.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_13",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_cat",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_11",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_cat",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_chirp",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_far",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_mall",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_mellohi",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_stal",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_strad",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:music_disc_ward",
+      "value": 100.0
+    },
+    {
+      "ingredient": "minecraft:blaze_rod",
+      "value": 36.0
+    },
+    {
+      "ingredient": "minecraft:ghast_tear",
+      "value": 64.0
+    },
+    {
+      "ingredient": "minecraft:spider_eye",
+      "value": 9.0
+    },
+    {
+      "ingredient": "minecraft:saddle",
+      "value": 64.0
+    },
+    {
+      "ingredient": "minecraft:cobblestone",
+      "value": 0.1
+    },
+    {
+      "ingredient": "#thaumcraft2tp:legacy/planks",
+      "value": 0.5
+    },
+    {
+      "ingredient": "minecraft:mossy_cobblestone",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:sand",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:sandstone",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:chiseled_sandstone",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:dirt",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:grass_block",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:glass",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:ice",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:gravel",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:stone",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:lily_pad",
+      "value": 3.0
+    },
+    {
+      "ingredient": "minecraft:cobweb",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:nether_bricks",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:nether_wart",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:end_stone",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:mossy_stone_bricks",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:cracked_stone_bricks",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:netherrack",
+      "value": 1.0
+    },
+    {
+      "ingredient": "minecraft:soul_sand",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:coal_ore",
+      "value": 2.0
+    },
+    {
+      "ingredient": "#thaumcraft2tp:legacy/cloth",
+      "value": 4.0
+    },
+    {
+      "ingredient": "#thaumcraft2tp:legacy/wood",
+      "value": 2.0
+    },
+    {
+      "ingredient": "#thaumcraft2tp:legacy/leaves",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:short_grass",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:fern",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:dead_bush",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:cactus",
+      "value": 2.0
+    },
+    {
+      "ingredient": "#thaumcraft2tp:legacy/sapling",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:mycelium",
+      "value": 3.0
+    },
+    {
+      "ingredient": "minecraft:iron_ore",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:dandelion",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:poppy",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:brown_mushroom",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:red_mushroom",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:vine",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:pumpkin",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:sugar_cane",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:redstone_ore",
+      "value": 16.0
+    },
+    {
+      "ingredient": "minecraft:lapis_ore",
+      "value": 9.0
+    },
+    {
+      "ingredient": "minecraft:gold_ore",
+      "value": 25.0
+    },
+    {
+      "ingredient": "minecraft:obsidian",
+      "value": 16.0
+    },
+    {
+      "ingredient": "minecraft:diamond_ore",
+      "value": 64.0
+    },
+    {
+      "ingredient": "minecraft:tall_grass",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:deepslate_coal_ore",
+      "value": 2.0
+    },
+    {
+      "ingredient": "minecraft:beetroot_seeds",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:melon_seeds",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:pumpkin_seeds",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:torchflower_seeds",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:white_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:orange_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:magenta_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:light_blue_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:yellow_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:lime_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:pink_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:gray_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:light_gray_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:cyan_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:purple_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:blue_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:brown_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:red_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:black_dye",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:deepslate_iron_ore",
+      "value": 4.0
+    },
+    {
+      "ingredient": "minecraft:deepslate_lapis_ore",
+      "value": 9.0
+    },
+    {
+      "ingredient": "minecraft:deepslate_redstone_ore",
+      "value": 16.0
+    },
+    {
+      "ingredient": "minecraft:deepslate_gold_ore",
+      "value": 25.0
+    },
+    {
+      "ingredient": "minecraft:nether_gold_ore",
+      "value": 25.0
+    },
+    {
+      "ingredient": "minecraft:deepslate_diamond_ore",
+      "value": 64.0
+    }
+  ],
+  "research": [
+    {
+      "index": 0,
+      "category": 0,
+      "difficulty": 2,
+      "type": 0,
+      "name": "Thaumic Restorer",
+      "text": "This device allows you to repair damage to any items placed within, or recharge certain magical items. This device requires vis to function.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_thaumic_restorer",
+      "result": {
+        "id": "thaumcraft2tp:thaumic_restorer",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:thaumic_restorer",
+      "name_key": "research.thaumcraft2tp.thaumic_restorer.name",
+      "text_key": "research.thaumcraft2tp.thaumic_restorer.text"
+    },
+    {
+      "index": 1,
+      "category": 0,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Thaumic Duplicator",
+      "text": "This device allows you to use vis to duplicate items. Only simple items or raw resources can be duplicated.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_thaumic_duplicator",
+      "result": {
+        "id": "thaumcraft2tp:thaumic_duplicator",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:thaumic_duplicator",
+      "name_key": "research.thaumcraft2tp.thaumic_duplicator.name",
+      "text_key": "research.thaumcraft2tp.thaumic_duplicator.text"
+    },
+    {
+      "index": 2,
+      "category": 0,
+      "difficulty": 2,
+      "type": 0,
+      "name": "Goggles of Revealing",
+      "text": "This marvellous eyewear duplicates all the functionality of the Thaumometer and also allows you to see things that are usually not visible to the naked eye.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_goggles_of_revealing",
+      "result": {
+        "id": "thaumcraft2tp:goggles_of_revealing",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:goggles_of_revealing",
+      "name_key": "research.thaumcraft2tp.goggles_of_revealing.name",
+      "text_key": "research.thaumcraft2tp.goggles_of_revealing.text"
+    },
+    {
+      "index": 3,
+      "category": 0,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Crucible of Eyes",
+      "text": "This crucible holds more vis and is more efficient than the basic crucible and when it is nearly full it will emit a redstone signal. ",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_crucible_of_eyes",
+      "result": {
+        "id": "thaumcraft2tp:crucible_of_eyes",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:crucible_of_eyes",
+      "name_key": "research.thaumcraft2tp.crucible_of_eyes.name",
+      "text_key": "research.thaumcraft2tp.crucible_of_eyes.text"
+    },
+    {
+      "index": 4,
+      "category": 0,
+      "difficulty": 3,
+      "type": 2,
+      "name": "Thaumium Crucible",
+      "text": "This crucible holds more vis and is more efficient than the basic crucible and when it is nearly full it will emit a redstone signal. This crucible cannot overflow and any excess items remain inside it till there is room to smelt them. ",
+      "restricted": false,
+      "prerequisites": [
+        3
+      ],
+      "discovery": "thaumcraft2tp:discovery_thaumium_crucible",
+      "result": {
+        "id": "thaumcraft2tp:thaumium_crucible",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:thaumium_crucible",
+      "name_key": "research.thaumcraft2tp.thaumium_crucible.name",
+      "text_key": "research.thaumcraft2tp.thaumium_crucible.text"
+    },
+    {
+      "index": 5,
+      "category": 1,
+      "difficulty": 4,
+      "type": 3,
+      "name": "Crucible of Souls",
+      "text": "This crucible does not burn physical objects to create vis. Instead it consumes the life force of nearby creatures and converts it into dark energy. This crucible is quite inefficient and produces a lot of tainted vis.",
+      "restricted": false,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_crucible_of_souls",
+      "result": {
+        "id": "thaumcraft2tp:crucible_of_souls",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:crucible_of_souls",
+      "name_key": "research.thaumcraft2tp.crucible_of_souls.name",
+      "text_key": "research.thaumcraft2tp.crucible_of_souls.text"
+    },
+    {
+      "index": 6,
+      "category": 0,
+      "difficulty": 3,
+      "type": 2,
+      "name": "Seven League Boots",
+      "text": "These boots allows their wearer to make impressive leaps and bounds. Holding shift while jumping reduces the jump height.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_seven_league_boots",
+      "result": {
+        "id": "thaumcraft2tp:seven_league_boots",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:seven_league_boots",
+      "name_key": "research.thaumcraft2tp.seven_league_boots.name",
+      "text_key": "research.thaumcraft2tp.seven_league_boots.text"
+    },
+    {
+      "index": 7,
+      "category": 0,
+      "difficulty": 4,
+      "type": 2,
+      "name": "Boots of the Meteor",
+      "text": "These boots allows their wearer to make impressive leaps and bounds. If shift is held while a sufficient distance from the ground, the boots will hurl themselves (and their wearer) down with considerable force, causing a shockwave of blistering heat.",
+      "restricted": false,
+      "prerequisites": [
+        6
+      ],
+      "discovery": "thaumcraft2tp:discovery_boots_of_the_meteor",
+      "result": {
+        "id": "thaumcraft2tp:boots_of_the_meteor",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:boots_of_the_meteor",
+      "name_key": "research.thaumcraft2tp.boots_of_the_meteor.name",
+      "text_key": "research.thaumcraft2tp.boots_of_the_meteor.text"
+    },
+    {
+      "index": 8,
+      "category": 0,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Quicksilver Core",
+      "text": "This upgrade increases the speed of devices or thaumic creations it is attached to.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_quicksilver_core",
+      "result": {
+        "id": "thaumcraft2tp:quicksilver_core",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:quicksilver_core",
+      "name_key": "research.thaumcraft2tp.quicksilver_core.name",
+      "text_key": "research.thaumcraft2tp.quicksilver_core.text"
+    },
+    {
+      "index": 9,
+      "category": 0,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Stabilized Singularity",
+      "text": "This upgrade increases the efficiency of any devices or thaumic creations it is attached to.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_stabilized_singularity",
+      "result": {
+        "id": "thaumcraft2tp:stabilized_singularity",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:stabilized_singularity",
+      "name_key": "research.thaumcraft2tp.stabilized_singularity.name",
+      "text_key": "research.thaumcraft2tp.stabilized_singularity.text"
+    },
+    {
+      "index": 10,
+      "category": 1,
+      "difficulty": 3,
+      "type": 3,
+      "name": "Harnessed Rage",
+      "text": "This upgrade increases damage and/or aggression of any devices or thaumic creations it is attached to.",
+      "restricted": false,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_harnessed_rage",
+      "result": {
+        "id": "thaumcraft2tp:harnessed_rage",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:harnessed_rage",
+      "name_key": "research.thaumcraft2tp.harnessed_rage.name",
+      "text_key": "research.thaumcraft2tp.harnessed_rage.text"
+    },
+    {
+      "index": 11,
+      "category": 2,
+      "difficulty": 3,
+      "type": 3,
+      "name": "Concentrated Evil",
+      "text": "This upgrade allows any devices or creations it is attached to harness or create taint or tainted products.",
+      "restricted": false,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_concentrated_evil",
+      "result": {
+        "id": "thaumcraft2tp:concentrated_evil",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:concentrated_evil",
+      "name_key": "research.thaumcraft2tp.concentrated_evil.name",
+      "text_key": "research.thaumcraft2tp.concentrated_evil.text"
+    },
+    {
+      "index": 12,
+      "category": 3,
+      "difficulty": 3,
+      "type": 2,
+      "name": "Contained Emptiness",
+      "text": "Harnessing the power of the Void, this upgrade increases the capacity of devices or thaumic creations it is attached to.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_contained_emptiness",
+      "result": {
+        "id": "thaumcraft2tp:contained_emptiness",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:contained_emptiness",
+      "name_key": "research.thaumcraft2tp.contained_emptiness.name",
+      "text_key": "research.thaumcraft2tp.contained_emptiness.text"
+    },
+    {
+      "index": 13,
+      "category": 0,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Arcane Focus: Air",
+      "text": "This arcane focus has medium range and spread, but has improved speed.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_arcane_focus_air",
+      "result": {
+        "id": "thaumcraft2tp:arcane_focus_air",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:arcane_focus_air",
+      "name_key": "research.thaumcraft2tp.arcane_focus_air.name",
+      "text_key": "research.thaumcraft2tp.arcane_focus_air.text"
+    },
+    {
+      "index": 14,
+      "category": 0,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Arcane Focus: Water",
+      "text": "This arcane focus has long range and medium spread.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_arcane_focus_water",
+      "result": {
+        "id": "thaumcraft2tp:arcane_focus_water",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:arcane_focus_water",
+      "name_key": "research.thaumcraft2tp.arcane_focus_water.name",
+      "text_key": "research.thaumcraft2tp.arcane_focus_water.text"
+    },
+    {
+      "index": 15,
+      "category": 0,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Arcane Focus: Earth",
+      "text": "This arcane focus has medium range and a wide spread.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_arcane_focus_earth",
+      "result": {
+        "id": "thaumcraft2tp:arcane_focus_earth",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:arcane_focus_earth",
+      "name_key": "research.thaumcraft2tp.arcane_focus_earth.name",
+      "text_key": "research.thaumcraft2tp.arcane_focus_earth.text"
+    },
+    {
+      "index": 16,
+      "category": 0,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Arcane Focus: Fire",
+      "text": "This arcane focus has medium range and spread, but consumes low value items to increase the efficiency of the bore.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_arcane_focus_fire",
+      "result": {
+        "id": "thaumcraft2tp:arcane_focus_fire",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:arcane_focus_fire",
+      "name_key": "research.thaumcraft2tp.arcane_focus_fire.name",
+      "text_key": "research.thaumcraft2tp.arcane_focus_fire.text"
+    },
+    {
+      "index": 17,
+      "category": 1,
+      "difficulty": 3,
+      "type": 3,
+      "name": "Brain-in-a-Jar",
+      "text": "What else can I say? It's a brain in a jar. It does occasionally whisper something useful - maybe you should use it instead of bookcases for enchanting or research...",
+      "restricted": true,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_brain_in_a_jar",
+      "result": {
+        "id": "thaumcraft2tp:brain_in_a_jar",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:brain_in_a_jar",
+      "name_key": "research.thaumcraft2tp.brain_in_a_jar.name",
+      "text_key": "research.thaumcraft2tp.brain_in_a_jar.text"
+    },
+    {
+      "index": 18,
+      "category": 2,
+      "difficulty": 5,
+      "type": 0,
+      "name": "Vis Purifier",
+      "text": "Having learnt something of the nature of Taint, you are now able to build the Purifier. It functions in a similar manner to the Filter, except some of the tainted vis passing through it is simply destroyed instead of being pumped into the air.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_vis_purifier",
+      "result": {
+        "id": "thaumcraft2tp:vis_purifier",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:vis_purifier",
+      "name_key": "research.thaumcraft2tp.vis_purifier.name",
+      "text_key": "research.thaumcraft2tp.vis_purifier.text"
+    },
+    {
+      "index": 19,
+      "category": 2,
+      "difficulty": 3,
+      "type": 2,
+      "name": "Totem of Dawn",
+      "text": "This totem fills the air with good vibes and positive energy. It probably does the local aura a world of good. It also prevents Tainted ground from forming near it.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_totem_of_dawn",
+      "result": {
+        "id": "thaumcraft2tp:totem_of_dawn",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:totem_of_dawn",
+      "name_key": "research.thaumcraft2tp.totem_of_dawn.name",
+      "text_key": "research.thaumcraft2tp.totem_of_dawn.text"
+    },
+    {
+      "index": 20,
+      "category": 2,
+      "difficulty": 3,
+      "type": 3,
+      "name": "Totem of Dusk",
+      "text": "This totem fills the air with sinister vibes and dark, twisted magic. You're not sure what it is doing to the local aura, but you doubt it is good.",
+      "restricted": false,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_totem_of_dusk",
+      "result": {
+        "id": "thaumcraft2tp:totem_of_dusk",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:totem_of_dusk",
+      "name_key": "research.thaumcraft2tp.totem_of_dusk.name",
+      "text_key": "research.thaumcraft2tp.totem_of_dusk.text"
+    },
+    {
+      "index": 21,
+      "category": 0,
+      "difficulty": 2,
+      "type": 0,
+      "name": "Traveling Trunk",
+      "text": "This magical chest follows you around wherever you go. As long as you keep it fed (or keep food in it's inventory) it should remain healthy and strong. It's a bit noisy and clumsy, but at least it's fireproof.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_traveling_trunk",
+      "result": {
+        "id": "thaumcraft2tp:traveling_trunk",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:traveling_trunk",
+      "name_key": "research.thaumcraft2tp.traveling_trunk.name",
+      "text_key": "research.thaumcraft2tp.traveling_trunk.text"
+    },
+    {
+      "index": 22,
+      "category": 0,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Thaumic Generator",
+      "text": "This device converts vis into pure energy usable by many devices. It generates Industrialcraft EU, RedPower Blutricity and BuildCraft MJ.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_thaumic_generator",
+      "result": {
+        "id": "thaumcraft2tp:thaumic_generator",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:thaumic_generator",
+      "name_key": "research.thaumcraft2tp.thaumic_generator.name",
+      "text_key": "research.thaumcraft2tp.thaumic_generator.text"
+    },
+    {
+      "index": 23,
+      "category": 0,
+      "difficulty": 3,
+      "type": 2,
+      "name": "Thaumic Enchanter",
+      "text": "This arcane device works exactly like a normal enchantment table, except that it requires vis instead of character levels. ",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_thaumic_enchanter",
+      "result": {
+        "id": "thaumcraft2tp:thaumic_enchanter",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:thaumic_enchanter",
+      "name_key": "research.thaumcraft2tp.thaumic_enchanter.name",
+      "text_key": "research.thaumcraft2tp.thaumic_enchanter.text"
+    },
+    {
+      "index": 24,
+      "category": 0,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Thaumic Crystalizer",
+      "text": "This arcane device can convert liquid vis back into vis crystals by re-energizing depleted crystals. The type of crystals produced are semi-random (influenced by the surroundings). It can also transform existing crystals into different types.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_thaumic_crystalizer",
+      "result": {
+        "id": "thaumcraft2tp:thaumic_crystalizer",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:thaumic_crystalizer",
+      "name_key": "research.thaumcraft2tp.thaumic_crystalizer.name",
+      "text_key": "research.thaumcraft2tp.thaumic_crystalizer.text"
+    },
+    {
+      "index": 25,
+      "category": 3,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Void Chest",
+      "text": "This mysterious container seems to be much bigger on the inside. What is more, it's top seems like it should have something connected to it...",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_void_chest",
+      "result": {
+        "id": "thaumcraft2tp:void_chest",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:void_chest",
+      "name_key": "research.thaumcraft2tp.void_chest.name",
+      "text_key": "research.thaumcraft2tp.void_chest.text"
+    },
+    {
+      "index": 26,
+      "category": 0,
+      "difficulty": 4,
+      "type": 2,
+      "name": "Crystalline Bell",
+      "text": "This bell seems to resonate with vis crystals. You suspect it could be used to retrieve individual crystals from a cluster. It cannot harvest the last remaining crystal in a cluster.",
+      "restricted": true,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_crystalline_bell",
+      "result": {
+        "id": "thaumcraft2tp:crystalline_bell",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:crystalline_bell",
+      "name_key": "research.thaumcraft2tp.crystalline_bell.name",
+      "text_key": "research.thaumcraft2tp.crystalline_bell.text"
+    },
+    {
+      "index": 27,
+      "category": 0,
+      "difficulty": 4,
+      "type": 2,
+      "name": "Charm of Life",
+      "text": "If this charm is kept on your person it will continually regenerate your health. Keep in mind that it can wear out and will be destroyed if overused.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_charm_of_life",
+      "result": {
+        "id": "thaumcraft2tp:charm_of_life",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:charm_of_life",
+      "name_key": "research.thaumcraft2tp.charm_of_life.name",
+      "text_key": "research.thaumcraft2tp.charm_of_life.text"
+    },
+    {
+      "index": 28,
+      "category": 0,
+      "difficulty": 4,
+      "type": 2,
+      "name": "Charm of Vigor",
+      "text": "If this charm is kept on your person it will keep you fed and protect you from drowning. Keep in mind that it can wear out and will be destroyed if overused.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_charm_of_vigor",
+      "result": {
+        "id": "thaumcraft2tp:charm_of_vigor",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:charm_of_vigor",
+      "name_key": "research.thaumcraft2tp.charm_of_vigor.name",
+      "text_key": "research.thaumcraft2tp.charm_of_vigor.text"
+    },
+    {
+      "index": 29,
+      "category": 0,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Sword of the Zephyr",
+      "text": "This enchanted Thaumium sword is able to call upon the powers of the wind to summon lightning amongst groups of enemies, pull your enemies towards you or even grant the power of flight!",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_sword_of_the_zephyr",
+      "result": {
+        "id": "thaumcraft2tp:sword_of_the_zephyr",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:sword_of_the_zephyr",
+      "name_key": "research.thaumcraft2tp.sword_of_the_zephyr.name",
+      "text_key": "research.thaumcraft2tp.sword_of_the_zephyr.text"
+    },
+    {
+      "index": 30,
+      "category": 0,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Axe of the Stream",
+      "text": "This enchanted Thaumium axe makes short work of anything crafted from wood. Holding shift supresses this power. While right-click is held loose items will flow towards you.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_axe_of_the_stream",
+      "result": {
+        "id": "thaumcraft2tp:axe_of_the_stream",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:axe_of_the_stream",
+      "name_key": "research.thaumcraft2tp.axe_of_the_stream.name",
+      "text_key": "research.thaumcraft2tp.axe_of_the_stream.text"
+    },
+    {
+      "index": 31,
+      "category": 3,
+      "difficulty": 5,
+      "type": 2,
+      "name": "Void Bracelet",
+      "text": "This bracelet allows you to travel to a random Void Portal. To link to a different network simply click on a Void Portal Seal.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_void_bracelet",
+      "result": {
+        "id": "thaumcraft2tp:void_bracelet",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:void_bracelet",
+      "name_key": "research.thaumcraft2tp.void_bracelet.name",
+      "text_key": "research.thaumcraft2tp.void_bracelet.text"
+    },
+    {
+      "index": 32,
+      "category": 0,
+      "difficulty": 4,
+      "type": 2,
+      "name": "Wand of Reversal",
+      "text": "Turn back the hands of time with this mystical wand. This wand allows you to retrieve runic essences and upgrades once they have been placed, though success isn't guaranteed. It can also be used to retrieve animated chests.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_wand_of_reversal",
+      "result": {
+        "id": "thaumcraft2tp:wand_of_reversal",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:wand_of_reversal",
+      "name_key": "research.thaumcraft2tp.wand_of_reversal.name",
+      "text_key": "research.thaumcraft2tp.wand_of_reversal.text"
+    },
+    {
+      "index": 33,
+      "category": 3,
+      "difficulty": 5,
+      "type": 0,
+      "name": "Void Interface",
+      "text": "This device seems to be designed to attach on top of a Void Chest. It allows you to link other Void Chests with this attachment into one of six networks of shared inventories.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_void_interface",
+      "result": {
+        "id": "thaumcraft2tp:void_interface",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:void_interface",
+      "name_key": "research.thaumcraft2tp.void_interface.name",
+      "text_key": "research.thaumcraft2tp.void_interface.text"
+    },
+    {
+      "index": 34,
+      "category": 3,
+      "difficulty": 2,
+      "type": 3,
+      "name": "Void Ingot",
+      "text": "This strange, dark metal seems to suck in the light around it. You can also create simple armor from these ingots that has similar properties to diamond armor, but is more durable and easier to enchant. You can't craft tools... yet.",
+      "restricted": false,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_void_ingot",
+      "result": {
+        "id": "thaumcraft2tp:void_ingot",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:void_ingot",
+      "name_key": "research.thaumcraft2tp.void_ingot.name",
+      "text_key": "research.thaumcraft2tp.void_ingot.text"
+    },
+    {
+      "index": 35,
+      "category": 3,
+      "difficulty": 1,
+      "type": 1,
+      "name": "Eldritch Stone",
+      "text": "This stone has the same appearance as that which makes up the bulk of a monoliths structure, but you are not quite able to duplicate it's indestructability.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_eldritch_stone",
+      "result": {
+        "id": "thaumcraft2tp:eldritch_stone",
+        "count": 4
+      },
+      "id": "thaumcraft2tp:eldritch_stone",
+      "name_key": "research.thaumcraft2tp.eldritch_stone.name",
+      "text_key": "research.thaumcraft2tp.eldritch_stone.text"
+    },
+    {
+      "index": 36,
+      "category": 0,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Pickaxe of the Core",
+      "text": "This magical pickaxe smolders with inner heat. Any materials harvested is automatically smelted as if by a furnace. Holding shift supressed this power. You can also use it to create a small wisp that will guide you to the most valuable item it can find nearby.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_pickaxe_of_the_core",
+      "result": {
+        "id": "thaumcraft2tp:pickaxe_of_the_core",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:pickaxe_of_the_core",
+      "name_key": "research.thaumcraft2tp.pickaxe_of_the_core.name",
+      "text_key": "research.thaumcraft2tp.pickaxe_of_the_core.text"
+    },
+    {
+      "index": 37,
+      "category": 1,
+      "difficulty": 2,
+      "type": 0,
+      "name": "Dark Infuser",
+      "text": "The Dark Infuser works similarly to the normal Infuser, except it is used to create objects of a more malevolent nature. It's speed is determined by the phase of the moon and it requires some tainted vis in addition to pure vis. ",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_dark_infuser",
+      "result": {
+        "id": "thaumcraft2tp:dark_infuser",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:dark_infuser",
+      "name_key": "research.thaumcraft2tp.dark_infuser.name",
+      "text_key": "research.thaumcraft2tp.dark_infuser.text"
+    },
+    {
+      "index": 38,
+      "category": 3,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Darkness Generator",
+      "text": "This strange device seems to be able to draw energy from a nearby Monolith and somehow shape it into liquid darkness. These drops of darkness only form around seeds. Light (even moonlight) slows it's operation.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_darkness_generator",
+      "result": {
+        "id": "thaumcraft2tp:darkness_generator",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:darkness_generator",
+      "name_key": "research.thaumcraft2tp.darkness_generator.name",
+      "text_key": "research.thaumcraft2tp.darkness_generator.text"
+    },
+    {
+      "index": 39,
+      "category": 2,
+      "difficulty": 3,
+      "type": 3,
+      "name": "Concentrated Taint",
+      "text": "This foul liquid must be handled with great care. Dropping it will cause Taint to spread in the area. Fortunately it does no lasting harm to the local aura unless you soak the area in it. Why would you do that?",
+      "restricted": false,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_concentrated_taint",
+      "result": {
+        "id": "thaumcraft2tp:concentrated_taint",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:concentrated_taint",
+      "name_key": "research.thaumcraft2tp.concentrated_taint.name",
+      "text_key": "research.thaumcraft2tp.concentrated_taint.text"
+    },
+    {
+      "index": 40,
+      "category": 2,
+      "difficulty": 3,
+      "type": 2,
+      "name": "Potion of Purity",
+      "text": "This glowing liquid burns away Taint on contact and returns it to its natural state. Unfortunately it has only a limited positive effect on the local aura so the Taint may return.",
+      "restricted": false,
+      "prerequisites": [
+        18
+      ],
+      "discovery": "thaumcraft2tp:discovery_potion_of_purity",
+      "result": {
+        "id": "thaumcraft2tp:potion_of_purity",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:potion_of_purity",
+      "name_key": "research.thaumcraft2tp.potion_of_purity.name",
+      "text_key": "research.thaumcraft2tp.potion_of_purity.text"
+    },
+    {
+      "index": 41,
+      "category": 0,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Concentrated Vis",
+      "text": "This unstable liquid is a highly concentrated form of Vis. It will evaporate rapidly on exposure to open air, but fortunately almost all of it will seep into the aura.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_concentrated_vis",
+      "result": {
+        "id": "thaumcraft2tp:concentrated_vis",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:concentrated_vis",
+      "name_key": "research.thaumcraft2tp.concentrated_vis.name",
+      "text_key": "research.thaumcraft2tp.concentrated_vis.text"
+    },
+    {
+      "index": 42,
+      "category": 2,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Advanced Vis Valve",
+      "text": "Unlike the normal valve conduit, this valve has three possible settings: Closed (dark), only let vis pass (light blue), and only let taint pass (dark purple).",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_advanced_vis_valve",
+      "result": {
+        "id": "thaumcraft2tp:advanced_vis_valve",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:advanced_vis_valve",
+      "name_key": "research.thaumcraft2tp.advanced_vis_valve.name",
+      "text_key": "research.thaumcraft2tp.advanced_vis_valve.text"
+    },
+    {
+      "index": 43,
+      "category": 3,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Eldritch Mechanism",
+      "text": "These strange mechanism are useful for many of the eldritch devices that can be found in the monoliths. They are also good sources of knowledge to learn more about this strange and arcane technology.",
+      "restricted": false,
+      "prerequisites": [
+        34
+      ],
+      "discovery": "thaumcraft2tp:discovery_eldritch_mechanism",
+      "result": {
+        "id": "thaumcraft2tp:eldritch_mechanism",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:eldritch_mechanism",
+      "name_key": "research.thaumcraft2tp.eldritch_mechanism.name",
+      "text_key": "research.thaumcraft2tp.eldritch_mechanism.text"
+    },
+    {
+      "index": 44,
+      "category": 3,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Inert Eldritch Keystone",
+      "text": "This mechanism looks like it would fit into the slots you have found in the monolith chamber walls. Unfortunately it is inert. You might need to research it further to discover the different ways it can be activated.",
+      "restricted": false,
+      "prerequisites": [
+        43
+      ],
+      "discovery": "thaumcraft2tp:discovery_inert_eldritch_keystone",
+      "result": {
+        "id": "thaumcraft2tp:inert_eldritch_keystone",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:inert_eldritch_keystone",
+      "name_key": "research.thaumcraft2tp.inert_eldritch_keystone.name",
+      "text_key": "research.thaumcraft2tp.inert_eldritch_keystone.text"
+    },
+    {
+      "index": 45,
+      "category": 3,
+      "difficulty": 4,
+      "type": 2,
+      "name": "Eldritch Keystone: Tlhutlh",
+      "text": "This mechanism looks like it would fit into the slots you have found in the monolith chamber walls. It is crackling with energy and seems ready to perform whatever task it was designed for.",
+      "restricted": true,
+      "prerequisites": [
+        44
+      ],
+      "discovery": "thaumcraft2tp:discovery_eldritch_keystone_tlhutlh",
+      "result": {
+        "id": "thaumcraft2tp:eldritch_keystone_tlhutlh",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:eldritch_keystone_tlhutlh",
+      "name_key": "research.thaumcraft2tp.eldritch_keystone_tlhutlh.name",
+      "text_key": "research.thaumcraft2tp.eldritch_keystone_tlhutlh.text"
+    },
+    {
+      "index": 46,
+      "category": 1,
+      "difficulty": 4,
+      "type": 3,
+      "name": "Charm of the Dead",
+      "text": "This foreboding charm warps the mind of undead creatures, making them ignore you and turn on their fellows. Keep in mind that it can wear out and will be destroyed if overused.",
+      "restricted": false,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_charm_of_the_dead",
+      "result": {
+        "id": "thaumcraft2tp:charm_of_the_dead",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:charm_of_the_dead",
+      "name_key": "research.thaumcraft2tp.charm_of_the_dead.name",
+      "text_key": "research.thaumcraft2tp.charm_of_the_dead.text"
+    },
+    {
+      "index": 47,
+      "category": 0,
+      "difficulty": 3,
+      "type": 2,
+      "name": "Charm of Cleansing",
+      "text": "This protective charm cures you of harmful effects like poison and douses you if you are on fire. It does not protect you from direct fire damage. Keep in mind that it can wear out and will be destroyed if overused.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_charm_of_cleansing",
+      "result": {
+        "id": "thaumcraft2tp:charm_of_cleansing",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:charm_of_cleansing",
+      "name_key": "research.thaumcraft2tp.charm_of_cleansing.name",
+      "text_key": "research.thaumcraft2tp.charm_of_cleansing.text"
+    },
+    {
+      "index": 48,
+      "category": 3,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Void Crusher",
+      "text": "This versatile tool crafted from void metal is able to crush rock, dirt or even stranger materials. It is not a bad weapon either and will knock back any foes you attack. ",
+      "restricted": false,
+      "prerequisites": [
+        34,
+        43
+      ],
+      "discovery": "thaumcraft2tp:discovery_void_crusher",
+      "result": {
+        "id": "thaumcraft2tp:void_crusher",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:void_crusher",
+      "name_key": "research.thaumcraft2tp.void_crusher.name",
+      "text_key": "research.thaumcraft2tp.void_crusher.text"
+    },
+    {
+      "index": 49,
+      "category": 3,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Void Cutter",
+      "text": "This preternaturally sharp weapon cuts through flesh and wood with equal ease. Any foes cut by the blade are left in a weakened state as its eldritch energies saps their strength.",
+      "restricted": false,
+      "prerequisites": [
+        34,
+        43
+      ],
+      "discovery": "thaumcraft2tp:discovery_void_cutter",
+      "result": {
+        "id": "thaumcraft2tp:void_cutter",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:void_cutter",
+      "name_key": "research.thaumcraft2tp.void_cutter.name",
+      "text_key": "research.thaumcraft2tp.void_cutter.text"
+    },
+    {
+      "index": 50,
+      "category": 1,
+      "difficulty": 3,
+      "type": 3,
+      "name": "Wand of Bone",
+      "text": "This wand summons a skeletal archer that will attack nearby enemies. The undead minion will not follow you and will dissapear after a minute.",
+      "restricted": false,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_wand_of_bone",
+      "result": {
+        "id": "thaumcraft2tp:wand_of_bone",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:wand_of_bone",
+      "name_key": "research.thaumcraft2tp.wand_of_bone.name",
+      "text_key": "research.thaumcraft2tp.wand_of_bone.text"
+    },
+    {
+      "index": 51,
+      "category": 0,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Shovel of Renewal",
+      "text": "The enchanted shovel is capable of removing large sections of earth and sand. Holding shift supresses this power. It is also extremely effective at removing tainted ground. If right-clicked it will encourage plants to grow.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_shovel_of_renewal",
+      "result": {
+        "id": "thaumcraft2tp:shovel_of_renewal",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:shovel_of_renewal",
+      "name_key": "research.thaumcraft2tp.shovel_of_renewal.name",
+      "text_key": "research.thaumcraft2tp.shovel_of_renewal.text"
+    },
+    {
+      "index": 52,
+      "category": 2,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Thaumium Reinforced Tank",
+      "text": "The Thaumium Reinforced Tank can hold twice as much vis and taint as the normal tank and is also much more resistant to the negative effects of storing large amounts of taint.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_thaumium_reinforced_tank",
+      "result": {
+        "id": "thaumcraft2tp:thaumium_reinforced_tank",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:thaumium_reinforced_tank",
+      "name_key": "research.thaumcraft2tp.thaumium_reinforced_tank.name",
+      "text_key": "research.thaumcraft2tp.thaumium_reinforced_tank.text"
+    },
+    {
+      "index": 53,
+      "category": 1,
+      "difficulty": 4,
+      "type": 0,
+      "name": "Mask of Cruelty",
+      "text": "This sinister mask hexes any living creature you look at directly. The exact effects vary, but it can cause pain, debilitating weakness or even death if you focus you gaze long enough.",
+      "restricted": false,
+      "prerequisites": [
+        20
+      ],
+      "discovery": "thaumcraft2tp:discovery_mask_of_cruelty",
+      "result": {
+        "id": "thaumcraft2tp:mask_of_cruelty",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:mask_of_cruelty",
+      "name_key": "research.thaumcraft2tp.mask_of_cruelty.name",
+      "text_key": "research.thaumcraft2tp.mask_of_cruelty.text"
+    },
+    {
+      "index": 54,
+      "category": 0,
+      "difficulty": 5,
+      "type": 0,
+      "name": "Inert Carpet",
+      "text": "This magical carpet will allow you to soar through the air like a bird. Currently it is inert and you must first infuse it with an Extract of Lightest Air to charge it. Its magic will not last forever and it will need to be recharged.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_inert_carpet",
+      "result": {
+        "id": "thaumcraft2tp:inert_carpet",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:inert_carpet",
+      "name_key": "research.thaumcraft2tp.inert_carpet.name",
+      "text_key": "research.thaumcraft2tp.inert_carpet.text"
+    },
+    {
+      "index": 55,
+      "category": 0,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Hoe of the Mystic",
+      "text": "This mystical hoe is capable of tilling or harvesting a large field at once. Holding shift supresses this power.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_hoe_of_the_mystic",
+      "result": {
+        "id": "thaumcraft2tp:hoe_of_the_mystic",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:hoe_of_the_mystic",
+      "name_key": "research.thaumcraft2tp.hoe_of_the_mystic.name",
+      "text_key": "research.thaumcraft2tp.hoe_of_the_mystic.text"
+    },
+    {
+      "index": 56,
+      "category": 1,
+      "difficulty": 3,
+      "type": 0,
+      "name": "Bow of Bone",
+      "text": "This dread bow is crafted from the bones of fallen undead. Its light construction allows it to fire faster than a normal bow and occasionally living foes felled by its arrows rise as undead themselves.",
+      "restricted": false,
+      "prerequisites": [
+        50
+      ],
+      "discovery": "thaumcraft2tp:discovery_bow_of_bone",
+      "result": {
+        "id": "thaumcraft2tp:bow_of_bone",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:bow_of_bone",
+      "name_key": "research.thaumcraft2tp.bow_of_bone.name",
+      "text_key": "research.thaumcraft2tp.bow_of_bone.text"
+    },
+    {
+      "index": 57,
+      "category": 1,
+      "difficulty": 2,
+      "type": 4,
+      "name": "Vampiric",
+      "text": "Weapons imbued with this enchantment have a chance to drain some of the life energy out of struck foes to heal your wounds. The higher the level of the enchant, the greater the chance for the effect to trigger.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_vampiric",
+      "result": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:vampiric",
+      "name_key": "research.thaumcraft2tp.vampiric.name",
+      "text_key": "research.thaumcraft2tp.vampiric.text"
+    },
+    {
+      "index": 58,
+      "category": 1,
+      "difficulty": 2,
+      "type": 4,
+      "name": "Soulstealer",
+      "text": "Weapons with this enchantment causes the attacked creature's spirit to be trapped in the mortal realm. If the creature is slain there is a chance the spirit will remain behind as a soul fragment. The chance of this occurring depends on the level of the enchantment and the lifeforce of the creature attacked. Soul fragments have various uses in dark magic.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_soulstealer",
+      "result": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:soulstealer",
+      "name_key": "research.thaumcraft2tp.soulstealer.name",
+      "text_key": "research.thaumcraft2tp.soulstealer.text"
+    },
+    {
+      "index": 59,
+      "category": 0,
+      "difficulty": 2,
+      "type": 4,
+      "name": "Self Repair",
+      "text": "Items imbued with this enchantment will slowly repair themselves over time. The mystical energy required for this enchantment is drawn directly out of the local aura.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_self_repair",
+      "result": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:self_repair",
+      "name_key": "research.thaumcraft2tp.self_repair.name",
+      "text_key": "research.thaumcraft2tp.self_repair.text"
+    },
+    {
+      "index": 60,
+      "category": 0,
+      "difficulty": 2,
+      "type": 4,
+      "name": "Relic Hunter",
+      "text": "This enchantment has a small chance of revealing an artifact when you slay a foe with a weapon bearing it. Higher levels of the enchantment increases both the occurance and quality of the artifacts found.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_relic_hunter",
+      "result": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:relic_hunter",
+      "name_key": "research.thaumcraft2tp.relic_hunter.name",
+      "text_key": "research.thaumcraft2tp.relic_hunter.text"
+    },
+    {
+      "index": 61,
+      "category": 1,
+      "difficulty": 4,
+      "type": 3,
+      "name": "Charm of Souls",
+      "text": "This charm absorbs any experience orbs that foes drop and converts them into Soul Fragments.",
+      "restricted": false,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_charm_of_souls",
+      "result": {
+        "id": "thaumcraft2tp:charm_of_souls",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:charm_of_souls",
+      "name_key": "research.thaumcraft2tp.charm_of_souls.name",
+      "text_key": "research.thaumcraft2tp.charm_of_souls.text"
+    },
+    {
+      "index": 62,
+      "category": 1,
+      "difficulty": 4,
+      "type": 0,
+      "name": "Brazier of Souls",
+      "text": "Ever wanted to read your Thaumonomicon by the light of burning souls? Here is your chance! The tormented glow of the souls also seems to draw vis and taint from surrounding chunks to raise the levels of the chunk the brazier is placed in.",
+      "restricted": false,
+      "prerequisites": [
+        37
+      ],
+      "discovery": "thaumcraft2tp:discovery_brazier_of_souls",
+      "result": {
+        "id": "thaumcraft2tp:brazier_of_souls",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:brazier_of_souls",
+      "name_key": "research.thaumcraft2tp.brazier_of_souls.name",
+      "text_key": "research.thaumcraft2tp.brazier_of_souls.text"
+    },
+    {
+      "index": 63,
+      "category": 0,
+      "difficulty": 5,
+      "type": 2,
+      "name": "Elemental Crusher",
+      "text": "Combining the raw elemental power of the Pick of the Core and the Shovel of Renewal with the versatility of the Void Crusher, this tool shatters earth and stone with frightening speed and efficiency.",
+      "restricted": false,
+      "prerequisites": [
+        48,
+        51,
+        36
+      ],
+      "discovery": "thaumcraft2tp:discovery_elemental_crusher",
+      "result": {
+        "id": "thaumcraft2tp:elemental_crusher",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:elemental_crusher",
+      "name_key": "research.thaumcraft2tp.elemental_crusher.name",
+      "text_key": "research.thaumcraft2tp.elemental_crusher.text"
+    },
+    {
+      "index": 64,
+      "category": 0,
+      "difficulty": 5,
+      "type": 2,
+      "name": "Elemental Cutter",
+      "text": "Combining the speed of the Axe of the Stream, the elemental fury of the Sword of the Zephyr, and the versatility of the Void Cutter, this weapon cuts a swathe through both wood and bone. No enemy or item can escape your grasp while you hold this blade.",
+      "restricted": false,
+      "prerequisites": [
+        49,
+        29,
+        30
+      ],
+      "discovery": "thaumcraft2tp:discovery_elemental_cutter",
+      "result": {
+        "id": "thaumcraft2tp:elemental_cutter",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:elemental_cutter",
+      "name_key": "research.thaumcraft2tp.elemental_cutter.name",
+      "text_key": "research.thaumcraft2tp.elemental_cutter.text"
+    },
+    {
+      "index": 65,
+      "category": 0,
+      "difficulty": 4,
+      "type": 2,
+      "name": "Collected Wisdom",
+      "text": "This upgrade allows thaumic devices like enchanters to impart more knowledge or magical effects.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_collected_wisdom",
+      "result": {
+        "id": "thaumcraft2tp:collected_wisdom",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:collected_wisdom",
+      "name_key": "research.thaumcraft2tp.collected_wisdom.name",
+      "text_key": "research.thaumcraft2tp.collected_wisdom.text"
+    },
+    {
+      "index": 66,
+      "category": 1,
+      "difficulty": 4,
+      "type": 2,
+      "name": "Occultic Enchanter",
+      "text": "Enchanting with Vis is fine and well, but how can you trust this rare resource to the fickle whims of fate? Far better to intrust it to a sinister, disembodied brain floating in foul liquid. Besides, it whispers such wonderful secrets...",
+      "restricted": false,
+      "prerequisites": [
+        17,
+        23
+      ],
+      "discovery": "thaumcraft2tp:discovery_occultic_enchanter",
+      "result": {
+        "id": "thaumcraft2tp:occultic_enchanter",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:occultic_enchanter",
+      "name_key": "research.thaumcraft2tp.occultic_enchanter.name",
+      "text_key": "research.thaumcraft2tp.occultic_enchanter.text"
+    },
+    {
+      "index": 67,
+      "category": 0,
+      "difficulty": 3,
+      "type": 4,
+      "name": "Potency",
+      "text": "This enchantment enhances the effect of certain magical items like wands. It boosts things like damage, range, area of effect or number of blocks effected. The exact attribute it boosts varies from item to item.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_potency",
+      "result": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:potency",
+      "name_key": "research.thaumcraft2tp.potency.name",
+      "text_key": "research.thaumcraft2tp.potency.text"
+    },
+    {
+      "index": 68,
+      "category": 0,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Everfull Urn",
+      "text": "A small fountain of pure water always flows from the top of this urn, making it a perfect water source to fill your buckets, bottles or other liquid containers. Filling from it does cause a tiny amount of taint charge.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_everfull_urn",
+      "result": {
+        "id": "thaumcraft2tp:everfull_urn",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:everfull_urn",
+      "name_key": "research.thaumcraft2tp.everfull_urn.name",
+      "text_key": "research.thaumcraft2tp.everfull_urn.text"
+    },
+    {
+      "index": 69,
+      "category": 0,
+      "difficulty": 2,
+      "type": 2,
+      "name": "Dawnstone",
+      "text": "When broken after midday, this small glowing stone is able to speed up the passage of time until the next dawn.",
+      "restricted": false,
+      "prerequisites": [],
+      "discovery": "thaumcraft2tp:discovery_dawnstone",
+      "result": {
+        "id": "thaumcraft2tp:dawnstone",
+        "count": 1
+      },
+      "id": "thaumcraft2tp:dawnstone",
+      "name_key": "research.thaumcraft2tp.dawnstone.name",
+      "text_key": "research.thaumcraft2tp.dawnstone.text"
+    }
+  ],
+  "research_items": [
+    {
+      "ingredient": "thaumcraft2tp:inert_eldritch_keystone",
+      "value": 25,
+      "category": 3,
+      "special": [
+        45
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:void_crusher",
+      "value": 15,
+      "category": 3,
+      "special": [
+        48,
+        34,
+        43
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:void_cutter",
+      "value": 15,
+      "category": 3,
+      "special": [
+        49,
+        34,
+        43
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:fragment_of_lost_knowledge",
+      "value": 10,
+      "category": 0,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:fragment_of_forbidden_knowledge",
+      "value": 10,
+      "category": 1,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:fragment_of_tainted_knowledge",
+      "value": 10,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:fragment_of_eldritch_knowledge",
+      "value": 10,
+      "category": 3,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:arcane_tinkering_tool",
+      "value": 6,
+      "category": 0,
+      "special": [
+        0,
+        1,
+        26
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:arcane_focus",
+      "value": -1,
+      "category": 0,
+      "special": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:arcane_focus_air",
+      "value": 6,
+      "category": 0,
+      "special": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:arcane_focus_water",
+      "value": 6,
+      "category": 0,
+      "special": [
+        13,
+        15,
+        16
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:arcane_focus_earth",
+      "value": 6,
+      "category": 0,
+      "special": [
+        13,
+        14,
+        16
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:arcane_focus_fire",
+      "value": 6,
+      "category": 0,
+      "special": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:quicksilver",
+      "value": -1,
+      "category": -1,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:zombie_brain",
+      "value": 20,
+      "category": 1,
+      "special": [
+        17,
+        66,
+        65
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:cinderpearl_pod",
+      "value": -1,
+      "category": 0,
+      "special": [
+        47
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:enchanted_wood",
+      "value": -1,
+      "category": 0,
+      "special": [
+        21
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:seed_of_darkness",
+      "value": -1,
+      "category": 3,
+      "special": [
+        34,
+        38
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:void_ingot",
+      "value": -1,
+      "category": 3,
+      "special": [
+        49,
+        48,
+        34,
+        38
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:congealed_taint",
+      "value": -1,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:extract_of_foulest_taint",
+      "value": -1,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:soul_fragment",
+      "value": 8,
+      "category": -1,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:boots_of_striding",
+      "value": 10,
+      "category": 0,
+      "special": [
+        6,
+        7
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:seven_league_boots",
+      "value": 12,
+      "category": 0,
+      "special": [
+        7
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:boots_of_the_meteor",
+      "value": 13,
+      "category": 0,
+      "special": [
+        6
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:arcane_seal_item",
+      "value": -1,
+      "category": 0,
+      "special": [
+        31
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:stabilized_singularity",
+      "value": -1,
+      "category": 0,
+      "special": [
+        22
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:vis_crystal",
+      "value": -1,
+      "category": 0,
+      "special": [
+        24,
+        26
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:vaporous_crystal",
+      "value": -1,
+      "category": 0,
+      "special": [
+        24,
+        22,
+        26
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:aqueous_crystal",
+      "value": -1,
+      "category": 0,
+      "special": [
+        24,
+        26
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:earthen_crystal",
+      "value": -1,
+      "category": 0,
+      "special": [
+        24,
+        26
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:fiery_crystal",
+      "value": -1,
+      "category": 0,
+      "special": [
+        24,
+        26
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:tainted_crystal",
+      "value": -1,
+      "category": 2,
+      "special": [
+        24,
+        26
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:depleted_crystal",
+      "value": -1,
+      "category": 0,
+      "special": [
+        24,
+        26
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:crucible",
+      "value": 7,
+      "category": 0,
+      "special": [
+        3
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:crucible_of_eyes",
+      "value": 12,
+      "category": 0,
+      "special": [
+        4
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:void_chest",
+      "value": 25,
+      "category": 3,
+      "special": [
+        25
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:void_interface",
+      "value": 25,
+      "category": 3,
+      "special": [
+        33
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:silverwood_log",
+      "value": -1,
+      "category": 0,
+      "special": [
+        18,
+        19
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:tainted_log",
+      "value": -1,
+      "category": 2,
+      "special": [
+        18,
+        20
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:vis_filter",
+      "value": 5,
+      "category": 2,
+      "special": [
+        18
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:vis_storage_tank",
+      "value": 4,
+      "category": 2,
+      "special": [
+        52
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:vis_valve",
+      "value": 15,
+      "category": 2,
+      "special": [
+        42
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:tainted_leaves",
+      "value": 2,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:tainted_log",
+      "value": 3,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:glowing_taintweed",
+      "value": 2,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:taintweed",
+      "value": 2,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:ancient_pottery",
+      "value": 10,
+      "category": 0,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:tarnished_chalice",
+      "value": 10,
+      "category": 0,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:worn_statuette",
+      "value": 20,
+      "category": 0,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:ancient_weapon",
+      "value": 20,
+      "category": 0,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:ancient_seal",
+      "value": 40,
+      "category": 0,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:ancient_stone_tablet",
+      "value": 80,
+      "category": 0,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:cracked_wisp_shell",
+      "value": 10,
+      "category": 1,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:distorted_skull",
+      "value": 10,
+      "category": 1,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:inhuman_skull",
+      "value": 20,
+      "category": 1,
+      "special": [
+        5,
+        46
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:darkened_crystal_eye",
+      "value": 20,
+      "category": 1,
+      "special": [
+        5,
+        46
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:knotted_spite",
+      "value": 40,
+      "category": 1,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:tome_of_forbidden_knowledge",
+      "value": 80,
+      "category": 1,
+      "special": [
+        5,
+        46
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:taint_spores",
+      "value": 10,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:tainted_organ",
+      "value": 10,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:tainted_fruit",
+      "value": 20,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:tainted_branch",
+      "value": 20,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:intact_taintspore_pod",
+      "value": 40,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:writhing_taint_tendrils",
+      "value": 80,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:shard_of_strange_metal",
+      "value": 10,
+      "category": 3,
+      "special": [
+        34
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:eldritch_mechanism",
+      "value": 10,
+      "category": 3,
+      "special": [
+        49,
+        48,
+        44
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:opalescent_eye",
+      "value": 20,
+      "category": 3,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:disturbing_mirror",
+      "value": 20,
+      "category": 3,
+      "special": [
+        31
+      ]
+    },
+    {
+      "ingredient": "thaumcraft2tp:glowing_eldritch_device",
+      "value": 40,
+      "category": 3,
+      "special": []
+    },
+    {
+      "ingredient": "thaumcraft2tp:eldritch_repository",
+      "value": 80,
+      "category": 3,
+      "special": []
+    },
+    {
+      "ingredient": "minecraft:cod",
+      "value": -1,
+      "category": 0,
+      "special": [
+        28
+      ]
+    },
+    {
+      "ingredient": "minecraft:book",
+      "value": 5,
+      "category": 0,
+      "special": [
+        23
+      ]
+    },
+    {
+      "ingredient": "minecraft:bookshelf",
+      "value": 8,
+      "category": 0,
+      "special": [
+        23
+      ]
+    },
+    {
+      "ingredient": "minecraft:bone",
+      "value": -1,
+      "category": 1,
+      "special": [
+        5,
+        46
+      ]
+    },
+    {
+      "ingredient": "minecraft:rotten_flesh",
+      "value": -1,
+      "category": 1,
+      "special": [
+        5,
+        46
+      ]
+    },
+    {
+      "ingredient": "minecraft:ghast_tear",
+      "value": -1,
+      "category": 1,
+      "special": [
+        5,
+        46
+      ]
+    },
+    {
+      "ingredient": "minecraft:netherrack",
+      "value": -1,
+      "category": 1,
+      "special": []
+    },
+    {
+      "ingredient": "minecraft:nether_bricks",
+      "value": -1,
+      "category": 1,
+      "special": []
+    },
+    {
+      "ingredient": "minecraft:nether_brick_fence",
+      "value": -1,
+      "category": 1,
+      "special": []
+    },
+    {
+      "ingredient": "minecraft:nether_brick_stairs",
+      "value": -1,
+      "category": 1,
+      "special": []
+    },
+    {
+      "ingredient": "minecraft:netherrack",
+      "value": -1,
+      "category": 1,
+      "special": []
+    },
+    {
+      "ingredient": "minecraft:soul_sand",
+      "value": -1,
+      "category": 1,
+      "special": [
+        21,
+        5
+      ]
+    },
+    {
+      "ingredient": "minecraft:nether_wart",
+      "value": -1,
+      "category": 1,
+      "special": []
+    },
+    {
+      "ingredient": "minecraft:mycelium",
+      "value": -1,
+      "category": 2,
+      "special": []
+    },
+    {
+      "ingredient": "minecraft:end_stone",
+      "value": -1,
+      "category": 3,
+      "special": []
+    },
+    {
+      "ingredient": "minecraft:dragon_egg",
+      "value": 100,
+      "category": 3,
+      "special": []
+    },
+    {
+      "ingredient": "minecraft:ender_pearl",
+      "value": -1,
+      "category": 3,
+      "special": [
+        27
+      ]
+    },
+    {
+      "ingredient": "minecraft:ender_eye",
+      "value": -1,
+      "category": 3,
+      "special": [
+        2
+      ]
+    }
+  ],
+  "crafting_research": {
+    "thaumcraft2tp:research_000": 0,
+    "thaumcraft2tp:research_001": 1,
+    "thaumcraft2tp:research_002": 2,
+    "thaumcraft2tp:research_018": 18,
+    "thaumcraft2tp:research_021": 21,
+    "thaumcraft2tp:research_022": 22,
+    "thaumcraft2tp:research_024": 24,
+    "thaumcraft2tp:research_025": 25,
+    "thaumcraft2tp:research_029": 29,
+    "thaumcraft2tp:research_030": 30,
+    "thaumcraft2tp:research_033": 33,
+    "thaumcraft2tp:research_035": 35,
+    "thaumcraft2tp:research_036": 36,
+    "thaumcraft2tp:research_037": 37,
+    "thaumcraft2tp:research_038": 38,
+    "thaumcraft2tp:research_042": 42,
+    "thaumcraft2tp:research_043": 43,
+    "thaumcraft2tp:research_044": 44,
+    "thaumcraft2tp:research_048": 48,
+    "thaumcraft2tp:research_049": 49,
+    "thaumcraft2tp:research_051": 51,
+    "thaumcraft2tp:research_053": 53,
+    "thaumcraft2tp:research_054": 54,
+    "thaumcraft2tp:research_055": 55,
+    "thaumcraft2tp:research_056": 56,
+    "thaumcraft2tp:research_062": 62,
+    "thaumcraft2tp:addon_000": 34,
+    "thaumcraft2tp:addon_001": 34,
+    "thaumcraft2tp:addon_002": 34,
+    "thaumcraft2tp:addon_003": 34
+  }
+}

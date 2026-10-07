@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "thaumcraft2tp:item/atlas_190"
+  }
+}

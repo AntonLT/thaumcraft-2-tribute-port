@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:amethyst_shard",
+    "minecraft:glass"
+  ],
+  "result": {
+    "id": "minecraft:tinted_glass",
+    "count": 2
+  }
+}

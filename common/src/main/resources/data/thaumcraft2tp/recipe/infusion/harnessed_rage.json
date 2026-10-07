@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "dark",
+  "cost": 50,
+  "ingredients": [
+    "minecraft:smooth_stone_slab",
+    "minecraft:netherrack",
+    "thaumcraft2tp:fiery_crystal"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:harnessed_rage",
+    "count": 1
+  },
+  "priority": 960,
+  "research": "thaumcraft2tp:harnessed_rage"
+}

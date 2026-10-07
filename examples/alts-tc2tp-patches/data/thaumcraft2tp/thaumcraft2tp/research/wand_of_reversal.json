@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 4,
+  "type": 2,
+  "name": "Wand of Reversal",
+  "name_key": "research.thaumcraft2tp.wand_of_reversal.name",
+  "text": "Turn back the hands of time with this mystical wand. This wand allows you to retrieve runic essences and upgrades once they have been placed, though success isn't guaranteed. It can also be used to retrieve animated chests.",
+  "text_key": "research.thaumcraft2tp.wand_of_reversal.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:arcane_singularity"
+  ],
+  "discovery": "thaumcraft2tp:discovery_wand_of_reversal",
+  "result": {
+    "id": "thaumcraft2tp:wand_of_reversal",
+    "count": 1
+  }
+}

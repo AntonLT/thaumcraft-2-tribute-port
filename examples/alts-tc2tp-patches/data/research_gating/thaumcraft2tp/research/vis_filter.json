@@ -1,0 +1,12 @@
+{
+  "name": "Vis Filter",
+  "name_key": "research.research_gating.vis_filter.name",
+  "text": "Like a sieve of silver threads, this conduit combs the taint out of the vis flowing through it and slowly breathes it back into the aura. Filters stacked one atop another hold more taint before they must let it go.",
+  "text_key": "research.research_gating.vis_filter.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [
+    "research_gating:alumentum"
+  ],
+  "restricted": false
+}

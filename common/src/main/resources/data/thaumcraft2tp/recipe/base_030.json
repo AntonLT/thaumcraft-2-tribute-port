@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WGW",
+    "G G",
+    "WGW"
+  ],
+  "key": {
+    "W": "thaumcraft2tp:enchanted_wood",
+    "G": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "thaumcraft2tp:vis_storage_tank",
+    "count": 1
+  }
+}

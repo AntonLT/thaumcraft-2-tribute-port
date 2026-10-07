@@ -1,0 +1,9 @@
+{
+  "ingredient": "minecraft:quartz",
+  "value": 30,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "overrides:infusion_basics"
+  ],
+  "priority": 10
+}

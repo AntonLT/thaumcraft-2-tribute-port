@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "thaumcraft2tp:block/atlas_227",
+    "up": "thaumcraft2tp:block/atlas_227",
+    "north": "thaumcraft2tp:block/atlas_229",
+    "south": "thaumcraft2tp:block/atlas_224",
+    "west": "thaumcraft2tp:block/atlas_224",
+    "east": "thaumcraft2tp:block/atlas_230",
+    "particle": "thaumcraft2tp:block/atlas_224"
+  }
+}

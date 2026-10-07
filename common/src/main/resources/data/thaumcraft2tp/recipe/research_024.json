@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "102",
+    "3D4",
+    "GIG"
+  ],
+  "key": {
+    "0": "thaumcraft2tp:vis_crystal",
+    "1": "thaumcraft2tp:vaporous_crystal",
+    "2": "thaumcraft2tp:aqueous_crystal",
+    "3": "thaumcraft2tp:earthen_crystal",
+    "4": "thaumcraft2tp:fiery_crystal",
+    "D": "minecraft:diamond",
+    "G": "#c:ingots/gold",
+    "I": "#c:ingots/iron"
+  },
+  "result": {
+    "id": "thaumcraft2tp:thaumic_crystalizer",
+    "count": 1
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "t132": "thaumcraft2tp:block/atlas_132",
+    "t131": "thaumcraft2tp:block/atlas_131",
+    "particle": "thaumcraft2tp:block/atlas_132"
+  },
+  "elements": [
+    {
+      "from": [
+        2.0,
+        0.0,
+        2.0
+      ],
+      "to": [
+        14.0,
+        2.0,
+        14.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t132"
+        },
+        "up": {
+          "texture": "#t132"
+        },
+        "west": {
+          "texture": "#t131"
+        },
+        "east": {
+          "texture": "#t131"
+        },
+        "north": {
+          "texture": "#t131"
+        },
+        "south": {
+          "texture": "#t131"
+        }
+      }
+    },
+    {
+      "from": [
+        3.0,
+        2.0,
+        3.0
+      ],
+      "to": [
+        13.0,
+        4.0,
+        13.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t132"
+        },
+        "up": {
+          "texture": "#t132"
+        },
+        "west": {
+          "texture": "#t131"
+        },
+        "east": {
+          "texture": "#t131"
+        },
+        "north": {
+          "texture": "#t131"
+        },
+        "south": {
+          "texture": "#t131"
+        }
+      }
+    },
+    {
+      "from": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "to": [
+        16.0,
+        10.0,
+        16.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t132"
+        },
+        "up": {
+          "texture": "#t132"
+        },
+        "west": {
+          "texture": "#t131"
+        },
+        "east": {
+          "texture": "#t131"
+        },
+        "north": {
+          "texture": "#t131"
+        },
+        "south": {
+          "texture": "#t131"
+        }
+      }
+    },
+    {
+      "from": [
+        2.0,
+        10.0,
+        2.0
+      ],
+      "to": [
+        14.0,
+        16.0,
+        14.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t132"
+        },
+        "up": {
+          "texture": "#t132"
+        },
+        "west": {
+          "texture": "#t131"
+        },
+        "east": {
+          "texture": "#t131"
+        },
+        "north": {
+          "texture": "#t131"
+        },
+        "south": {
+          "texture": "#t131"
+        }
+      }
+    }
+  ]
+}

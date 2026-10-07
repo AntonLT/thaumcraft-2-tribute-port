@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "axis=y,branch=0": {
+      "model": "thaumcraft2tp:block/silverwood_log"
+    },
+    "axis=z,branch=0": {
+      "model": "thaumcraft2tp:block/silverwood_log",
+      "x": 90
+    },
+    "axis=x,branch=0": {
+      "model": "thaumcraft2tp:block/silverwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "branch=1": {
+      "model": "thaumcraft2tp:block/silverwood_log"
+    },
+    "branch=2": {
+      "model": "thaumcraft2tp:block/silverwood_log"
+    },
+    "branch=3": {
+      "model": "thaumcraft2tp:block/silverwood_log"
+    },
+    "branch=4": {
+      "model": "thaumcraft2tp:block/silverwood_log"
+    }
+  }
+}

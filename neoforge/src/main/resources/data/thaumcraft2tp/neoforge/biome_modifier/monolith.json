@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#thaumcraft2tp:has_monolith",
+  "features": "thaumcraft2tp:monolith",
+  "step": "vegetal_decoration"
+}

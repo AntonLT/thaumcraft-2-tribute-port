@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 20,
+  "ingredients": [
+    "minecraft:enchanting_table",
+    "thaumcraft2tp:vis_conduit",
+    "thaumcraft2tp:extract_of_purest_magic"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:thaumic_enchanter",
+    "count": 1
+  },
+  "priority": 950,
+  "research": "thaumcraft2tp:thaumic_enchanter"
+}

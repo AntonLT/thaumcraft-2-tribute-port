@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alts_tc2tp_patches:item/raw_cinnabar"
+  }
+}

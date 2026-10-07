@@ -1,0 +1,19 @@
+{
+  "category": "thaumcraft2tp:eldritch",
+  "difficulty": 4,
+  "type": 2,
+  "name": "Eldritch Keystone: Tlhutlh",
+  "name_key": "research.thaumcraft2tp.eldritch_keystone_tlhutlh.name",
+  "text": "This mechanism looks like it would fit into the slots you have found in the monolith chamber walls. It is crackling with energy and seems ready to perform whatever task it was designed for.",
+  "text_key": "research.thaumcraft2tp.eldritch_keystone_tlhutlh.text",
+  "restricted": true,
+  "prerequisites": [
+    "thaumcraft2tp:inert_eldritch_keystone",
+    "research_gating:extract_of_purest_magic"
+  ],
+  "discovery": "thaumcraft2tp:discovery_eldritch_keystone_tlhutlh",
+  "result": {
+    "id": "thaumcraft2tp:eldritch_keystone_tlhutlh",
+    "count": 1
+  }
+}

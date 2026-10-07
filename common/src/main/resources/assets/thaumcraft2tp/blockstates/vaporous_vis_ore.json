@@ -1,0 +1,154 @@
+{
+  "variants": {
+    "amount=1,facing=up": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_1",
+      "x": 0,
+      "y": 0
+    },
+    "amount=1,facing=down": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_1",
+      "x": 180,
+      "y": 0
+    },
+    "amount=1,facing=north": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_1",
+      "x": 90,
+      "y": 0
+    },
+    "amount=1,facing=east": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_1",
+      "x": 90,
+      "y": 90
+    },
+    "amount=1,facing=south": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_1",
+      "x": 90,
+      "y": 180
+    },
+    "amount=1,facing=west": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_1",
+      "x": 90,
+      "y": 270
+    },
+    "amount=2,facing=up": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_2",
+      "x": 0,
+      "y": 0
+    },
+    "amount=2,facing=down": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_2",
+      "x": 180,
+      "y": 0
+    },
+    "amount=2,facing=north": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_2",
+      "x": 90,
+      "y": 0
+    },
+    "amount=2,facing=east": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_2",
+      "x": 90,
+      "y": 90
+    },
+    "amount=2,facing=south": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_2",
+      "x": 90,
+      "y": 180
+    },
+    "amount=2,facing=west": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_2",
+      "x": 90,
+      "y": 270
+    },
+    "amount=3,facing=up": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_3",
+      "x": 0,
+      "y": 0
+    },
+    "amount=3,facing=down": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_3",
+      "x": 180,
+      "y": 0
+    },
+    "amount=3,facing=north": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_3",
+      "x": 90,
+      "y": 0
+    },
+    "amount=3,facing=east": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_3",
+      "x": 90,
+      "y": 90
+    },
+    "amount=3,facing=south": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_3",
+      "x": 90,
+      "y": 180
+    },
+    "amount=3,facing=west": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_3",
+      "x": 90,
+      "y": 270
+    },
+    "amount=4,facing=up": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_4",
+      "x": 0,
+      "y": 0
+    },
+    "amount=4,facing=down": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_4",
+      "x": 180,
+      "y": 0
+    },
+    "amount=4,facing=north": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_4",
+      "x": 90,
+      "y": 0
+    },
+    "amount=4,facing=east": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_4",
+      "x": 90,
+      "y": 90
+    },
+    "amount=4,facing=south": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_4",
+      "x": 90,
+      "y": 180
+    },
+    "amount=4,facing=west": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_4",
+      "x": 90,
+      "y": 270
+    },
+    "amount=5,facing=up": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_5",
+      "x": 0,
+      "y": 0
+    },
+    "amount=5,facing=down": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_5",
+      "x": 180,
+      "y": 0
+    },
+    "amount=5,facing=north": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_5",
+      "x": 90,
+      "y": 0
+    },
+    "amount=5,facing=east": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_5",
+      "x": 90,
+      "y": 90
+    },
+    "amount=5,facing=south": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_5",
+      "x": 90,
+      "y": 180
+    },
+    "amount=5,facing=west": {
+      "model": "thaumcraft2tp:block/vaporous_vis_ore_5",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

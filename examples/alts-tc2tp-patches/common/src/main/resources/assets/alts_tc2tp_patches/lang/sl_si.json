@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Cinabaritna ruda v skrilavcu",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Surov cinabarit",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Drobci znanja",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Naučil si se vrednosti visa za %s: %s"
+}

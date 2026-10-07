@@ -1,0 +1,20 @@
+{
+  "category": "thaumcraft2tp:eldritch",
+  "difficulty": 5,
+  "type": 2,
+  "name": "Void Bracelet",
+  "name_key": "research.thaumcraft2tp.void_bracelet.name",
+  "text": "This bracelet allows you to travel to a random Void Portal. To link to a different network simply click on a Void Portal Seal.",
+  "text_key": "research.thaumcraft2tp.void_bracelet.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:arcane_seal",
+    "research_gating:runic_essence_air",
+    "research_gating:runic_essence_magic"
+  ],
+  "discovery": "thaumcraft2tp:discovery_void_bracelet",
+  "result": {
+    "id": "thaumcraft2tp:void_bracelet",
+    "count": 1
+  }
+}

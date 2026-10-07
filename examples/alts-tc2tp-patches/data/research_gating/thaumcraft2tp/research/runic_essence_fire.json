@@ -1,0 +1,12 @@
+{
+  "name": "Runic Essence: Fire",
+  "name_key": "research.research_gating.runic_essence_fire.name",
+  "text": "The rune of Fire, sealed in an essence that flickers with its own warmth. Set upon an Arcane Seal, it speaks one word of the seal's incantation; join it with other runes and the seal says something new.",
+  "text_key": "research.research_gating.runic_essence_fire.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [
+    "research_gating:nitor"
+  ],
+  "restricted": false
+}

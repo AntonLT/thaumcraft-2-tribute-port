@@ -1,0 +1,9 @@
+{
+  "ingredient": "thaumcraft2tp:alumentum",
+  "value": 8,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:arcane_singularity"
+  ],
+  "special_chance": 100
+}

@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Djúpsteypt sinnóbersgrýti",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Hrár sinnóber",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Þekkingarbrot",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Lærðir vis-gildi %s: %s"
+}

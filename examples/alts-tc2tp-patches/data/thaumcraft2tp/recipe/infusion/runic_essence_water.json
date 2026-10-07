@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "research": "research_gating:runic_essence_water",
+  "cost": 15,
+  "ingredients": [
+    "thaumcraft2tp:aqueous_crystal",
+    "#c:nuggets/gold",
+    "thaumcraft2tp:nitor"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:runic_essence_water",
+    "count": 2
+  },
+  "priority": 991
+}

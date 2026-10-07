@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Шистова цинобърна руда",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Необработен цинобър",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Късчета знание",
+  "tooltip.alts_tc2tp_patches.vis": "Вис: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Научи стойността на виса на %s: %s"
+}

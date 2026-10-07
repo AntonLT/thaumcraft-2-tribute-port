@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GFG",
+    "FFF",
+    "GFG"
+  ],
+  "key": {
+    "F": "thaumcraft2tp:enchanted_fabric",
+    "G": "#c:ingots/gold"
+  },
+  "result": {
+    "id": "thaumcraft2tp:inert_carpet",
+    "count": 1
+  }
+}

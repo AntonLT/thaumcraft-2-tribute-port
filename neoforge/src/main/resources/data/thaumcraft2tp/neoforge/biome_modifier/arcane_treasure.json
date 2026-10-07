@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#thaumcraft2tp:has_arcane_treasure",
+  "features": "thaumcraft2tp:arcane_treasure",
+  "step": "top_layer_modification"
+}

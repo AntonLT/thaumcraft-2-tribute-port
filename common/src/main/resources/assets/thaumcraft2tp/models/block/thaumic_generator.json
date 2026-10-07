@@ -1,0 +1,235 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "t144": "thaumcraft2tp:block/atlas_144",
+    "t166": "thaumcraft2tp:block/atlas_166",
+    "particle": "thaumcraft2tp:block/atlas_144"
+  },
+  "elements": [
+    {
+      "from": [
+        4.0,
+        0.0,
+        4.0
+      ],
+      "to": [
+        12.0,
+        2.0,
+        12.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t144"
+        },
+        "up": {
+          "texture": "#t144"
+        },
+        "west": {
+          "texture": "#t144"
+        },
+        "east": {
+          "texture": "#t144"
+        },
+        "north": {
+          "texture": "#t144"
+        },
+        "south": {
+          "texture": "#t144"
+        }
+      }
+    },
+    {
+      "from": [
+        4.0,
+        14.0,
+        4.0
+      ],
+      "to": [
+        12.0,
+        16.0,
+        12.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t144"
+        },
+        "up": {
+          "texture": "#t144"
+        },
+        "west": {
+          "texture": "#t144"
+        },
+        "east": {
+          "texture": "#t144"
+        },
+        "north": {
+          "texture": "#t144"
+        },
+        "south": {
+          "texture": "#t144"
+        }
+      }
+    },
+    {
+      "from": [
+        14.0,
+        4.0,
+        4.0
+      ],
+      "to": [
+        16.0,
+        12.0,
+        12.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t144"
+        },
+        "up": {
+          "texture": "#t144"
+        },
+        "west": {
+          "texture": "#t144"
+        },
+        "east": {
+          "texture": "#t144"
+        },
+        "north": {
+          "texture": "#t144"
+        },
+        "south": {
+          "texture": "#t144"
+        }
+      }
+    },
+    {
+      "from": [
+        0.0,
+        4.0,
+        4.0
+      ],
+      "to": [
+        2.0,
+        12.0,
+        12.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t144"
+        },
+        "up": {
+          "texture": "#t144"
+        },
+        "west": {
+          "texture": "#t144"
+        },
+        "east": {
+          "texture": "#t144"
+        },
+        "north": {
+          "texture": "#t144"
+        },
+        "south": {
+          "texture": "#t144"
+        }
+      }
+    },
+    {
+      "from": [
+        4.0,
+        4.0,
+        14.0
+      ],
+      "to": [
+        12.0,
+        12.0,
+        16.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t144"
+        },
+        "up": {
+          "texture": "#t144"
+        },
+        "west": {
+          "texture": "#t144"
+        },
+        "east": {
+          "texture": "#t144"
+        },
+        "north": {
+          "texture": "#t144"
+        },
+        "south": {
+          "texture": "#t144"
+        }
+      }
+    },
+    {
+      "from": [
+        4.0,
+        4.0,
+        0.0
+      ],
+      "to": [
+        12.0,
+        12.0,
+        2.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t144"
+        },
+        "up": {
+          "texture": "#t144"
+        },
+        "west": {
+          "texture": "#t144"
+        },
+        "east": {
+          "texture": "#t144"
+        },
+        "north": {
+          "texture": "#t144"
+        },
+        "south": {
+          "texture": "#t144"
+        }
+      }
+    },
+    {
+      "from": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "to": [
+        14.0,
+        14.0,
+        14.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#t166"
+        },
+        "up": {
+          "texture": "#t166"
+        },
+        "west": {
+          "texture": "#t166"
+        },
+        "east": {
+          "texture": "#t166"
+        },
+        "north": {
+          "texture": "#t166"
+        },
+        "south": {
+          "texture": "#t166"
+        }
+      }
+    }
+  ]
+}

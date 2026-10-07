@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "WSW",
+    "WWW"
+  ],
+  "key": {
+    "S": "thaumcraft2tp:soul_fragment",
+    "W": "thaumcraft2tp:enchanted_wood"
+  },
+  "result": {
+    "id": "thaumcraft2tp:traveling_trunk",
+    "count": 1
+  }
+}

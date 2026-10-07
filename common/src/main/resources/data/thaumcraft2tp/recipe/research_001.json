@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GPG",
+    "W W",
+    "GPG"
+  ],
+  "key": {
+    "P": "thaumcraft2tp:animated_piston",
+    "G": "#c:ingots/gold",
+    "W": "thaumcraft2tp:enchanted_wood"
+  },
+  "result": {
+    "id": "thaumcraft2tp:thaumic_duplicator",
+    "count": 1
+  }
+}

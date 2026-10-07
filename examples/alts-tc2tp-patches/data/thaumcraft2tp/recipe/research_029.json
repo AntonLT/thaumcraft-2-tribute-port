@@ -1,0 +1,17 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 50,
+  "research": "thaumcraft2tp:sword_of_the_zephyr",
+  "ingredients": [
+    "thaumcraft2tp:vaporous_crystal",
+    "thaumcraft2tp:vaporous_crystal",
+    "#thaumcraft2tp:legacy/itemswordthaumium",
+    "thaumcraft2tp:vaporous_crystal",
+    "thaumcraft2tp:enchanted_wood"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:sword_of_the_zephyr",
+    "count": 1
+  }
+}

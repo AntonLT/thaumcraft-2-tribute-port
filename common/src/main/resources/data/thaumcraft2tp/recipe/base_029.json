@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WGW",
+    "GRG",
+    "WGW"
+  ],
+  "key": {
+    "W": "#minecraft:planks",
+    "G": "minecraft:glass_pane",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "thaumcraft2tp:vis_conduit",
+    "count": 8
+  }
+}

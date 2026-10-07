@@ -1,0 +1,10 @@
+{
+  "name": "Wand of Lightning",
+  "name_key": "research.research_gating.wand_of_lightning.name",
+  "text": "This wand holds a storm in miniature. At your will it hurls a bolt of lightning from its tip to strike the creature you point at. Each bolt spends a little of its strength.",
+  "text_key": "research.research_gating.wand_of_lightning.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

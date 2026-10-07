@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft2tp:greatwood_leaves",
+    "thaumcraft2tp:silverwood_leaves",
+    "thaumcraft2tp:tainted_leaves",
+    "thaumcraft2tp:silverwood_log",
+    "thaumcraft2tp:tainted_log",
+    "thaumcraft2tp:greatwood_log",
+    "thaumcraft2tp:petrified_log"
+  ]
+}

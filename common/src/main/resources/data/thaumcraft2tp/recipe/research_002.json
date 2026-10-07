@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EGE",
+    "LLL"
+  ],
+  "key": {
+    "E": "thaumcraft2tp:thaumometer",
+    "G": "#c:ingots/gold",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "thaumcraft2tp:goggles_of_revealing",
+    "count": 1
+  }
+}

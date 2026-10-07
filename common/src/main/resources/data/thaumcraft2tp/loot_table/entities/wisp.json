@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:vis_crystal",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumcraft2tp:cracked_wisp_shell",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

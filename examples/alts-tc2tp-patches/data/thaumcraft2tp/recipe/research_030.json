@@ -1,0 +1,17 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 50,
+  "research": "thaumcraft2tp:axe_of_the_stream",
+  "ingredients": [
+    "thaumcraft2tp:aqueous_crystal",
+    "thaumcraft2tp:aqueous_crystal",
+    "#thaumcraft2tp:legacy/itemaxethaumium",
+    "thaumcraft2tp:aqueous_crystal",
+    "thaumcraft2tp:enchanted_wood"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:axe_of_the_stream",
+    "count": 1
+  }
+}

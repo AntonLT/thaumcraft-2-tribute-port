@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 50,
+  "ingredients": [
+    "thaumcraft2tp:crucible_of_eyes",
+    "thaumcraft2tp:thaumium_ingot",
+    "thaumcraft2tp:thaumium_ingot"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:thaumium_crucible",
+    "count": 1
+  },
+  "priority": 966,
+  "research": "thaumcraft2tp:thaumium_crucible"
+}

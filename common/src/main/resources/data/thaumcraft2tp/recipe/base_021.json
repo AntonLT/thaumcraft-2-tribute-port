@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "II",
+    "SI",
+    "S "
+  ],
+  "key": {
+    "I": "thaumcraft2tp:thaumium_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "thaumcraft2tp:thaumium_axe",
+    "count": 1
+  }
+}

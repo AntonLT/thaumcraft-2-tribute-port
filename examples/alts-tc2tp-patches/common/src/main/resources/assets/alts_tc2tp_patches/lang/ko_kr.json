@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "심층암 진사 광석",
+  "item.alts_tc2tp_patches.raw_cinnabar": "진사 원석",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "지식의 조각",
+  "tooltip.alts_tc2tp_patches.vis": "비스: %s",
+  "message.alts_tc2tp_patches.vis_learned": "%s의 비스 값을 알게 되었습니다: %s"
+}

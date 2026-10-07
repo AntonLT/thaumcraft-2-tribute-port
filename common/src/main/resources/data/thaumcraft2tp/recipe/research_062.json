@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ISI",
+    "IFI",
+    " I "
+  ],
+  "key": {
+    "I": "thaumcraft2tp:void_ingot",
+    "F": "thaumcraft2tp:extract_of_warmest_fire",
+    "S": "thaumcraft2tp:soul_fragment"
+  },
+  "result": {
+    "id": "thaumcraft2tp:brazier_of_souls",
+    "count": 1
+  }
+}

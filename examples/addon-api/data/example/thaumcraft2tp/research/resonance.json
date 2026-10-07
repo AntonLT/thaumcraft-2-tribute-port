@@ -1,0 +1,15 @@
+{
+  "name": "Crystal Resonance",
+  "text": "Study quartz to discover how crystals resonate. Infuse amethyst and glass to form an echo shard, then combine it with obsidian in a dark infuser.",
+  "category": "example:resonance",
+  "difficulty": 1,
+  "prerequisites": [
+    "thaumcraft2tp:thaumic_restorer"
+  ],
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1
+  },
+  "name_key": "research.example.resonance.name",
+  "text_key": "research.example.resonance.text"
+}

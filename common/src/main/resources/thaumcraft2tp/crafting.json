@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "thaumcraft2tp:addon_000",
+    "research": 34,
+    "shaped": true,
+    "pattern": [
+      "III",
+      "I I"
+    ],
+    "key": {
+      "I": "thaumcraft2tp:void_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:void_metal_helm",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:addon_001",
+    "research": 34,
+    "shaped": true,
+    "pattern": [
+      "I I",
+      "III",
+      "III"
+    ],
+    "key": {
+      "I": "thaumcraft2tp:void_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:void_metal_chestplate",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:addon_002",
+    "research": 34,
+    "shaped": true,
+    "pattern": [
+      "III",
+      "I I",
+      "I I"
+    ],
+    "key": {
+      "I": "thaumcraft2tp:void_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:void_metal_leggings",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:addon_003",
+    "research": 34,
+    "shaped": true,
+    "pattern": [
+      "I I",
+      "I I"
+    ],
+    "key": {
+      "I": "thaumcraft2tp:void_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:void_metal_boots",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_000",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      " D ",
+      "DBD",
+      " D "
+    ],
+    "key": {
+      "D": "#thaumcraft2tp:legacy/itemdiscovery",
+      "B": "minecraft:book"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumonomicon",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_001",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "FFF",
+      "FBF",
+      "FFF"
+    ],
+    "key": {
+      "F": "#thaumcraft2tp:legacy/itemknowledgefragment",
+      "B": "minecraft:book"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumonomicon",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_002",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "CCC",
+      "CCC",
+      "CCC"
+    ],
+    "key": {
+      "C": "thaumcraft2tp:vis_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:vis_ore",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_003",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "CCC",
+      "CCC",
+      "CCC"
+    ],
+    "key": {
+      "C": "thaumcraft2tp:vaporous_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:vaporous_vis_ore",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_004",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "CCC",
+      "CCC",
+      "CCC"
+    ],
+    "key": {
+      "C": "thaumcraft2tp:aqueous_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:aqueous_vis_ore",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_005",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "CCC",
+      "CCC",
+      "CCC"
+    ],
+    "key": {
+      "C": "thaumcraft2tp:earthen_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:earthen_vis_ore",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_006",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "CCC",
+      "CCC",
+      "CCC"
+    ],
+    "key": {
+      "C": "thaumcraft2tp:fiery_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:fiery_vis_ore",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_007",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "CCC",
+      "CCC",
+      "CCC"
+    ],
+    "key": {
+      "C": "thaumcraft2tp:tainted_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:tainted_vis_ore",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_008",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "P"
+    ],
+    "key": {
+      "P": "thaumcraft2tp:cinderpearl_pod"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "minecraft:blaze_powder",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_009",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "W"
+    ],
+    "key": {
+      "W": "thaumcraft2tp:greatwood_log"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "minecraft:jungle_planks",
+      "count": 4
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_010",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "W"
+    ],
+    "key": {
+      "W": "thaumcraft2tp:greatwood_log"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "minecraft:jungle_planks",
+      "count": 4
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_011",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "W"
+    ],
+    "key": {
+      "W": "thaumcraft2tp:greatwood_log"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "minecraft:jungle_planks",
+      "count": 4
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_012",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "W"
+    ],
+    "key": {
+      "W": "thaumcraft2tp:greatwood_log"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "minecraft:jungle_planks",
+      "count": 4
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_013",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "W"
+    ],
+    "key": {
+      "W": "thaumcraft2tp:greatwood_log"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "minecraft:jungle_planks",
+      "count": 4
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_014",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      " T ",
+      " RT",
+      "W  "
+    ],
+    "key": {
+      "R": "minecraft:redstone",
+      "T": "thaumcraft2tp:thaumium_ingot",
+      "W": "thaumcraft2tp:enchanted_wood"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:arcane_tinkering_tool",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_015",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "III",
+      "I I"
+    ],
+    "key": {
+      "I": "thaumcraft2tp:thaumium_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumium_helm",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_016",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "I I",
+      "III",
+      "III"
+    ],
+    "key": {
+      "I": "thaumcraft2tp:thaumium_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumium_chestplate",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_017",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "III",
+      "I I",
+      "I I"
+    ],
+    "key": {
+      "I": "thaumcraft2tp:thaumium_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumium_leggings",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_018",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "I I",
+      "I I"
+    ],
+    "key": {
+      "I": "thaumcraft2tp:thaumium_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumium_boots",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_019",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "I",
+      "S",
+      "S"
+    ],
+    "key": {
+      "I": "thaumcraft2tp:thaumium_ingot",
+      "S": "minecraft:stick"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumium_shovel",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_020",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "III",
+      " S ",
+      " S "
+    ],
+    "key": {
+      "I": "thaumcraft2tp:thaumium_ingot",
+      "S": "minecraft:stick"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumium_pickaxe",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_021",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "II",
+      "SI",
+      "S "
+    ],
+    "key": {
+      "I": "thaumcraft2tp:thaumium_ingot",
+      "S": "minecraft:stick"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumium_axe",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_022",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "II",
+      "S ",
+      "S "
+    ],
+    "key": {
+      "I": "thaumcraft2tp:thaumium_ingot",
+      "S": "minecraft:stick"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumium_hoe",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_023",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "I",
+      "I",
+      "S"
+    ],
+    "key": {
+      "I": "thaumcraft2tp:thaumium_ingot",
+      "S": "minecraft:stick"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumium_sword",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_024",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "V",
+      "C",
+      "F"
+    ],
+    "key": {
+      "C": "minecraft:cauldron",
+      "F": "minecraft:furnace",
+      "V": "#thaumcraft2tp:legacy/itemcrystals"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:crucible",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_025",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "ILI",
+      "IVI",
+      "SSS"
+    ],
+    "key": {
+      "L": "minecraft:smooth_stone_slab",
+      "V": "#thaumcraft2tp:legacy/itemcrystals",
+      "I": "#c:ingots/iron",
+      "S": "minecraft:stone"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumic_infuser",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_026",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "GWG",
+      "WPW",
+      "GWG"
+    ],
+    "key": {
+      "P": "thaumcraft2tp:animated_piston",
+      "W": "thaumcraft2tp:enchanted_wood",
+      "G": "#c:ingots/gold"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:arcane_bore",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_027",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "FBI",
+      "GGG",
+      "RRR"
+    ],
+    "key": {
+      "G": "#c:ingots/gold",
+      "R": "minecraft:stone",
+      "F": "minecraft:feather",
+      "B": "minecraft:glass_bottle",
+      "I": "minecraft:ink_sac"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:quaesitum",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_028",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      " I ",
+      "ICI",
+      " I "
+    ],
+    "key": {
+      "C": "thaumcraft2tp:vis_crystal",
+      "I": "#c:ingots/iron"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:arcane_focus",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_029",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "WGW",
+      "GRG",
+      "WGW"
+    ],
+    "key": {
+      "W": "#minecraft:planks",
+      "G": "minecraft:glass_pane",
+      "R": "minecraft:redstone"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:vis_conduit",
+      "count": 8
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_030",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "WGW",
+      "G G",
+      "WGW"
+    ],
+    "key": {
+      "W": "thaumcraft2tp:enchanted_wood",
+      "G": "minecraft:glass_pane"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:vis_storage_tank",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_031",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "CLC"
+    ],
+    "key": {
+      "C": "thaumcraft2tp:vis_conduit",
+      "L": "minecraft:lever"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:vis_valve",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_032",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "WIW",
+      "PCP",
+      "WIW"
+    ],
+    "key": {
+      "P": "thaumcraft2tp:vis_conduit",
+      "I": "#c:ingots/iron",
+      "W": "thaumcraft2tp:enchanted_wood",
+      "C": "thaumcraft2tp:alumentum"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:vis_filter",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_033",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      " C ",
+      "IPI",
+      "WWW"
+    ],
+    "key": {
+      "P": "thaumcraft2tp:vis_conduit",
+      "I": "#c:ingots/iron",
+      "W": "thaumcraft2tp:enchanted_wood",
+      "C": "thaumcraft2tp:vis_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:vis_condenser",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_034",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "WW ",
+      "LCI",
+      "WW "
+    ],
+    "key": {
+      "W": "thaumcraft2tp:enchanted_wood",
+      "L": "minecraft:leather",
+      "I": "#c:ingots/iron",
+      "C": "thaumcraft2tp:vaporous_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:arcane_bellows",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_035",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "WCW",
+      "WPW",
+      "WBW"
+    ],
+    "key": {
+      "B": "thaumcraft2tp:arcane_bellows",
+      "P": "thaumcraft2tp:vis_conduit",
+      "W": "thaumcraft2tp:enchanted_wood",
+      "C": "thaumcraft2tp:aqueous_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:vis_pump",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:base_036",
+    "research": -1,
+    "shaped": true,
+    "pattern": [
+      "012",
+      "3D4",
+      "G5G"
+    ],
+    "key": {
+      "D": "thaumcraft2tp:vis_detector",
+      "G": "#c:ingots/gold",
+      "0": "thaumcraft2tp:runic_essence_air",
+      "1": "thaumcraft2tp:runic_essence_magic",
+      "2": "thaumcraft2tp:runic_essence_water",
+      "3": "thaumcraft2tp:runic_essence_earth",
+      "4": "thaumcraft2tp:runic_essence_fire",
+      "5": "thaumcraft2tp:runic_essence_dark"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:crystal_ball",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_000",
+    "research": 0,
+    "shaped": true,
+    "pattern": [
+      "WIW",
+      "WPW",
+      "WIW"
+    ],
+    "key": {
+      "P": "thaumcraft2tp:animated_piston",
+      "I": "#c:ingots/iron",
+      "W": "thaumcraft2tp:enchanted_wood"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumic_restorer",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_001",
+    "research": 1,
+    "shaped": true,
+    "pattern": [
+      "GPG",
+      "W W",
+      "GPG"
+    ],
+    "key": {
+      "P": "thaumcraft2tp:animated_piston",
+      "G": "#c:ingots/gold",
+      "W": "thaumcraft2tp:enchanted_wood"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumic_duplicator",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_002",
+    "research": 2,
+    "shaped": true,
+    "pattern": [
+      "EGE",
+      "LLL"
+    ],
+    "key": {
+      "E": "thaumcraft2tp:thaumometer",
+      "G": "#c:ingots/gold",
+      "L": "minecraft:leather"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:goggles_of_revealing",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_018",
+    "research": 18,
+    "shaped": true,
+    "pattern": [
+      "GWG",
+      "PWP",
+      "GWG"
+    ],
+    "key": {
+      "P": "thaumcraft2tp:silverwood_log",
+      "G": "#c:ingots/gold",
+      "W": "thaumcraft2tp:enchanted_silverwood"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:vis_purifier",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_021",
+    "research": 21,
+    "shaped": true,
+    "pattern": [
+      "WWW",
+      "WSW",
+      "WWW"
+    ],
+    "key": {
+      "S": "thaumcraft2tp:soul_fragment",
+      "W": "thaumcraft2tp:enchanted_wood"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:traveling_trunk",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_022",
+    "research": 22,
+    "shaped": true,
+    "pattern": [
+      "GWG",
+      "W1W",
+      "GWG"
+    ],
+    "key": {
+      "1": "thaumcraft2tp:stabilized_singularity",
+      "G": "minecraft:glass_pane",
+      "W": "thaumcraft2tp:enchanted_wood"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumic_generator",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_024",
+    "research": 24,
+    "shaped": true,
+    "pattern": [
+      "102",
+      "3D4",
+      "GIG"
+    ],
+    "key": {
+      "0": "thaumcraft2tp:vis_crystal",
+      "1": "thaumcraft2tp:vaporous_crystal",
+      "2": "thaumcraft2tp:aqueous_crystal",
+      "3": "thaumcraft2tp:earthen_crystal",
+      "4": "thaumcraft2tp:fiery_crystal",
+      "D": "minecraft:diamond",
+      "G": "#c:ingots/gold",
+      "I": "#c:ingots/iron"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:thaumic_crystalizer",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_025",
+    "research": 25,
+    "shaped": true,
+    "pattern": [
+      "IMI",
+      "IPI",
+      "III"
+    ],
+    "key": {
+      "P": "#thaumcraft2tp:legacy/itemportablehole",
+      "M": "thaumcraft2tp:eldritch_mechanism",
+      "I": "thaumcraft2tp:void_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:void_chest",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_029",
+    "research": 29,
+    "shaped": true,
+    "pattern": [
+      " A ",
+      "ATA",
+      " W "
+    ],
+    "key": {
+      "T": "#thaumcraft2tp:legacy/itemswordthaumium",
+      "W": "thaumcraft2tp:enchanted_wood",
+      "A": "thaumcraft2tp:vaporous_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:sword_of_the_zephyr",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_030",
+    "research": 30,
+    "shaped": true,
+    "pattern": [
+      "EE",
+      "TE",
+      "W "
+    ],
+    "key": {
+      "T": "#thaumcraft2tp:legacy/itemaxethaumium",
+      "W": "thaumcraft2tp:enchanted_wood",
+      "E": "thaumcraft2tp:aqueous_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:axe_of_the_stream",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_033",
+    "research": 33,
+    "shaped": true,
+    "pattern": [
+      " I ",
+      "IPI",
+      "IMI"
+    ],
+    "key": {
+      "P": "#thaumcraft2tp:legacy/itemportablehole",
+      "M": "thaumcraft2tp:eldritch_mechanism",
+      "I": "thaumcraft2tp:void_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:void_interface",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_035",
+    "research": 35,
+    "shaped": false,
+    "pattern": [],
+    "key": {},
+    "ingredients": [
+      "thaumcraft2tp:seed_of_darkness",
+      "minecraft:stone",
+      "minecraft:stone",
+      "minecraft:stone",
+      "minecraft:stone"
+    ],
+    "result": {
+      "id": "thaumcraft2tp:eldritch_stone",
+      "count": 4
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_036",
+    "research": 36,
+    "shaped": true,
+    "pattern": [
+      "EEE",
+      " T ",
+      " W "
+    ],
+    "key": {
+      "T": "#thaumcraft2tp:legacy/itempickthaumium",
+      "W": "thaumcraft2tp:enchanted_wood",
+      "E": "thaumcraft2tp:fiery_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:pickaxe_of_the_core",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_037",
+    "research": 37,
+    "shaped": true,
+    "pattern": [
+      "OLO",
+      "IVI",
+      "OOO"
+    ],
+    "key": {
+      "L": "minecraft:smooth_stone_slab",
+      "V": "thaumcraft2tp:tainted_crystal",
+      "I": "#c:ingots/iron",
+      "O": "minecraft:obsidian"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:dark_infuser",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_038",
+    "research": 38,
+    "shaped": true,
+    "pattern": [
+      " D ",
+      "IMI",
+      "SSS"
+    ],
+    "key": {
+      "S": "thaumcraft2tp:eldritch_stone",
+      "D": "thaumcraft2tp:seed_of_darkness",
+      "M": "thaumcraft2tp:eldritch_mechanism",
+      "I": "thaumcraft2tp:void_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:darkness_generator",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_042",
+    "research": 42,
+    "shaped": true,
+    "pattern": [
+      " 1 ",
+      "GVG",
+      " 2 "
+    ],
+    "key": {
+      "V": "thaumcraft2tp:vis_valve",
+      "G": "#c:ingots/gold",
+      "1": "thaumcraft2tp:vis_crystal",
+      "2": "thaumcraft2tp:tainted_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:advanced_vis_valve",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_043",
+    "research": 43,
+    "shaped": true,
+    "pattern": [
+      " V ",
+      "V V",
+      " V "
+    ],
+    "key": {
+      "V": "thaumcraft2tp:void_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:eldritch_mechanism",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_044",
+    "research": 44,
+    "shaped": true,
+    "pattern": [
+      " M ",
+      "M M",
+      " M "
+    ],
+    "key": {
+      "M": "thaumcraft2tp:eldritch_mechanism"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:inert_eldritch_keystone",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_048",
+    "research": 48,
+    "shaped": true,
+    "pattern": [
+      "M",
+      "I",
+      "I"
+    ],
+    "key": {
+      "M": "thaumcraft2tp:eldritch_mechanism",
+      "I": "thaumcraft2tp:void_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:void_crusher",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_049",
+    "research": 49,
+    "shaped": true,
+    "pattern": [
+      "I",
+      "M",
+      "I"
+    ],
+    "key": {
+      "M": "thaumcraft2tp:eldritch_mechanism",
+      "I": "thaumcraft2tp:void_ingot"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:void_cutter",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_051",
+    "research": 51,
+    "shaped": true,
+    "pattern": [
+      " E ",
+      "ETE",
+      " W "
+    ],
+    "key": {
+      "T": "#thaumcraft2tp:legacy/itemshovelthaumium",
+      "W": "thaumcraft2tp:enchanted_wood",
+      "E": "thaumcraft2tp:earthen_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:shovel_of_renewal",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_053",
+    "research": 53,
+    "shaped": true,
+    "pattern": [
+      "WWW",
+      "CWC",
+      "WWW"
+    ],
+    "key": {
+      "C": "thaumcraft2tp:tainted_crystal",
+      "W": "thaumcraft2tp:totem_of_dusk"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:mask_of_cruelty",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_054",
+    "research": 54,
+    "shaped": true,
+    "pattern": [
+      "GFG",
+      "FFF",
+      "GFG"
+    ],
+    "key": {
+      "F": "thaumcraft2tp:enchanted_fabric",
+      "G": "#c:ingots/gold"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:inert_carpet",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_055",
+    "research": 55,
+    "shaped": true,
+    "pattern": [
+      "CC ",
+      " T ",
+      " W "
+    ],
+    "key": {
+      "T": "#thaumcraft2tp:legacy/itemhoethaumium",
+      "W": "thaumcraft2tp:enchanted_wood",
+      "C": "thaumcraft2tp:vis_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:hoe_of_the_mystic",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_056",
+    "research": 56,
+    "shaped": true,
+    "pattern": [
+      " BC",
+      "W C",
+      " BC"
+    ],
+    "key": {
+      "B": "minecraft:bone",
+      "W": "#thaumcraft2tp:legacy/itemwandbone",
+      "C": "thaumcraft2tp:tainted_crystal"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:bow_of_bone",
+      "count": 1
+    }
+  },
+  {
+    "id": "thaumcraft2tp:research_062",
+    "research": 62,
+    "shaped": true,
+    "pattern": [
+      "ISI",
+      "IFI",
+      " I "
+    ],
+    "key": {
+      "I": "thaumcraft2tp:void_ingot",
+      "F": "thaumcraft2tp:extract_of_warmest_fire",
+      "S": "thaumcraft2tp:soul_fragment"
+    },
+    "ingredients": [],
+    "result": {
+      "id": "thaumcraft2tp:brazier_of_souls",
+      "count": 1
+    }
+  }
+]

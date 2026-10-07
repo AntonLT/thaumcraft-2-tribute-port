@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 50,
+  "ingredients": [
+    "minecraft:smooth_stone_slab",
+    "thaumcraft2tp:quicksilver",
+    "thaumcraft2tp:vaporous_crystal"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:quicksilver_core",
+    "count": 1
+  },
+  "priority": 962,
+  "research": "thaumcraft2tp:quicksilver_core"
+}

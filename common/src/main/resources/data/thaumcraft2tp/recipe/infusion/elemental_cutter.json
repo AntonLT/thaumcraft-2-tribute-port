@@ -1,0 +1,18 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 500,
+  "ingredients": [
+    "thaumcraft2tp:void_cutter",
+    "thaumcraft2tp:sword_of_the_zephyr",
+    "thaumcraft2tp:axe_of_the_stream",
+    "thaumcraft2tp:extract_of_lightest_air",
+    "thaumcraft2tp:extract_of_coolest_water"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:elemental_cutter",
+    "count": 1
+  },
+  "priority": 933,
+  "research": "thaumcraft2tp:elemental_cutter"
+}

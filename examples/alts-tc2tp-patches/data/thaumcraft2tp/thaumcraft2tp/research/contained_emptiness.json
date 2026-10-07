@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:eldritch",
+  "difficulty": 3,
+  "type": 2,
+  "name": "Contained Emptiness",
+  "name_key": "research.thaumcraft2tp.contained_emptiness.name",
+  "text": "Harnessing the power of the Void, this upgrade increases the capacity of devices or thaumic creations it is attached to.",
+  "text_key": "research.thaumcraft2tp.contained_emptiness.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:portable_hole"
+  ],
+  "discovery": "thaumcraft2tp:discovery_contained_emptiness",
+  "result": {
+    "id": "thaumcraft2tp:contained_emptiness",
+    "count": 1
+  }
+}

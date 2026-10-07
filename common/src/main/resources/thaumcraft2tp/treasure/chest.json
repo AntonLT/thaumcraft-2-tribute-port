@@ -1,0 +1,14 @@
+{
+  "pool": "thaumcraft2tp:chest",
+  "fill_one_in": 3,
+  "entries": [
+    {"items": ["thaumcraft2tp:sword_of_the_zephyr", "thaumcraft2tp:axe_of_the_stream", "thaumcraft2tp:pickaxe_of_the_core", "thaumcraft2tp:shovel_of_renewal", "thaumcraft2tp:hoe_of_the_mystic", "thaumcraft2tp:bow_of_bone"]},
+    {"repeat": 15, "items": [{"item": "thaumcraft2tp:thaumium_ingot", "count": {"min": 1, "max": 3}}]},
+    {"repeat": 50, "items": ["thaumcraft2tp:ancient_pottery", "thaumcraft2tp:cracked_wisp_shell", "thaumcraft2tp:tarnished_chalice", "thaumcraft2tp:distorted_skull"]},
+    {"repeat": 25, "items": ["thaumcraft2tp:worn_statuette", "thaumcraft2tp:inhuman_skull", "thaumcraft2tp:ancient_weapon", "thaumcraft2tp:darkened_crystal_eye"]},
+    {"repeat": 12, "items": ["thaumcraft2tp:ancient_seal", "thaumcraft2tp:knotted_spite"]},
+    {"repeat": 6, "items": ["thaumcraft2tp:ancient_stone_tablet", "thaumcraft2tp:tome_of_forbidden_knowledge"]},
+    {"repeat": 3, "items": [{"one_of": ["thaumcraft2tp:shard_of_strange_metal", "thaumcraft2tp:eldritch_mechanism"]}]},
+    {"items": [{"one_of": ["thaumcraft2tp:opalescent_eye", "thaumcraft2tp:disturbing_mirror"]}]}
+  ]
+}

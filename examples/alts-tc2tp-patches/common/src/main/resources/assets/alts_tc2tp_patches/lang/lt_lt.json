@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Cinoboro rūda gilakmenyje",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Neapdorotas cinoboras",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Žinių fragmentai",
+  "tooltip.alts_tc2tp_patches.vis": "Visas: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Išmokai %s viso vertę: %s"
+}

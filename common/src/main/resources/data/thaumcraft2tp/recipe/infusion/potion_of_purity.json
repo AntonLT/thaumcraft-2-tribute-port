@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 25,
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "thaumcraft2tp:silverwood_leaves"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:potion_of_purity",
+    "count": 1
+  },
+  "priority": 942,
+  "research": "thaumcraft2tp:potion_of_purity"
+}

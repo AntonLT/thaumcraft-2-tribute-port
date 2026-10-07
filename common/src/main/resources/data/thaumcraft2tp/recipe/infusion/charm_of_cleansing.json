@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 100,
+  "ingredients": [
+    "#c:ingots/iron",
+    "thaumcraft2tp:cinderpearl_pod"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:charm_of_cleansing",
+    "count": 1
+  },
+  "priority": 938,
+  "research": "thaumcraft2tp:charm_of_cleansing"
+}

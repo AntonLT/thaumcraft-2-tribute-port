@@ -1,0 +1,10 @@
+{
+  "name": "Thaumometer",
+  "name_key": "research.research_gating.thaumometer.name",
+  "text": "Through this lens the unseen currents of the world become plain. Raise it to the air to read the vis and taint of the local aura, or turn it on a thaumic device to learn how much of each it holds.",
+  "text_key": "research.research_gating.thaumometer.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

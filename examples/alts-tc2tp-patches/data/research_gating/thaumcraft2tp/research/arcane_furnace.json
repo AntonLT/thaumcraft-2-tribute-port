@@ -1,0 +1,10 @@
+{
+  "name": "Arcane Furnace",
+  "name_key": "research.research_gating.arcane_furnace.name",
+  "text": "Vis runs through this furnace like a second fire, smelting faster than any common hearth. Starve it of vis and it falters; set Arcane Bellows beside it, facing in, and its flames burn fiercer still.",
+  "text_key": "research.research_gating.arcane_furnace.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

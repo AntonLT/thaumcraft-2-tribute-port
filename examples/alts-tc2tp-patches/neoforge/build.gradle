@@ -1,0 +1,42 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev'
+}
+apply from: '../addon.gradle'
+evaluationDependsOn(':neoforge')
+
+neoForge {
+    version = neoforge_version
+    runs {
+        client { client(); gameDirectory = file('runs/client') }
+        server { server(); gameDirectory = file('runs/server') }
+    }
+    mods {
+        alts_tc2tp_patches { sourceSet sourceSets.main }
+        thaumcraft2tp { sourceSet project(':neoforge').sourceSets.main }
+    }
+}
+
+repositories {
+    exclusiveContent {
+        forRepository { maven { url = 'https://maven.theillusivec4.top/' } }
+        filter { includeGroup 'top.theillusivec4.curios' }
+    }
+}
+
+// Curios is optional at runtime: the jar compiles against its API only, and dev runs include the full mod.
+def curios_version = '15.0.0+26.1.2'
+dependencies {
+    implementation(project(':neoforge'))
+    compileOnly("top.theillusivec4.curios:curios-neoforge:${curios_version}:api")
+    runtimeOnly("top.theillusivec4.curios:curios-neoforge:${curios_version}")
+}
+if (project.hasProperty('smokeTest')) {
+    sourceSets.main.java.srcDir('src/smokeTest/java')
+    // runClient builds a flat world, checks curio rendering, saves screenshots under runs/client/screenshots and quits.
+    neoForge.runs.client.systemProperty('alts.curiosClientSmoke', 'true')
+    neoForge.runs.client.programArguments.addAll('--width', '1280', '--height', '960')
+    neoForge.runs.server.systemProperty('alts.smokeTest', 'true')
+    neoForge.runs.server.programArguments.add('nogui')
+    tasks.withType(JavaExec).configureEach { standardInput = System.in }
+}

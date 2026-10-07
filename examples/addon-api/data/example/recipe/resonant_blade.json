@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 12,
+  "research": "example:resonance",
+  "ingredients": [
+    "minecraft:golden_sword",
+    "#example:resonant_crystals",
+    "#example:resonant_crystals"
+  ],
+  "result": {
+    "id": "minecraft:golden_sword",
+    "components": {
+      "minecraft:enchantments": {
+        "minecraft:sharpness": 3
+      },
+      "minecraft:rarity": "rare"
+    }
+  }
+}

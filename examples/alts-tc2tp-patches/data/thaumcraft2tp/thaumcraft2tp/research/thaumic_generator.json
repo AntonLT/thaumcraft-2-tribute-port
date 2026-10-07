@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 3,
+  "type": 0,
+  "name": "Thaumic Generator",
+  "text": "This device converts vis into pure energy usable by many devices. It generates Industrialcraft EU, RedPower Blutricity and BuildCraft MJ.",
+  "restricted": false,
+  "prerequisites": [
+    "thaumcraft2tp:stabilized_singularity"
+  ],
+  "discovery": "thaumcraft2tp:discovery_thaumic_generator",
+  "result": {
+    "id": "thaumcraft2tp:thaumic_generator",
+    "count": 1
+  },
+  "name_key": "research.thaumcraft2tp.thaumic_generator.name",
+  "text_key": "research.thaumcraft2tp.thaumic_generator.text"
+}

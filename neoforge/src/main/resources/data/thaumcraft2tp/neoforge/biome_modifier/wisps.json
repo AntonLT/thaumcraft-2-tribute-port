@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#thaumcraft2tp:spawns_wisps",
+  "spawners": [
+    {
+      "type": "thaumcraft2tp:wisp",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

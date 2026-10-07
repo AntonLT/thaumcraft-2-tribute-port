@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft2tp:wand_of_fire",
+    "thaumcraft2tp:wand_of_lightning",
+    "thaumcraft2tp:wand_of_reversal",
+    "thaumcraft2tp:wand_of_equal_trade"
+  ]
+}

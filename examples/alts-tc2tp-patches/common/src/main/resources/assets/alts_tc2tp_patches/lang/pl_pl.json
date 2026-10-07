@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Łupkowa ruda cynobru",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Surowy cynober",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Fragmenty wiedzy",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Poznano wartość visu dla %s: %s"
+}

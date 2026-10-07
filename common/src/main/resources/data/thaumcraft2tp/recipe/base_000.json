@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": "#thaumcraft2tp:legacy/itemdiscovery",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "thaumcraft2tp:thaumonomicon",
+    "count": 1
+  }
+}

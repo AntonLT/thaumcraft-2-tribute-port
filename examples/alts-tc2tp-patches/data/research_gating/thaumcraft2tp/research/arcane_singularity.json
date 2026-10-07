@@ -1,0 +1,13 @@
+{
+  "name": "Arcane Singularity",
+  "name_key": "research.research_gating.arcane_singularity.name",
+  "text": "Bind the hoarded fire of alumentum to the captive light of nitor and the two collapse into a tiny, furious knot of arcane force. Thrown, it skitters about for a few heartbeats before tearing itself apart in a violent blast. Caged with care, it is the beating heart of the Arcane Bore and of stranger devices yet.",
+  "text_key": "research.research_gating.arcane_singularity.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [
+    "research_gating:alumentum",
+    "research_gating:nitor"
+  ],
+  "restricted": false
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " V ",
+    "V V",
+    " V "
+  ],
+  "key": {
+    "V": "thaumcraft2tp:void_ingot"
+  },
+  "result": {
+    "id": "thaumcraft2tp:eldritch_mechanism",
+    "count": 1
+  }
+}

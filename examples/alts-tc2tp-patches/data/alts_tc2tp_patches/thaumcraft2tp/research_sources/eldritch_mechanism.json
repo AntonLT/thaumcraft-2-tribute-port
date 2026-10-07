@@ -1,0 +1,10 @@
+{
+  "ingredient": "thaumcraft2tp:eldritch_mechanism",
+  "value": 20,
+  "category": "thaumcraft2tp:eldritch",
+  "special": [
+    "thaumcraft2tp:void_cutter",
+    "thaumcraft2tp:void_crusher",
+    "thaumcraft2tp:inert_eldritch_keystone"
+  ]
+}

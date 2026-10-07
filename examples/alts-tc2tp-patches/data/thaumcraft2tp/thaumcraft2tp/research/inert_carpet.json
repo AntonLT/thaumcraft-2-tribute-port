@@ -1,0 +1,19 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 5,
+  "type": 0,
+  "name": "Inert Carpet",
+  "name_key": "research.thaumcraft2tp.inert_carpet.name",
+  "text": "This magical carpet will allow you to soar through the air like a bird. Currently it is inert and you must first infuse it with an Extract of Lightest Air to charge it. Its magic will not last forever and it will need to be recharged.",
+  "text_key": "research.thaumcraft2tp.inert_carpet.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:enchanted_fabric",
+    "research_gating:extract_of_lightest_air"
+  ],
+  "discovery": "thaumcraft2tp:discovery_inert_carpet",
+  "result": {
+    "id": "thaumcraft2tp:inert_carpet",
+    "count": 1
+  }
+}

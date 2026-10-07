@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Cinnabarit-érc mélypalában",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Nyers cinnabarit",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Tudástöredékek",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Megtanultad a(z) %s vis-értékét: %s"
+}

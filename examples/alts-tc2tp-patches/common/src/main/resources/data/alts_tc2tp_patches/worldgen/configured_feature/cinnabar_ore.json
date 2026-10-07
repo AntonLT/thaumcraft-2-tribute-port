@@ -1,0 +1,8 @@
+{
+  "type": "thaumcraft2tp:cinnabar_deposits",
+  "config": {
+    "deepslate_state": {
+      "Name": "alts_tc2tp_patches:deepslate_cinnabar_ore"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "alts_tc2tp_patches:raw_cinnabar",
+  "result": {
+    "id": "thaumcraft2tp:quicksilver",
+    "count": 1
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

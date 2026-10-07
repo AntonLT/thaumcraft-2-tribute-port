@@ -1,0 +1,17 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "dark",
+  "cost": 60,
+  "ingredients": [
+    "minecraft:soul_sand",
+    "minecraft:soul_sand",
+    "minecraft:soul_sand",
+    "minecraft:soul_sand",
+    "minecraft:soul_sand"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:soul_fragment",
+    "count": 1
+  },
+  "priority": 968
+}

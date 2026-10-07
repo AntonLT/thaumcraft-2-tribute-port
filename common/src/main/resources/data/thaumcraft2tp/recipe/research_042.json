@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "GVG",
+    " 2 "
+  ],
+  "key": {
+    "V": "thaumcraft2tp:vis_valve",
+    "G": "#c:ingots/gold",
+    "1": "thaumcraft2tp:vis_crystal",
+    "2": "thaumcraft2tp:tainted_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:advanced_vis_valve",
+    "count": 1
+  }
+}

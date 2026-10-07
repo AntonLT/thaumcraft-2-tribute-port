@@ -1,0 +1,10 @@
+{
+  "name": "Extract of Purest Magic",
+  "name_key": "research.research_gating.extract_of_purest_magic.name",
+  "text": "Shimmerleaf steeped with a vis crystal draws out magic in its purest form, so concentrated that the vial hums softly in the hand. Many enchanting devices and eldritch mechanisms need its touch to awaken.",
+  "text_key": "research.research_gating.extract_of_purest_magic.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

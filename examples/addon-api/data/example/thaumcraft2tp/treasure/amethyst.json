@@ -1,0 +1,6 @@
+{
+  "pool": "thaumcraft2tp:chest",
+  "entries": [
+    {"repeat": 20, "items": [{"item": "minecraft:amethyst_shard", "count": {"min": 2, "max": 5}}]}
+  ]
+}

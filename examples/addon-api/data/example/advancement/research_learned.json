@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "learned": {
+      "trigger": "thaumcraft2tp:research_learned",
+      "conditions": {"research": "example:resonance"}
+    }
+  }
+}

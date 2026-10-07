@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": "thaumcraft2tp:vaporous_crystal"
+  },
+  "result": {
+    "id": "thaumcraft2tp:vaporous_vis_ore",
+    "count": 1
+  }
+}

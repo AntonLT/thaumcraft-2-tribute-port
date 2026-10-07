@@ -1,0 +1,14 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 10,
+  "ingredients": [
+    "thaumcraft2tp:alumentum",
+    "thaumcraft2tp:nitor"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:arcane_singularity",
+    "count": 1
+  },
+  "priority": 979
+}

@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:eldritch",
+  "difficulty": 5,
+  "type": 0,
+  "name": "Void Interface",
+  "name_key": "research.thaumcraft2tp.void_interface.name",
+  "text": "This device seems to be designed to attach on top of a Void Chest. It allows you to link other Void Chests with this attachment into one of six networks of shared inventories.",
+  "text_key": "research.thaumcraft2tp.void_interface.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:portable_hole"
+  ],
+  "discovery": "thaumcraft2tp:discovery_void_interface",
+  "result": {
+    "id": "thaumcraft2tp:void_interface",
+    "count": 1
+  }
+}

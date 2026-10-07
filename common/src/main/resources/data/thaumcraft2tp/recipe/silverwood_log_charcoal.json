@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "thaumcraft2tp:silverwood_log",
+  "result": {
+    "id": "minecraft:charcoal",
+    "count": 2
+  },
+  "experience": 0.15,
+  "cookingtime": 200
+}

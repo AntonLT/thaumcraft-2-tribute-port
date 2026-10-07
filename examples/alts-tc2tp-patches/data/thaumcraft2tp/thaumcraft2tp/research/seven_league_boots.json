@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 3,
+  "type": 2,
+  "name": "Seven League Boots",
+  "name_key": "research.thaumcraft2tp.seven_league_boots.name",
+  "text": "These boots allows their wearer to make impressive leaps and bounds. Holding shift while jumping reduces the jump height.",
+  "text_key": "research.thaumcraft2tp.seven_league_boots.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:boots_of_striding"
+  ],
+  "discovery": "thaumcraft2tp:discovery_seven_league_boots",
+  "result": {
+    "id": "thaumcraft2tp:seven_league_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ingredient": "#thaumcraft2tp:legacy/coal",
+  "value": 2,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:alumentum"
+  ],
+  "special_chance": 100
+}

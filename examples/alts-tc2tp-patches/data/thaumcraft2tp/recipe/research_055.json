@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 50,
+  "research": "thaumcraft2tp:hoe_of_the_mystic",
+  "ingredients": [
+    "thaumcraft2tp:vis_crystal",
+    "thaumcraft2tp:vis_crystal",
+    "#thaumcraft2tp:legacy/itemhoethaumium",
+    "thaumcraft2tp:enchanted_wood"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:hoe_of_the_mystic",
+    "count": 1
+  }
+}

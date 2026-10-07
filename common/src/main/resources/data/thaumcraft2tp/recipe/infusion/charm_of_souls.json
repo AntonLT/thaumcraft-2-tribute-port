@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "dark",
+  "cost": 150,
+  "ingredients": [
+    "thaumcraft2tp:extract_of_foulest_taint",
+    "thaumcraft2tp:soul_fragment"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:charm_of_souls",
+    "count": 1
+  },
+  "priority": 935,
+  "research": "thaumcraft2tp:charm_of_souls"
+}

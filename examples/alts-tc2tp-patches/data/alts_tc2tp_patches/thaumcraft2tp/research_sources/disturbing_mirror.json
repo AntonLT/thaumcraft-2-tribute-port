@@ -1,0 +1,8 @@
+{
+  "ingredient": "thaumcraft2tp:disturbing_mirror",
+  "value": 40,
+  "category": "thaumcraft2tp:eldritch",
+  "special": [
+    "thaumcraft2tp:void_bracelet"
+  ]
+}

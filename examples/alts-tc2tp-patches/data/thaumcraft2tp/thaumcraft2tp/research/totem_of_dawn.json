@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:tainted",
+  "difficulty": 3,
+  "type": 2,
+  "name": "Totem of Dawn",
+  "name_key": "research.thaumcraft2tp.totem_of_dawn.name",
+  "text": "This totem fills the air with good vibes and positive energy. It probably does the local aura a world of good. It also prevents Tainted ground from forming near it.",
+  "text_key": "research.thaumcraft2tp.totem_of_dawn.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:nitor"
+  ],
+  "discovery": "thaumcraft2tp:discovery_totem_of_dawn",
+  "result": {
+    "id": "thaumcraft2tp:totem_of_dawn",
+    "count": 1
+  }
+}

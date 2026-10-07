@@ -1,0 +1,10 @@
+{
+  "name": "Enchanted Silverwood",
+  "name_key": "research.research_gating.enchanted_silverwood.name",
+  "text": "Silverwood grows already humming with a pure and gentle magic. Steeped further in vis, it becomes a wood that drinks in corruption, fit for devices that must cleanse and purify, the Vis Purifier chief among them.",
+  "text_key": "research.research_gating.enchanted_silverwood.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [],
+  "restricted": false
+}

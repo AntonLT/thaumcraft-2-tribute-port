@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft2tp:greatwood_leaves",
+    "thaumcraft2tp:silverwood_leaves",
+    "thaumcraft2tp:tainted_leaves"
+  ]
+}

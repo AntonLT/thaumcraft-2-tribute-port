@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "dark",
+  "cost": 24,
+  "ingredients": [
+    "thaumcraft2tp:zombie_brain",
+    "minecraft:glass",
+    "thaumcraft2tp:soul_fragment"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:brain_in_a_jar",
+    "count": 1
+  },
+  "priority": 953,
+  "research": "thaumcraft2tp:brain_in_a_jar"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OLO",
+    "IVI",
+    "OOO"
+  ],
+  "key": {
+    "L": "minecraft:smooth_stone_slab",
+    "V": "thaumcraft2tp:tainted_crystal",
+    "I": "#c:ingots/iron",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "thaumcraft2tp:dark_infuser",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ingredient": "thaumcraft2tp:shimmerleaf",
+  "value": 10,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:extract_of_lightest_air",
+    "research_gating:extract_of_coolest_water",
+    "research_gating:extract_of_deepest_earth",
+    "research_gating:extract_of_warmest_fire",
+    "research_gating:extract_of_purest_magic",
+    "research_gating:extract_of_foulest_taint"
+  ],
+  "special_chance": 100
+}

@@ -1,0 +1,18 @@
+{
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 2,
+  "type": 2,
+  "name": "Stabilized Singularity",
+  "name_key": "research.thaumcraft2tp.stabilized_singularity.name",
+  "text": "This upgrade increases the efficiency of any devices or thaumic creations it is attached to.",
+  "text_key": "research.thaumcraft2tp.stabilized_singularity.text",
+  "restricted": false,
+  "prerequisites": [
+    "research_gating:arcane_singularity"
+  ],
+  "discovery": "thaumcraft2tp:discovery_stabilized_singularity",
+  "result": {
+    "id": "thaumcraft2tp:stabilized_singularity",
+    "count": 1
+  }
+}

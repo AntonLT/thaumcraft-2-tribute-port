@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft2tp:thaumium_sword",
+    "thaumcraft2tp:sword_of_the_zephyr",
+    "thaumcraft2tp:void_cutter",
+    "thaumcraft2tp:elemental_cutter"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Runic Essence: Earth",
+  "name_key": "research.research_gating.runic_essence_earth.name",
+  "text": "The rune of Earth, bound into a heavy, patient essence. Set upon an Arcane Seal, it speaks one word of the seal's incantation; join it with other runes and the seal says something new.",
+  "text_key": "research.research_gating.runic_essence_earth.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [
+    "research_gating:nitor"
+  ],
+  "restricted": false
+}

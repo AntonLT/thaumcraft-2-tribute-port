@@ -1,0 +1,17 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 50,
+  "research": "thaumcraft2tp:shovel_of_renewal",
+  "ingredients": [
+    "thaumcraft2tp:earthen_crystal",
+    "thaumcraft2tp:earthen_crystal",
+    "#thaumcraft2tp:legacy/itemshovelthaumium",
+    "thaumcraft2tp:earthen_crystal",
+    "thaumcraft2tp:enchanted_wood"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:shovel_of_renewal",
+    "count": 1
+  }
+}

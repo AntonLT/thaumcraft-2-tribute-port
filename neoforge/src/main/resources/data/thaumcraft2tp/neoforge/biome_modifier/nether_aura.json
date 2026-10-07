@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#thaumcraft2tp:has_nether_arcane_vegetation",
+  "features": "thaumcraft2tp:arcane_vegetation",
+  "step": "vegetal_decoration"
+}

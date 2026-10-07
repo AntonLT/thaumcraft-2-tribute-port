@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 300,
+  "ingredients": [
+    "thaumcraft2tp:inert_carpet",
+    "thaumcraft2tp:extract_of_lightest_air"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:flying_carpet",
+    "count": 1
+  },
+  "priority": 928,
+  "research": "thaumcraft2tp:inert_carpet"
+}

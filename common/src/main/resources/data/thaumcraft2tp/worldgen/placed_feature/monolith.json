@@ -1,0 +1,8 @@
+{
+  "feature": "thaumcraft2tp:monolith",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

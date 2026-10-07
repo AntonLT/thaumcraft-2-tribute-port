@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Sügavkilda kinaveri maak",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Toor kinaver",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Teadmiste killukesed",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Õppisid %s visi väärtuse: %s"
+}

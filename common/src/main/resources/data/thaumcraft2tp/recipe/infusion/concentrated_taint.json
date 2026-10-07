@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "dark",
+  "cost": 10,
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "thaumcraft2tp:congealed_taint"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:concentrated_taint",
+    "count": 1
+  },
+  "priority": 943,
+  "research": "thaumcraft2tp:concentrated_taint"
+}

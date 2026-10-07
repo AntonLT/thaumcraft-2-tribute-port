@@ -1,0 +1,9 @@
+{
+  "ingredient": "minecraft:furnace",
+  "value": 2,
+  "category": "thaumcraft2tp:lost",
+  "special": [
+    "research_gating:arcane_furnace"
+  ],
+  "special_chance": 100
+}

@@ -1,0 +1,14 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 25,
+  "ingredients": [
+    "#c:ingots/gold",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:arcane_seal_item",
+    "count": 1
+  },
+  "priority": 983
+}

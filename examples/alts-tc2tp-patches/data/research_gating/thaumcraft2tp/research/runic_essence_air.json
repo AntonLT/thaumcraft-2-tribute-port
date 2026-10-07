@@ -1,0 +1,12 @@
+{
+  "name": "Runic Essence: Air",
+  "name_key": "research.research_gating.runic_essence_air.name",
+  "text": "The rune of Air, caught in an essence that swirls and never quite settles. Set upon an Arcane Seal, it speaks one word of the seal's incantation; join it with other runes and the seal says something new.",
+  "text_key": "research.research_gating.runic_essence_air.text",
+  "category": "thaumcraft2tp:lost",
+  "difficulty": 0,
+  "prerequisites": [
+    "research_gating:nitor"
+  ],
+  "restricted": false
+}

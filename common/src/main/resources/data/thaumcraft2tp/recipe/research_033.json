@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IPI",
+    "IMI"
+  ],
+  "key": {
+    "P": "#thaumcraft2tp:legacy/itemportablehole",
+    "M": "thaumcraft2tp:eldritch_mechanism",
+    "I": "thaumcraft2tp:void_ingot"
+  },
+  "result": {
+    "id": "thaumcraft2tp:void_interface",
+    "count": 1
+  }
+}

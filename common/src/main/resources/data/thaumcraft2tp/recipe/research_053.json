@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "CWC",
+    "WWW"
+  ],
+  "key": {
+    "C": "thaumcraft2tp:tainted_crystal",
+    "W": "thaumcraft2tp:totem_of_dusk"
+  },
+  "result": {
+    "id": "thaumcraft2tp:mask_of_cruelty",
+    "count": 1
+  }
+}

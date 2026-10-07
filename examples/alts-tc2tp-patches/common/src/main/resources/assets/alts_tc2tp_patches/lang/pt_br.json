@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Minério de cinábrio de ardósia",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Cinábrio bruto",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Fragmentos de conhecimento",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Você aprendeu o valor de vis de %s: %s"
+}

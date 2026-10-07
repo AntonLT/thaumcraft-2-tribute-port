@@ -1,0 +1,15 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "cost": 5,
+  "ingredients": [
+    "thaumcraft2tp:inert_eldritch_keystone",
+    "thaumcraft2tp:extract_of_purest_magic"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:eldritch_keystone_tlhutlh",
+    "count": 1
+  },
+  "priority": 940,
+  "research": "thaumcraft2tp:eldritch_keystone_tlhutlh"
+}

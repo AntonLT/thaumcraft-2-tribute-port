@@ -1,0 +1,16 @@
+{
+  "type": "thaumcraft2tp:infusion",
+  "mode": "normal",
+  "research": "research_gating:extract_of_foulest_taint",
+  "cost": 250,
+  "ingredients": [
+    "thaumcraft2tp:tainted_crystal",
+    "thaumcraft2tp:shimmerleaf",
+    "minecraft:potion"
+  ],
+  "result": {
+    "id": "thaumcraft2tp:extract_of_foulest_taint",
+    "count": 1
+  },
+  "priority": 984
+}

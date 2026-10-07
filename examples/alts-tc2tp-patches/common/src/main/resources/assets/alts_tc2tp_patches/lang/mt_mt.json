@@ -1,0 +1,7 @@
+{
+  "block.alts_tc2tp_patches.deepslate_cinnabar_ore": "Minerali taċ-ċinabru fil-lavanja",
+  "item.alts_tc2tp_patches.raw_cinnabar": "Ċinabru mhux maħdum",
+  "tag.item.alts_tc2tp_patches.knowledge_fragments": "Frammenti ta' għarfien",
+  "tooltip.alts_tc2tp_patches.vis": "Vis: %s",
+  "message.alts_tc2tp_patches.vis_learned": "Tgħallimt il-valur tal-vis ta' %s: %s"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": "thaumcraft2tp:thaumium_ingot"
+  },
+  "result": {
+    "id": "thaumcraft2tp:thaumium_boots",
+    "count": 1
+  }
+}
