@@ -75,5 +75,5 @@ git tag v1.0.0-rc.2
 git push origin v1.0.0-rc.2
 ```
 
-`.github/workflows/release.yml` checks that the tag matches the version, builds, and creates a GitHub release with the Fabric and NeoForge JARs and Alt's patches. Versions with a suffix such as `-rc.2` are marked as pre-releases. The release notes are generated from the commits since the previous tag; edit them on GitHub afterwards.
+`.github/workflows/release.yml` checks that the tag matches the version, builds, and creates a GitHub release with the Fabric and NeoForge JARs and Alt's patches. Versions with a suffix such as `-rc.2` are marked as pre-releases. The release notes are generated from the commits since the previous tag; edit them on GitHub afterwards. The same workflow also uploads to Modrinth and CurseForge once the projects exist there; see [Publish on Modrinth and CurseForge](../publishing/README.md).
 

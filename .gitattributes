@@ -5,6 +5,8 @@
 *.gradle text eol=crlf
 *.png binary
 *.gif binary
+*.jpg binary
+*.jpeg binary
 *.exe binary
 *.dll binary
 *.jar binary

@@ -1,9 +1,11 @@
 name: Release
 
-# Push a tag named after the version in gradle.properties, for example v1.0.0-rc.2.
+# Publishing uses vars MODRINTH_ID/CURSEFORGE_ID/ALTS_MODRINTH_ID/ALTS_CURSEFORGE_ID and secrets MODRINTH_TOKEN/CURSEFORGE_TOKEN.
+
+# Use v<version> from gradle.properties, or alts-v<addon_version> from examples/alts-tc2tp-patches/addon.gradle.
 on:
   push:
-    tags: ['v*']
+    tags: ['v*', 'alts-v*']
 
 permissions:
   contents: write
@@ -11,23 +13,118 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      minecraft_version: ${{ steps.version.outputs.minecraft_version }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: 25
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v6
       - name: Check the tag matches the mod version
+        id: version
         run: |
-          version=$(grep '^version=' gradle.properties | cut -d= -f2)
-          [ "v$version" = "$GITHUB_REF_NAME" ] || { echo "Tag $GITHUB_REF_NAME does not match version $version"; exit 1; }
+          if [[ "$GITHUB_REF_NAME" == alts-v* ]]; then
+            version=$(sed -n "s/^def addon_version = '\(.*\)'/\1/p" examples/alts-tc2tp-patches/addon.gradle)
+            tag_prefix=alts-v
+          else
+            version=$(grep '^version=' gradle.properties | cut -d= -f2)
+            tag_prefix=v
+          fi
+          [ "$tag_prefix$version" = "$GITHUB_REF_NAME" ] || { echo "Tag $GITHUB_REF_NAME does not match version $version"; exit 1; }
           echo "VERSION=$version" >> "$GITHUB_ENV"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          minecraft_version=$(grep '^minecraft_version=' gradle.properties | cut -d= -f2)
+          echo "minecraft_version=$minecraft_version" >> "$GITHUB_OUTPUT"
       - run: ./gradlew build --console=plain
       - name: Publish the release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          files=$(ls fabric/build/libs/*.jar neoforge/build/libs/*.jar examples/alts-tc2tp-patches/*/build/libs/*.jar | grep -vE -- '-(sources|javadoc)\.jar$')
+          if [[ "$GITHUB_REF_NAME" == alts-v* ]]; then
+            files=$(ls examples/alts-tc2tp-patches/*/build/libs/*.jar | grep -vE -- '-(sources|javadoc)\.jar$')
+            title="Alt's Thaumcraft 2 Tribute Port patches $VERSION"
+          else
+            files=$(ls fabric/build/libs/*.jar neoforge/build/libs/*.jar examples/alts-tc2tp-patches/*/build/libs/*.jar | grep -vE -- '-(sources|javadoc)\.jar$')
+            title="Thaumcraft 2 Tribute Port $VERSION"
+          fi
           prerelease=$(case "$VERSION" in *-*) echo --prerelease;; esac)
-          gh release create "$GITHUB_REF_NAME" $files --title "Thaumcraft 2 Tribute Port $VERSION" --generate-notes $prerelease
+          gh release create "$GITHUB_REF_NAME" $files --title "$title" --generate-notes $prerelease
+      - name: Upload runtime jars
+        uses: actions/upload-artifact@v7
+        with:
+          name: runtime-jars
+          if-no-files-found: error
+          path: |
+            fabric/build/libs/*.jar
+            neoforge/build/libs/*.jar
+            examples/alts-tc2tp-patches/*/build/libs/*.jar
+            !**/*-sources.jar
+            !**/*-javadoc.jar
+
+  publish:
+    needs: release
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - project: "Thaumcraft 2 Tribute Port"
+            tag_prefix: v
+            loader: fabric
+            files: fabric/build/libs/!(*-@(sources|javadoc)).jar
+            modrinth_var: MODRINTH_ID
+            curseforge_var: CURSEFORGE_ID
+            dependencies: |
+              fabric-api(required){modrinth:P7dR8mSH}{curseforge:306612}
+          - project: "Thaumcraft 2 Tribute Port"
+            tag_prefix: v
+            loader: neoforge
+            files: neoforge/build/libs/!(*-@(sources|javadoc)).jar
+            modrinth_var: MODRINTH_ID
+            curseforge_var: CURSEFORGE_ID
+            dependencies: ''
+          - project: "Alt's Thaumcraft 2 Tribute Port patches"
+            tag_prefix: alts-v
+            loader: fabric
+            files: examples/alts-tc2tp-patches/fabric/build/libs/!(*-@(sources|javadoc)).jar
+            modrinth_var: ALTS_MODRINTH_ID
+            curseforge_var: ALTS_CURSEFORGE_ID
+            dependencies: |
+              thaumcraft-2-tribute-port(required)
+              fabric-api(required){modrinth:P7dR8mSH}{curseforge:306612}
+          - project: "Alt's Thaumcraft 2 Tribute Port patches"
+            tag_prefix: alts-v
+            loader: neoforge
+            files: examples/alts-tc2tp-patches/neoforge/build/libs/!(*-@(sources|javadoc)).jar
+            modrinth_var: ALTS_MODRINTH_ID
+            curseforge_var: ALTS_CURSEFORGE_ID
+            dependencies: |
+              thaumcraft-2-tribute-port(required)
+              curios(optional){modrinth:vvuO3ImH}{curseforge:309927}
+    steps:
+      - name: Download runtime jars
+        if: ${{ startsWith(github.ref_name, matrix.tag_prefix) && (vars[matrix.modrinth_var] != '' || vars[matrix.curseforge_var] != '') }}
+        uses: actions/download-artifact@v8
+        with:
+          name: runtime-jars
+      - name: Publish to Modrinth and CurseForge
+        if: ${{ startsWith(github.ref_name, matrix.tag_prefix) && (vars[matrix.modrinth_var] != '' || vars[matrix.curseforge_var] != '') }}
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: ${{ vars[matrix.modrinth_var] }}
+          curseforge-id: ${{ vars[matrix.curseforge_var] }}
+          # An unset project ID must also disable its platform token.
+          modrinth-token: ${{ vars[matrix.modrinth_var] != '' && secrets.MODRINTH_TOKEN || '' }}
+          curseforge-token: ${{ vars[matrix.curseforge_var] != '' && secrets.CURSEFORGE_TOKEN || '' }}
+          files: ${{ matrix.files }}
+          name: ${{ matrix.project }} ${{ needs.release.outputs.version }} (${{ matrix.loader == 'fabric' && 'Fabric' || 'NeoForge' }})
+          version: ${{ needs.release.outputs.version }}+${{ matrix.loader }}
+          version-type: ${{ (contains(needs.release.outputs.version, '-') || startsWith(needs.release.outputs.version, '0.')) && 'beta' || 'release' }}
+          loaders: ${{ matrix.loader }}
+          game-versions: ${{ needs.release.outputs.minecraft_version }}
+          java: '25'
+          changelog: https://github.com/${{ github.repository }}/releases/tag/${{ github.ref_name }}
+          dependencies: ${{ matrix.dependencies }}
