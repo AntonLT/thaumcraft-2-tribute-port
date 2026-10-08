@@ -42,8 +42,8 @@ Leave a variable empty to skip that platform.
 
 ## Release
 
-To release the port, push a tag named after `version` in `gradle.properties`, for example `v1.0.0-rc.2`. To release Alt's patches, push a tag named after `addon_version` in `examples/alts-tc2tp-patches/addon.gradle`, for example `alts-v1.0.0`.
+To release the port, push a tag named after `version` in `gradle.properties`, for example `v1.0.0-rc.3`. To release Alt's patches, push a tag named after `addon_version` in `examples/alts-tc2tp-patches/addon.gradle`, for example `alts-v1.0.0`.
 
-Each upload is named `<mod> <version> (Fabric)` or `(NeoForge)`, with the version number `<version>+fabric` or `<version>+neoforge`. A version with a suffix such as `-rc.2`, or below 1.0, is published as a beta. The changelog links to the GitHub release.
+Each upload is named `<mod> <version> (Fabric)` or `(NeoForge)`, with the version number `<version>+fabric` or `<version>+neoforge`. A version with a suffix such as `-rc.3`, or below 1.0, is published as a beta. The changelog links to the GitHub release.
 
 If an upload fails, open the run in the **Actions** tab and select **Re-run failed jobs**. The GitHub release is not created twice. A tag pushed before this workflow existed is not published; upload its jars by hand or release a new version.

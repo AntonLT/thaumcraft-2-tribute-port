@@ -40,6 +40,7 @@ public final class GenerationParitySmokeTests {
         final List<BlockPos> scheduled=new ArrayList<>();
         final WorldGenLevel world;
         Holder<Biome> biome;
+        java.util.function.Function<BlockPos,Holder<Biome>> columnBiome;
         long seed=216;
         int bottom=-64,height=101;
         boolean stone,failSilverwood,canopy,grassy;
@@ -52,8 +53,10 @@ public final class GenerationParitySmokeTests {
                 case "getMaxY" -> 320;
                 case "getHeight" -> args==null||args.length==0?320-bottom:height;
                 case "getSeaLevel" -> 63;
-                case "getBiome" -> ((BlockPos)args[0]).getY()<0?server.registryAccess().lookupOrThrow(Registries.BIOME).getOrThrow(Biomes.DESERT):biome;
+                case "getBiome" -> ((BlockPos)args[0]).getY()<0?server.registryAccess().lookupOrThrow(Registries.BIOME).getOrThrow(Biomes.DESERT):columnBiome!=null?columnBiome.apply((BlockPos)args[0]):biome;
                 case "isOutsideBuildHeight" -> {int y=args[0] instanceof BlockPos p?p.getY():(int)args[0];yield y<bottom||y>=320;}
+                case "isInsideBuildHeight" -> {int y=(int)args[0];yield y>=bottom&&y<320;}
+                case "getBrightness" -> 0;
                 case "ensureCanWrite","hasChunkAt" -> true;
                 case "getBlockEntity" -> null;
                 case "scheduleTick" -> {scheduled.add(((BlockPos)args[0]).immutable());yield null;}
@@ -115,8 +118,7 @@ public final class GenerationParitySmokeTests {
         var terrain=new Terrain(level);terrain.failSilverwood=true;
         var origin=new BlockPos(8192,0,8192);
         while(ArcaneWorldData.initialAura(terrain.seed,origin.getX()>>4,origin.getZ()>>4,terrain.biome,false).vis()<=PortConfig.auraMax*.585f)terrain.seed++;
-        var random=new LegacyRandomSource(216){int coordinates;@Override public int nextInt(int bound){if(bound==16)return coordinates++<2?1:12;return super.nextInt(bound);}};
-        check(terrain.place("arcane_vegetation",origin,random),"failed silverwood location falls back to greatwood");
+        check(terrain.place("arcane_vegetation",origin,fixedColumns()),"failed silverwood location falls back to greatwood");
         check(terrain.columns.size()==2&&!terrain.columns.get(0).equals(terrain.columns.get(1)),"each tree gets an independent position");
         check(terrain.blocks.values().stream().anyMatch(s->s.is(Content.block("greatwood_log"))),"greatwood actually placed at fallback position");
         check(ArcaneFeatures.silverwoodBiome(level.registryAccess().lookupOrThrow(Registries.BIOME).getOrThrow(Biomes.JUNGLE)),"modern jungle includes former jungle hills habitat");
@@ -126,7 +128,50 @@ public final class GenerationParitySmokeTests {
         check(!covered.place("arcane_vegetation",origin,RandomSource.create(216))&&covered.blocks.isEmpty(),"ground cover blocks natural trees like legacy tall grass");
         covered.grassy=false;
         check(covered.place("arcane_vegetation",origin,RandomSource.create(216)),"same high-aura site allows a tree with an open canopy");
+        var snowy=new Terrain(level);snowy.seed=terrain.seed;snowy.biome=level.registryAccess().lookupOrThrow(Registries.BIOME).getOrThrow(Biomes.SNOWY_TAIGA);
+        check(!snowy.place("arcane_vegetation",origin,RandomSource.create(216))&&snowy.blocks.isEmpty(),"ground that vanilla snows blocks natural trees like the legacy snow pass");
+        snowy.biome=level.registryAccess().lookupOrThrow(Registries.BIOME).getOrThrow(Biomes.TAIGA);
+        check(snowy.place("arcane_vegetation",origin,RandomSource.create(216)),"same high-aura site in unsnowed taiga allows a tree");
+        var biomes=level.registryAccess().lookupOrThrow(Registries.BIOME);var snowyTaiga=biomes.getOrThrow(Biomes.SNOWY_TAIGA);
+        var boundary=new Terrain(level);boundary.seed=terrain.seed;boundary.failSilverwood=true;boundary.columnBiome=p->(p.getX()&15)==13?snowyTaiga:boundary.biome;
+        check(!boundary.place("arcane_vegetation",origin,fixedColumns())&&boundary.blocks.isEmpty(),"snow on any greatwood trunk column blocks it, not only the anchor column");
+        boundary.columnBiome=p->(p.getX()&15)==14?snowyTaiga:boundary.biome;
+        check(boundary.place("arcane_vegetation",origin,fixedColumns())&&has(boundary,"greatwood_log"),"snow beside the greatwood trunk leaves its site open");
+        var sparse=new Terrain(level);sparse.biome=biomes.getOrThrow(Biomes.SPARSE_JUNGLE);sparse.seed=silverwoodSeed(sparse,origin);
+        check(!sparse.place("arcane_vegetation",origin,RandomSource.create(216))&&sparse.blocks.isEmpty(),"sparse jungle is outside the original jungle hills silverwood habitat");
+        sparse.biome=biomes.getOrThrow(Biomes.JUNGLE);sparse.seed=silverwoodSeed(sparse,origin);
+        check(sparse.place("arcane_vegetation",origin,RandomSource.create(216))&&has(sparse,"silverwood_log"),"jungle keeps the original jungle hills silverwood habitat");
+        var birch=new Terrain(level);birch.biome=biomes.getOrThrow(Biomes.BIRCH_FOREST);birch.seed=silverwoodSeed(birch,origin);
+        check(birch.place("arcane_vegetation",origin,RandomSource.create(216))&&has(birch,"greatwood_log")&&!has(birch,"silverwood_log"),"birch forest grows greatwood but not silverwood");
     }
+    /** Needs common/src/smokeTest/datapacks/convention-biome installed in a fresh world. */
+    public static int conventionBiome(MinecraftServer server){
+        checks=0;var level=server.overworld();var biomes=level.registryAccess().lookupOrThrow(Registries.BIOME);
+        var convention=biomes.getOrThrow(net.minecraft.resources.ResourceKey.create(Registries.BIOME,net.minecraft.resources.Identifier.fromNamespaceAndPath("thaumcraft_smoke","convention_forest")));
+        check(!convention.is(net.minecraft.tags.BiomeTags.IS_OVERWORLD)&&!convention.is(net.minecraft.tags.BiomeTags.IS_FOREST),"fixture biome is known only through c: convention tags");
+        boolean attached=convention.value().getGenerationSettings().features().stream().flatMap(set->set.stream()).anyMatch(holder->holder.is(ArcaneFeatures.placed("arcane_vegetation")));
+        check(attached,"loader attaches arcane vegetation to a c:is_overworld biome");
+        var forest=biomes.getOrThrow(Biomes.FOREST);var plains=biomes.getOrThrow(Biomes.PLAINS);boolean differsFromPlains=false;
+        for(int chunk=0;chunk<16;chunk++){
+            var aura=ArcaneWorldData.initialAura(216,chunk,0,convention,false);
+            check(aura.equals(ArcaneWorldData.initialAura(216,chunk,0,forest,false)),"c:is_forest biome rolls the forest aura band");
+            differsFromPlains|=!aura.equals(ArcaneWorldData.initialAura(216,chunk,0,plains,false));
+        }
+        check(differsFromPlains,"forest aura band differs from the plains band");
+        var terrain=new Terrain(level);terrain.biome=convention;var origin=new BlockPos(8192,0,8192);terrain.seed=silverwoodSeed(terrain,origin);
+        check(terrain.place("arcane_vegetation",origin,RandomSource.create(216))&&has(terrain,"silverwood_log"),"c:is_forest biome grows silverwood");
+        Thaumcraft.LOG.info("CONVENTION_BIOME_PASS checks={}",checks);
+        return checks;
+    }
+    private static RandomSource fixedColumns(){
+        return new LegacyRandomSource(216){int coordinates;@Override public int nextInt(int bound){if(bound==16)return coordinates++<2?1:12;return super.nextInt(bound);}};
+    }
+    private static long silverwoodSeed(Terrain terrain,BlockPos origin){
+        long seed=216;
+        while(ArcaneWorldData.initialAura(seed,origin.getX()>>4,origin.getZ()>>4,terrain.biome,false).vis()<=PortConfig.auraMax*.585f)seed++;
+        return seed;
+    }
+    private static boolean has(Terrain terrain,String block){return terrain.blocks.values().stream().anyMatch(s->s.is(Content.block(block)));}
     private static void monoliths(ServerLevel level){
         var index=new EldritchIndex();var first=new BlockPos(0,100,0);
         check(index.reserve(first)&&!index.reserve(first.east(300)),"in-flight generation enforces original greater-than-300 spacing");

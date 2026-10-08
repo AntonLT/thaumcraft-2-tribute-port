@@ -44,6 +44,14 @@ The runner prepares a local test server with seed 216, offline authentication an
 
 The runner refuses to reuse an existing `runs/server/world`. Move that test world to a new retained name before another fresh run, or pass `--archive-world` to retain it under a timestamped name automatically. Previous test logs are also retained. Do not point this fixture at a world you play: its assertions place machines, trees and an Eldritch chamber, modify research and aura, and inspect saved data. A pass requires both the test marker and a successful process exit.
 
+`--datapack DIR` copies a datapack into the fresh world before it starts. Repeat it to install several packs. `--seed` changes the world seed and `--timeout` changes the 360-second limit. The convention-biome suite needs its pack:
+
+```bash
+JDK_JAVA_OPTIONS=-Dthaumcraft.conventionBiomeSmoke=true python3 scripts/smoke_server.py fabric --datapack common/src/smokeTest/datapacks/convention-biome --java-home "$JAVA_HOME"
+```
+
+`scripts/tree_census.py` measures natural Greatwood and Silverwood per 1,000 land chunks. It starts one server per habitat variant, scans the same chunks in each, and writes logs to `.cache/tree-census/`. Each variant takes about 3 minutes, so the default three variants take about 9 minutes. A rerun reuses existing logs; delete them to measure again.
+
 ## Client fixture
 
 Create a disposable singleplayer world named `ThaumcraftQA` in the loader's development client first, then launch:
@@ -71,9 +79,9 @@ Images are retained under each instance's `screenshots` directory: the exhibitio
 GitHub Actions builds only release tags. To publish a release, set `version` in `gradle.properties`, commit, and push a matching tag:
 
 ```bash
-git tag v1.0.0-rc.2
-git push origin v1.0.0-rc.2
+git tag v1.0.0-rc.3
+git push origin v1.0.0-rc.3
 ```
 
-`.github/workflows/release.yml` checks that the tag matches the version, builds, and creates a GitHub release with the Fabric and NeoForge JARs and Alt's patches. Versions with a suffix such as `-rc.2` are marked as pre-releases. The release notes are generated from the commits since the previous tag; edit them on GitHub afterwards. The same workflow also uploads to Modrinth and CurseForge once the projects exist there; see [Publish on Modrinth and CurseForge](../publishing/README.md).
+`.github/workflows/release.yml` checks that the tag matches the version, builds, and creates a GitHub release with the Fabric and NeoForge JARs and Alt's patches. Versions with a suffix such as `-rc.3` are marked as pre-releases. The release notes are generated from the commits since the previous tag; edit them on GitHub afterwards. The same workflow also uploads to Modrinth and CurseForge once the projects exist there; see [Publish on Modrinth and CurseForge](../publishing/README.md).
 

@@ -2,6 +2,7 @@ package dev.thaumcraft.world;
 
 import dev.thaumcraft.Thaumcraft;
 import dev.thaumcraft.content.Content;
+import dev.thaumcraft.content.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceKey;
@@ -91,7 +92,12 @@ public final class ArcaneFeatures extends Feature<NoneFeatureConfiguration> {
     }
     /** Jungle hills were merged into the modern jungle biome's terrain variation. */
     public static boolean silverwoodBiome(net.minecraft.core.Holder<net.minecraft.world.level.biome.Biome> biome){
-        return biome.is(BiomeTags.IS_FOREST)||biome.is(BiomeTags.IS_TAIGA)||biome.is(BiomeTags.IS_JUNGLE);
+        return biome.is(ModTags.SILVERWOOD_HABITAT)&&!biome.is(ModTags.SILVERWOOD_EXCLUDED);
+    }
+    /** Checks every trunk column at the base height, as the legacy site test did. */
+    private static boolean snowed(WorldGenLevel level,BlockPos base,int trunk){
+        for(BlockPos pos:BlockPos.betweenClosed(base,base.offset(trunk-1,0,trunk-1)))if(level.getBiome(pos).value().shouldSnow(level,pos))return true;
+        return false;
     }
     private boolean vegetation(FeaturePlaceContext<NoneFeatureConfiguration> context,float vis) {
         var level=context.level();var random=context.random();BlockPos origin=context.origin();
@@ -100,12 +106,14 @@ public final class ArcaneFeatures extends Feature<NoneFeatureConfiguration> {
             if(!level.ensureCanWrite(column))continue;
             // Legacy getHeightValue includes canopies, so trees cannot start beneath leaves.
             BlockPos pos=level.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING,column);
+            // Legacy snow fell before this hook and stopped trunks; modern freeze_top_layer runs after vegetation.
+            if(snowed(level,pos,attempt==1?2:1))continue;
             var biome=surfaceBiome(level,column);
             if(attempt==0&&vis>dev.thaumcraft.PortConfig.auraMax*.585f&&silverwoodBiome(biome)){
                 if(new WorldGenSilverwood(false).generate(new TreeWorld(level),new Random(random.nextLong()),pos.getX(),pos.getY(),pos.getZ())){
                     flowers(level,pos,"shimmerleaf",random);return true;
                 }
-            } else if(attempt==1&&vis>dev.thaumcraft.PortConfig.auraMax*.53f&&(biome.is(BiomeTags.IS_FOREST)||biome.is(BiomeTags.IS_TAIGA)||biome.is(net.minecraft.world.level.biome.Biomes.PLAINS))){
+            } else if(attempt==1&&vis>dev.thaumcraft.PortConfig.auraMax*.53f&&biome.is(ModTags.GREATWOOD_HABITAT)){
                 if(new WorldGenGreatwood(false).generate(new TreeWorld(level),new Random(random.nextLong()),pos.getX(),pos.getY(),pos.getZ()))return true;
             } else if(attempt==2&&vis>dev.thaumcraft.PortConfig.auraMax/9&&biome.is(net.minecraft.world.level.biome.Biomes.DESERT)&&random.nextInt(4)==0){
                 return flowers(level,pos,"cinderpearl",random);

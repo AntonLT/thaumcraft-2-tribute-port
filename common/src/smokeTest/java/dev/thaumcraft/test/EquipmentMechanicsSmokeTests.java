@@ -121,6 +121,11 @@ final class EquipmentMechanicsSmokeTests {
         shovel.getItem().useOn(context(player,plant));
         check(level.getBlockState(plant).is(Blocks.OAK_LOG)&&shovel.getDamageValue()==24,"A fresh sapling immediately attempts tree growth without a bonemeal chance or stage delay");
         for(var pos:BlockPos.betweenClosed(origin.offset(-5,0,-5),origin.offset(5,12,5)))level.setBlockAndUpdate(pos,Blocks.AIR.defaultBlockState());
+        level.setBlockAndUpdate(origin,Blocks.DIRT.defaultBlockState());level.setBlockAndUpdate(plant,Content.block("greatwood_sapling").defaultBlockState());
+        var boneMeal=new ItemStack(Items.BONE_MEAL,64);
+        for(int i=0;i<20;i++){net.minecraft.world.item.BoneMealItem.growCrop(boneMeal,level,plant);shovel.getItem().useOn(context(player,plant));}
+        check(level.getBlockState(plant).is(Content.block("greatwood_sapling"))&&boneMeal.getCount()==64&&shovel.getDamageValue()==24,"Greatwood saplings ignore bone meal and Renewal, growing only from aura");
+        level.setBlockAndUpdate(plant,Blocks.AIR.defaultBlockState());level.setBlockAndUpdate(origin,Blocks.AIR.defaultBlockState());
     }
     private static void fire(){
         try{

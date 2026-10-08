@@ -241,7 +241,7 @@ Fabric feature selectors and NeoForge biome modifiers read the same tags under `
 
 | Tag | Default | Effect |
 | --- | --- | --- |
-| `has_arcane_vegetation` | `#minecraft:is_overworld` | Overworld vegetation and aura initialization |
+| `has_arcane_vegetation` | `#minecraft:is_overworld`, optional `#c:is_overworld` | Overworld vegetation and aura initialization |
 | `has_arcane_deposits` | `#minecraft:is_overworld` | Infused ores and crystals |
 | `has_cinnabar_deposits` | `#minecraft:is_overworld` | Cinnabar |
 | `has_monolith` | `#minecraft:is_overworld` | Monolith generation |
@@ -249,6 +249,24 @@ Fabric feature selectors and NeoForge biome modifiers read the same tags under `
 | `has_nether_arcane_vegetation` | `#minecraft:is_nether` | Nether aura initialization and vegetation |
 | `spawns_wisps` | `#minecraft:is_overworld` | Natural wisp spawns |
 | `spawns_arcane_mobs` | `#minecraft:is_overworld` | Natural brainy zombie, Thaumic Slime, and tainted tree spawns |
+
+The vegetation feature reads five more tags in the same folder:
+
+| Tag | Default | Effect |
+| --- | --- | --- |
+| `silverwood_habitat` | `#minecraft:is_forest`, `#minecraft:is_taiga`, optional `#c:is_forest` and `#c:is_taiga`, `minecraft:jungle` | Biomes where natural Silverwood can grow |
+| `silverwood_excluded` | Vanilla forests and taigas added after Minecraft 1.2.5: flower forest, birch forest, old growth birch forest, dark forest, pale garden, grove, and both old growth taigas | Biomes removed from `silverwood_habitat` |
+| `greatwood_habitat` | `#minecraft:is_forest`, `#minecraft:is_taiga`, optional `#c:is_forest` and `#c:is_taiga`, `minecraft:plains` | Biomes where natural Greatwood can grow |
+| `high_aura` | `#minecraft:is_forest`, `#minecraft:is_taiga`, optional `#c:is_forest` and `#c:is_taiga` | New chunks roll vis between 1/3 and 0.6 of the maximum |
+| `extreme_aura` | `#minecraft:is_jungle`, optional `#c:is_jungle`, `minecraft:mushroom_fields` | New chunks roll vis between 0.5 and 0.7 of the maximum |
+
+A natural tree needs four things. The biome must be in `has_arcane_vegetation`. The chunk's aura must be high enough: Silverwood needs vis above 0.585 of the maximum and Greatwood above 0.53, so only `high_aura` and `extreme_aura` chunks qualify. The column's biome must be in the habitat tag. The trunk needs grass or dirt underneath and no snow, plants, or blocks in the way. Tag files can only add biomes, so remove one from Silverwood through `silverwood_excluded`. To add a modded forest that carries no forest tag, add it to the habitat tag and to `high_aura`:
+
+```json
+{"replace": false, "values": ["example:enchanted_grove"]}
+```
+
+Aura tags apply to chunks whose aura is first created after the change. Existing worlds keep their saved aura.
 
 The `thaumcraft2tp:cinnabar_deposits` configured feature accepts an optional `config.deepslate_state` block state, such as `{"Name":"alts_tc2tp_patches:deepslate_cinnabar_ore"}`. It changes the ore placed in deepslate hosts while preserving the original single-block attempts, random sequence and generation settings. The existing empty configuration produces regular cinnabar in both stone and deepslate.
 

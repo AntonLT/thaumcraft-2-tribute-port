@@ -59,6 +59,20 @@ public final class ServerSmokeTests {
             checks+=CommandChecks.run(server);checks+=AddonApiChecks.runLocalization(server);
             Thaumcraft.LOG.info("THAUMCRAFT_SMOKE_TESTS_PASS checks={} suite=localization",checks);return;
         }
+        if(Boolean.getBoolean("thaumcraft.conventionBiomeSmoke")){
+            checks=GenerationParitySmokeTests.conventionBiome(server);
+            Thaumcraft.LOG.info("THAUMCRAFT_SMOKE_TESTS_PASS checks={} suite=convention-biome",checks);return;
+        }
+        if(TreeCensus.requested()){
+            // Off the server thread so ticks keep unloading scanned chunks.
+            new Thread(()->{
+                TreeCensus.run(server);
+                Thaumcraft.LOG.info("THAUMCRAFT_SMOKE_TESTS_PASS checks=0 suite=tree-census");
+                // The census world is discarded; halting skips minutes of saving generated chunks.
+                try{Thread.sleep(1000);}catch(InterruptedException ignored){}
+                Runtime.getRuntime().halt(0);
+            },"tree-census").start();return;
+        }
         if(Boolean.getBoolean("thaumcraft.generationSmoke")){
             checks=GenerationParitySmokeTests.run(server);
             Thaumcraft.LOG.info("THAUMCRAFT_SMOKE_TESTS_PASS checks={} suite=generation",checks);return;

@@ -8,7 +8,6 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -16,7 +15,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 import java.util.Random;
 
-public final class ArcanePlantBlock extends VegetationBlock implements BonemealableBlock {
+public final class ArcanePlantBlock extends VegetationBlock {
     public static final MapCodec<ArcanePlantBlock> CODEC=simpleCodec(ArcanePlantBlock::new);
     public ArcanePlantBlock(Properties properties) {super(properties);}
     @Override public void animateTick(BlockState state,Level level,BlockPos pos,RandomSource random){VisualEffects.ambient.accept(level,pos);}
@@ -47,7 +46,4 @@ public final class ArcanePlantBlock extends VegetationBlock implements Bonemeala
         level.removeBlock(pos,false);
         if(!new WorldGenGreatwood(true).generate(new TreeWorld(level),new Random(random.nextLong()),pos.getX(),pos.getY(),pos.getZ()))level.setBlock(pos,original,3);
     }
-    @Override public boolean isValidBonemealTarget(LevelReader level,BlockPos pos,BlockState state) {return state.is(Content.block("greatwood_sapling"));}
-    @Override public boolean isBonemealSuccess(Level level,RandomSource random,BlockPos pos,BlockState state) {return random.nextFloat()<0.45f;}
-    @Override public void performBonemeal(ServerLevel level,RandomSource random,BlockPos pos,BlockState state) {grow(level,pos,random);}
 }

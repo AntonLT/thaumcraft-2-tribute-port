@@ -26,6 +26,8 @@ The port includes the original 70 research projects, 73 effective infusion recip
 
 Use Java 25 and a new Minecraft **26.1.2** instance. Install exactly one loader and the corresponding port JAR on both the client and dedicated server. Download the JAR for your loader from the GitHub Releases page; Alt's patches are attached to the same release; they are optional.
 
+What changed in each release is listed in [CHANGELOG.md](CHANGELOG.md).
+
 | Loader | Version used for this build | Additional dependency |
 | --- | --- | --- |
 | Fabric Loader | 0.19.5 | Fabric API 0.155.3+26.1.2 |

@@ -51,7 +51,10 @@ jobs:
             title="Thaumcraft 2 Tribute Port $VERSION"
           fi
           prerelease=$(case "$VERSION" in *-*) echo --prerelease;; esac)
-          gh release create "$GITHUB_REF_NAME" $files --title "$title" --generate-notes $prerelease
+          # Use the CHANGELOG.md section for this version when there is one.
+          awk -v heading="## $VERSION" '$0==heading{found=1;next} found&&/^## /{exit} found' CHANGELOG.md > notes.md
+          if grep -q '[^[:space:]]' notes.md; then notes=(--notes-file notes.md); else notes=(--generate-notes); fi
+          gh release create "$GITHUB_REF_NAME" $files --title "$title" "${notes[@]}" $prerelease
       - name: Upload runtime jars
         uses: actions/upload-artifact@v7
         with:

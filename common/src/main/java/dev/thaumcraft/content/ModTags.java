@@ -23,6 +23,14 @@ public final class ModTags {
     public static final TagKey<net.minecraft.world.level.biome.Biome> SPAWNS_WISPS=biome("spawns_wisps");
     public static final TagKey<net.minecraft.world.level.biome.Biome> SPAWNS_ARCANE_MOBS=biome("spawns_arcane_mobs");
     public static final TagKey<net.minecraft.world.level.biome.Biome> NETHER_ARCANE_VEGETATION=biome("has_nether_arcane_vegetation");
+    /** Original BIOME_SILVERWOOD, minus {@link #SILVERWOOD_EXCLUDED}; tags can only add, so packs remove biomes there. */
+    public static final TagKey<net.minecraft.world.level.biome.Biome> SILVERWOOD_HABITAT=biome("silverwood_habitat");
+    public static final TagKey<net.minecraft.world.level.biome.Biome> SILVERWOOD_EXCLUDED=biome("silverwood_excluded");
+    /** Original BIOME_GREATWOOD. */
+    public static final TagKey<net.minecraft.world.level.biome.Biome> GREATWOOD_HABITAT=biome("greatwood_habitat");
+    /** Original BIOME_HIGHAURA and BIOME_EXTREMEAURA initial vis bands. */
+    public static final TagKey<net.minecraft.world.level.biome.Biome> HIGH_AURA=biome("high_aura");
+    public static final TagKey<net.minecraft.world.level.biome.Biome> EXTREME_AURA=biome("extreme_aura");
     public static TagKey<net.minecraft.world.level.biome.Biome> featureBiomes(String feature){return biome("has_"+feature);}
     private static TagKey<net.minecraft.world.level.biome.Biome> biome(String id){return TagKey.create(Registries.BIOME,Thaumcraft.id(id));}
 }

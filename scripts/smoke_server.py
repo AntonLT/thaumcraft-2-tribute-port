@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 import os
 from pathlib import Path
 import queue
+import shutil
 import signal
 import subprocess
 import threading
@@ -14,6 +15,9 @@ parser=argparse.ArgumentParser()
 parser.add_argument("loader",choices=["fabric","neoforge"])
 parser.add_argument("--java-home",required=True)
 parser.add_argument("--archive-world",action="store_true",help="Retain an existing development world under a timestamped name before a fresh run")
+parser.add_argument("--seed",default="216",help="World seed for the fresh test world")
+parser.add_argument("--timeout",type=int,default=360,help="Seconds before the run is stopped")
+parser.add_argument("--datapack",action="append",default=[],help="Install this datapack directory into the fresh world; repeatable")
 args=parser.parse_args()
 root=Path(__file__).resolve().parents[1]
 project=root/args.loader
@@ -26,8 +30,10 @@ if (run/"world").exists():
     archived=run/("world-smoke-"+datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ"))
     (run/"world").rename(archived)
     print("Retained previous test world: "+str(archived),flush=True)
+for pack in args.datapack:
+    shutil.copytree(pack,run/"world"/"datapacks"/Path(pack).name)
 (run/"eula.txt").write_text("eula=true\n")
-(run/"server.properties").write_text("server-ip=127.0.0.1\nserver-port="+{"fabric":"25575","neoforge":"25576"}[args.loader]+"\nonline-mode=false\nlevel-seed=216\nview-distance=3\nsimulation-distance=3\nmax-tick-time=120000\n")
+(run/"server.properties").write_text("server-ip=127.0.0.1\nserver-port="+{"fabric":"25575","neoforge":"25576"}[args.loader]+"\nonline-mode=false\nlevel-seed="+args.seed+"\nview-distance=3\nsimulation-distance=3\nmax-tick-time=120000\n")
 env=os.environ.copy();env["JAVA_HOME"]=args.java_home;env["PATH"]=args.java_home+"/bin:"+env["PATH"]
 log_path=root/".cache"/(args.loader+"-smoke.log");log_path.parent.mkdir(exist_ok=True)
 if log_path.exists():
@@ -37,7 +43,7 @@ process=subprocess.Popen(["./gradlew",":"+args.loader+":runServer","-PsmokeTest"
 def read():
     for line in process.stdout:lines.put(line)
 threading.Thread(target=read,daemon=True).start()
-deadline=time.monotonic()+360
+deadline=time.monotonic()+args.timeout
 with log_path.open("w") as log:
     while process.poll() is None or not lines.empty():
         if time.monotonic()>deadline:
@@ -52,7 +58,9 @@ with log_path.open("w") as log:
             passed=True;print(line.strip(),flush=True)
         if passed and not stopped and ('Done (' in line or pass_marker in line):
             # Gradle's run task is configured to forward this process's stdin.
-            process.stdin.write("stop\n");process.stdin.flush();stopped=True
+            try:process.stdin.write("stop\n");process.stdin.flush()
+            except BrokenPipeError:pass
+            stopped=True
         if any(marker in line for marker in ["ERROR","Exception","AssertionError","FAILED","Starting minecraft server"]):print(line.strip(),flush=True)
 code=process.wait()
 if code or not passed:print("".join(recent))

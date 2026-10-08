@@ -94,8 +94,8 @@ public final class ArcaneWorldData extends SavedData {
             int max=PortConfig.auraMax,lower=max/5,upper=max/3;
             boolean extraTaint=nether||biome.is(net.minecraft.world.level.biome.Biomes.SWAMP)||biome.is(net.minecraft.world.level.biome.Biomes.MANGROVE_SWAMP);
             if(nether||biome.is(net.minecraft.world.level.biome.Biomes.DESERT)){lower=max/20;upper=max/8;}
-            else if(biome.is(net.minecraft.tags.BiomeTags.IS_JUNGLE)||biome.is(net.minecraft.world.level.biome.Biomes.MUSHROOM_FIELDS)){lower=max/2;upper=(int)(max*.7f);}
-            else if(biome.is(net.minecraft.tags.BiomeTags.IS_FOREST)||biome.is(net.minecraft.tags.BiomeTags.IS_TAIGA)){lower=max/3;upper=(int)(max*.6f);}
+            else if(biome.is(dev.thaumcraft.content.ModTags.EXTREME_AURA)){lower=max/2;upper=(int)(max*.7f);}
+            else if(biome.is(dev.thaumcraft.content.ModTags.HIGH_AURA)){lower=max/3;upper=(int)(max*.6f);}
             else if(extraTaint){lower=max/3;upper=max/2;}
             float strength=lower+random.nextInt(upper-lower);
             float taint=(int)(strength/3);
